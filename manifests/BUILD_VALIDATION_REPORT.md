@@ -20,7 +20,7 @@ The v1.3.1 execution path passed a fresh macOS ARM install, ordinary tests, rele
 - CI manuscript regression;
 - unverified Docker recipe removed.
 
-The RC2 Mac and real-Vina gates passed on the author's macOS ARM machine. The clean-clone gate remains pending until the tagged private GitHub RC2 commit is cloned into a fresh directory.
+The RC2 Mac and real-Vina gates passed on the author's macOS ARM machine. The tagged `v1.3.2-rc2` commit was subsequently cloned into a fresh directory, installed in a new virtual environment, and passed the portable test suite (70 passed, 1 expected optional real-Vina skip), exact manuscript reproduction (177/177 panel rows and 531/531 target-level rows; zero failures), release audit, and license/redistribution audit.
 
 ## Sandbox RC2 verification
 - Python compilation of `src/`, `tests/`, and `scripts/`: **PASS**.

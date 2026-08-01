@@ -50,4 +50,4 @@ These are validation/publication-state gates, not unresolved code findings:
 3. Create the public archival code/data release and verify all required endpoints are accessible without login.
 4. Insert only the final verified public URLs/DOIs into the manuscript.
 
-The prior v1.3.1 actual-Vina run passed and is recorded in `REAL_VINA_VALIDATION_SUMMARY.md`; an RC2 rerun remains required because RC2 contains post-audit release-engineering changes.
+The exact RC2 build subsequently passed the actual AutoDock Vina 1.2.7 mTOR/4JSP integration, the dedicated real-Vina pytest, and strict verification. The frozen published calibration remains authoritative.

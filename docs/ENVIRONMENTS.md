@@ -18,4 +18,4 @@ RDKit 2026.03.2 and Open Babel 3.1.0 were used in audited upstream ligand prepar
 The repository does not claim that one environment performed every historical stage.
 
 ## Supported Python line
-Python 3.13 is the supported release line for the manuscript software. `pyproject.toml` intentionally requires `>=3.13,<3.14` rather than advertising untested Python versions. The author Mac validation used Python 3.13.12; CI uses Python 3.13 on Ubuntu.
+Python 3.13 is the supported release line for the manuscript software. `pyproject.toml` intentionally requires `>=3.13,<3.14` rather than advertising untested Python versions. The Conda environment records a patch-pinned reproducibility snapshot, while CI intentionally exercises the supported Python 3.13 release line rather than one patch release. The author Mac validation used Python 3.13.12; CI uses Python 3.13 on Ubuntu.

@@ -16,7 +16,7 @@ SwissADME terms: https://www.swissadme.ch/termsofuse.php
 CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
 
 ## ProTox prediction export — upstream CC BY-ND 4.0 material
-`src/swan_mpo/resources/manuscript_protox_raw.csv` is an **unchanged byte-for-byte copy** of the project's downloaded ProTox result table (SHA-256 `4ef8ea376f89533ad3bd3afb9d810aab9c8fccc3f216179414d6de776b3f08ee`). ProTox 3.0 links its Creative Commons notice to CC BY-ND 4.0. The raw table is therefore not relicensed by the repository.
+`src/swan_mpo/resources/manuscript_protox_raw.csv` is an **unchanged byte-for-byte copy** of the project's downloaded ProTox result table (SHA-256 `4ef8ea376f89533ad3bd3afb9d810aab9c8fccc3f216179414d6de776b3f08ee`). ProTox 3.0 links its Creative Commons notice to CC BY-ND 4.0. The raw table is therefore not relicensed by the repository. SWAN-MPO consumes the reported predictions as analytical inputs and computes its own safety desirabilities and integrated scores separately; the repository does not distribute a modified ProTox source export.
 
 ProTox 3.0: https://tox.charite.de/protox3/
 CC BY-ND 4.0: https://creativecommons.org/licenses/by-nd/4.0/

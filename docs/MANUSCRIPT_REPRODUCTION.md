@@ -41,7 +41,7 @@ Expected Muricatacin regression:
 
 ## Predictor provenance and licensing
 
-SwissADME Licensed Materials are described by SIB as CC BY 4.0; the repository retains the exact canonical export and attribution. The ProTox site links its Creative Commons notice to CC BY-ND 4.0; the repository therefore distributes only the exact unchanged ProTox raw export and does not relicense it as repository-authored data. See `DATA_LICENSE.md` and `THIRD_PARTY_NOTICES.md`.
+SwissADME Licensed Materials are described by SIB as CC BY 4.0; the repository retains the exact canonical export and attribution. The ProTox site links its Creative Commons notice to CC BY-ND 4.0; the repository therefore distributes only the exact unchanged ProTox raw export and does not relicense it as repository-authored data. The ProTox predictions are consumed as analytical inputs to SWAN-MPO, while safety desirabilities and integrated scores are computed separately by the repository software; the upstream ProTox export itself is not modified for redistribution. See `DATA_LICENSE.md` and `THIRD_PARTY_NOTICES.md`.
 
 The CLI does not automate SwissADME or ProTox web requests. It consumes their already-generated outputs.
 
