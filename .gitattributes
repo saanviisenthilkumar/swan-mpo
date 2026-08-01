@@ -1,0 +1,10 @@
+# These three upstream predictor exports are intentionally distributed as exact
+# byte-for-byte provenance files. Do not normalize their CRLF line endings;
+# SHA-256 checks in verify/license_audit depend on byte identity.
+src/swan_mpo/resources/manuscript_swissadme_canonical_full.csv -text
+src/swan_mpo/resources/manuscript_swissadme_original_incomplete.csv -text
+src/swan_mpo/resources/manuscript_protox_raw.csv -text
+
+src/swan_mpo/resources/manuscript_protox_raw.csv -text -diff
+src/swan_mpo/resources/manuscript_swissadme_canonical_full.csv -text -diff
+src/swan_mpo/resources/manuscript_swissadme_original_incomplete.csv -text -diff

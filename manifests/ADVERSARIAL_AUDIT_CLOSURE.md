@@ -1,4 +1,4 @@
-# Review implementation matrix — RC2
+# Adversarial audit closure — RC2
 
 This file maps every finding from the independent v1.3.1 adversarial audit to its RC2 disposition.
 

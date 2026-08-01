@@ -1,23 +1,12 @@
-# Licensing and redistribution
+# License and redistribution boundary
 
-## SWAN-MPO source code
+- SWAN-MPO source code: MIT.
+- Repository-authored documentation/examples/configs/project-created tabular material: CC BY 4.0 unless a file-specific upstream notice applies.
+- SwissADME exact prediction exports: redistributed under SwissADME/SIB's CC BY 4.0 Licensed Materials terms with attribution.
+- ProTox exact raw prediction export: retained byte-for-byte and marked under the upstream CC BY-ND 4.0 notice linked by ProTox; it is not relicensed as repository-authored data.
+- AutoDock Vina, RDKit, Open Babel, NumPy, NetworkX, pytest and all other third-party software remain under their own licenses.
+- No receptor/native-ligand structural files are bundled.
 
-The original SWAN-MPO source code in this repository is distributed under the MIT License (`LICENSE`).
+The source manifest records SHA-256 provenance for every canonical manuscript input and every derived packaged extract. The CLI does not automate SwissADME or ProTox retrieval, consistent with their service boundaries.
 
-## Repository-authored data/configuration/examples
-
-Repository-authored CSV/JSON templates, configuration examples, audit tables, and documentation are designated CC BY 4.0 in `DATA_LICENSE.md`, except where a file explicitly states otherwise.
-
-## Third-party software
-
-SWAN-MPO interoperates with third-party software including AutoDock Vina, RDKit, Open Babel, NumPy, NetworkX, and pytest. Those projects remain governed by their own licenses. Installing or invoking a third-party dependency does not relicense SWAN-MPO's original source code.
-
-Users distributing a container or environment that includes third-party binaries must comply with each included project's license and notice requirements.
-
-## Structural data
-
-This release candidate does **not** bundle receptor PDB/PDBQT files, crystallographic ligand files, or other third-party structural assets. Users provide those files for new-target redocking. This avoids silently redistributing structural or database content under an incompatible license.
-
-## Release audit
-
-`scripts/license_audit.py` checks the repository for structural-file types that should not be bundled and reports the declared license boundary. It is a repository sanity check, not legal advice.
+See `DATA_LICENSE.md` and `THIRD_PARTY_NOTICES.md` for file-level attribution.

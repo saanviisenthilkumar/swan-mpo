@@ -64,3 +64,9 @@ def test_unsupported_panel_raises():
 
 def test_geometric_mean_all_missing_returns_nan():
     assert math.isnan(m.geometric_mean([None, float('nan'), '']))
+
+
+def test_colon_liability_is_invariant_to_complex_i_by_design():
+    a = m.calculate_liability(panel='Colon', bbb='Inactive 0.9', complex_i='Active 0.99', neuro='Inactive 0.9')
+    b = m.calculate_liability(panel='Colon', bbb='Inactive 0.9', complex_i='Inactive 0.50', neuro='Inactive 0.9')
+    assert a['liability_score'] == b['liability_score']

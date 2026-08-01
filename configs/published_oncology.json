@@ -38,16 +38,16 @@
       "mTOR"
     ],
     "Prostate": [
-      "5AR2",
       "AR",
-      "Bcl-2",
-      "mTOR"
+      "5AR2",
+      "mTOR",
+      "Bcl-2"
     ],
     "RCC": [
       "AKT1",
+      "mTOR",
       "Bcl-2",
-      "PI3Ka",
-      "mTOR"
+      "PI3Ka"
     ]
   },
   "candidate_docking_seed": 2026,

@@ -19,3 +19,19 @@ def test_input_hash_metadata_does_not_persist_absolute_path(tmp_path):
     assert rows[0]['name']=='input.csv'
     assert 'path' not in rows[0]
     assert len(rows[0]['sha256'])==64
+
+
+def test_each_numeric_anchor_warning_field_is_covered():
+    adme=[{
+        'compound':'A','MW':'900','Consensus Log P':'9','TPSA':'250','#Rotatable bonds':'30',
+        '#H-bond acceptors':'16','#H-bond donors':'9','PAINS #alerts':'0','GI absorption':'High',
+        'Synthetic Accessibility':'9'
+    }]
+    tox=[{
+        'compound':'A','LD50 (mg/kg)':'10','Tox Class':'2','Hepato':'Inactive (0.8)',
+        'Neuro':'Inactive (0.8)','Nephro':'Inactive (0.8)','Respi':'Inactive (0.8)',
+        'Cardio':'Inactive (0.8)','BBB':'Inactive (0.8)','NADH-QO':'Inactive (0.8)'
+    }]
+    warnings=collect_domain_warnings(adme,list(adme[0]),tox,list(tox[0]))
+    fields={w['field'] for w in warnings}
+    assert {'mw','consensus_logp','tpsa','rotatable_bonds','hba','hbd','synthetic_accessibility','ld50_mgkg'} <= fields

@@ -1,4 +1,6 @@
 import json
+import csv
+from importlib.resources import files
 import os
 import subprocess
 import sys
@@ -32,3 +34,8 @@ def test_score_demo_writes_full_audit_package(tmp_path):
     metadata=json.loads((tmp_path/'run_metadata.json').read_text())
     assert metadata['locked_model_sha256']=='97799e91f23803de3b9a477aea3bbcfb061f1b1d9abebdecfdadcd1b537f4454'
     assert metadata['demo'] is True
+    expected_scores=json.loads((files('swan_mpo.resources')/'example_expected.json').read_text())
+    with (tmp_path/'swan_panel_scores.csv').open(newline='') as handle:
+        observed={row['compound']: float(row['SWAN_MPO_score']) for row in csv.DictReader(handle)}
+    for compound, reference in expected_scores.items():
+        assert abs(observed[compound] - reference) < 1e-12, f"{compound} score drift: {observed[compound]} vs {reference}"

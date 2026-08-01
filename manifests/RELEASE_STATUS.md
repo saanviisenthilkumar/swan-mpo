@@ -1,7 +1,7 @@
 # Release status
 
-**RELEASE CANDIDATE / PRIVATE STAGING. DO NOT CITE OR PUBLISH YET.**
+**v1.3.2 RC2 — PRIVATE POST-AUDIT CANDIDATE. MAC AND REAL-VINA GATES PASSED. DO NOT MAKE PUBLIC UNTIL THE CLEAN-CLONE AND PUBLIC-ARCHIVE GATES PASS.**
 
-Version 1.3.1 is the current software authority for review. It supersedes v1.0–v1.2 staging interfaces while preserving the byte-identical frozen mathematical model.
+The independent v1.3.1 adversarial audit has been dispositioned in `ADVERSARIAL_AUDIT_CLOSURE.md`. The locked mathematical model and published calibration bytes are unchanged. Exact manuscript scoring inputs are now packaged and the 59-compound expanded analysis is a one-command 177-panel/531-target regression.
 
-Public release is blocked until the real Vina 1.2.7 terminal integration, user clean install, independent code review, and post-review regression suite all pass.
+The exact RC2 Mac validation, manuscript regression, release/license audits, strict verification, and actual Vina mTOR integration have passed. Remaining release gate: clean-clone the tagged private GitHub RC2 commit and rerun the documented installation, tests, manuscript regression, and audits before public archival release.

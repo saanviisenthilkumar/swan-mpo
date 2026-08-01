@@ -12,3 +12,11 @@ real_vina_verification_report.json
 my_real_vina_target.json
 my_real_vina_mtor.json
 *_local_redocking.json
+
+manuscript_reproduction/
+
+# Local Vina verification artifacts
+real_vina_verification/
+real_vina_verification_report.json
+my_real_vina_mtor.json
+my_real_vina_target.json

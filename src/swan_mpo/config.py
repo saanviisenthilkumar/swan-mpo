@@ -18,8 +18,8 @@ PUBLISHED_ONCOLOGY = {
   "pdb_ids": {"mTOR":"4JSP","5AR2":"3V3N","AR":"2AMA","Bcl-2":"4LVT","PI3Ka":"6OAC","AKT1":"3MVH","Caspase3":"1QX3","EGFR":"1IVO","ComplexI":"5LNK"},
   "bestnode_tie_priority": {
     "Colon":["mTOR"],
-    "Prostate":["5AR2","AR","Bcl-2","mTOR"],
-    "RCC":["AKT1","Bcl-2","PI3Ka","mTOR"]
+    "Prostate":["AR","5AR2","mTOR","Bcl-2"],
+    "RCC":["AKT1","mTOR","Bcl-2","PI3Ka"]
   }
 }
 

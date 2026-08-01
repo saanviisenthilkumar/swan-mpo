@@ -16,11 +16,15 @@ ignored_names = {
     "my_real_vina_mtor.json",
 }
 
-# Split strings keep this audit file from flagging itself.
-tokens = [
-    "/" + "Users" + "/",
-    "MacBook" + "-Pro",
-    "REPLACE_WITH_PUBLIC_" + "GITHUB_URL",
+# Patterns are assembled to keep this audit file from flagging itself.
+import re
+patterns = [
+    re.compile(re.escape("/" + "Users" + "/")),
+    re.compile(re.escape("/" + "home" + "/")),
+    re.compile(r"[A-Za-z]:\\" + "Users" + r"\\"),
+    re.compile(re.escape("MacBook" + "-Pro")),
+    re.compile(re.escape(".attlocal" + ".net")),
+    re.compile(re.escape("REPLACE_WITH_PUBLIC_" + "GITHUB_URL")),
 ]
 for p in root.rglob("*"):
     if not p.is_file() or p.resolve() == me:
@@ -31,9 +35,10 @@ for p in root.rglob("*"):
     if p.suffix.lower() in {".png", ".pdf", ".zip", ".pyc"}:
         continue
     text = p.read_text(errors="ignore")
-    for token in tokens:
-        if token in text:
-            bad.append((str(rel), token))
+    for pattern in patterns:
+        match = pattern.search(text)
+        if match:
+            bad.append((str(rel), match.group(0)))
 print("RELEASE AUDIT:", "PASS" if not bad else "FAIL")
 for item in bad:
     print(item)

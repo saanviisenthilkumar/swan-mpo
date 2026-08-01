@@ -66,6 +66,18 @@ def standardize_compound_table(rows, fields, aliases, column_map, table_name):
     return out
 
 
+def standardize_adme_table(rows, fields, column_map=None, table_name="ADME"):
+    """Standardize the required complete SwissADME/property table.
+
+    The canonical public workflow requires a populated Consensus Log P (or an
+    explicitly mapped equivalent). Incomplete SwissADME exports are rejected;
+    SWAN-MPO does not invent or impute a replacement logP value.
+    """
+    out = standardize_compound_table(rows, fields, ADME_ALIASES, column_map, table_name)
+    for row in out:
+        row["logp_source"] = "Consensus Log P"
+    return out
+
 def _status_with_optional_confidence(status_value, confidence_value):
     """Return a single confidence-coded endpoint string without changing locked math.
 
@@ -445,7 +457,7 @@ def score_pipeline(
     require_full_panel_coverage=True,
     allow_missing_predictors=False,
 ):
-    adme = standardize_compound_table(adme_rows, adme_fields, ADME_ALIASES, adme_map, "ADME")
+    adme = standardize_adme_table(adme_rows, adme_fields, adme_map, "ADME")
     tox = standardize_toxicity_table(tox_rows, tox_fields, tox_map, "toxicity")
     validate_predictor_values(adme, tox, allow_missing=allow_missing_predictors)
     adme_index = {row["compound_key"]: row for row in adme}

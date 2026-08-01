@@ -1,13 +1,12 @@
 from __future__ import annotations
 
 from .pipeline import (
-    standardize_compound_table,
+    standardize_adme_table,
     standardize_toxicity_table,
     aggregate_candidate_docking,
     validate_predictor_values,
     build_target_binding,
 )
-from .columns import ADME_ALIASES
 from .calibration import calibration_index
 from .errors import InputValidationError
 
@@ -27,7 +26,7 @@ def validate_pipeline(
     docking_map=None,
     allow_missing_predictors=False,
 ):
-    adme = standardize_compound_table(adme_rows, adme_fields, ADME_ALIASES, adme_map, "ADME")
+    adme = standardize_adme_table(adme_rows, adme_fields, adme_map, "ADME")
     tox = standardize_toxicity_table(tox_rows, tox_fields, tox_map, "toxicity")
     validate_predictor_values(adme, tox, allow_missing=allow_missing_predictors)
 

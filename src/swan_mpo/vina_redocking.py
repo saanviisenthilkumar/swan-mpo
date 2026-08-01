@@ -259,6 +259,8 @@ def run_vina_reference_redocking(
             "--out",
             str(output_pdbqt),
         ]
+        display_command = " ".join(shlex.quote(portable_text(value)) for value in command)
+        print(f"[SWAN-MPO] Vina command ({target}): {display_command}")
         proc = subprocess.run(command, text=True, capture_output=True)
         stdout_path.write_text(proc.stdout or "", encoding="utf-8")
         stderr_path.write_text(proc.stderr or "", encoding="utf-8")

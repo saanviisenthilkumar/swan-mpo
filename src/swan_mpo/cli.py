@@ -17,6 +17,7 @@ from .validation import validate_pipeline
 from .locked_model import MODEL_VERSION, model_source_sha256, model_specification
 from .domain_audit import calculate_domain_audit_tables
 from .domain_warnings import collect_domain_warnings
+from .method_warnings import collect_method_warnings
 from .vina_redocking import run_vina_reference_redocking, EXPECTED_VINA_VERSION
 from .provenance import base_run_metadata, write_run_log
 from .verification import (
@@ -24,6 +25,7 @@ from .verification import (
     run_packaged_demo,
     verify_installation,
     run_real_vina_integration,
+    run_manuscript_reproduction,
 )
 
 
@@ -67,6 +69,16 @@ def _demo_inputs():
     redock_rows, redock_fields = read_csv(resources / "example_reference_redocking.csv")
     config = read_json(resources / "example_config.json")
     calibration = calibrate_from_redocking(redock_rows, redock_fields, None, 2.0)
+    return adme_rows, adme_fields, tox_rows, tox_fields, dock_rows, dock_fields, config, calibration
+
+
+def _manuscript_inputs():
+    resources = files("swan_mpo.resources")
+    adme_rows, adme_fields = read_csv(resources / "manuscript_swissadme_canonical_full.csv")
+    tox_rows, tox_fields = read_csv(resources / "manuscript_protox_raw.csv")
+    dock_rows, dock_fields = read_csv(resources / "manuscript_candidate_docking.csv")
+    config = load_config("published-oncology")
+    calibration = load_published_calibration()
     return adme_rows, adme_fields, tox_rows, tox_fields, dock_rows, dock_fields, config, calibration
 
 
@@ -119,6 +131,9 @@ def cmd_validate(args):
         adme_map=maps.get("adme"),
         tox_map=maps.get("toxicity"),
     )
+    warnings.extend(collect_method_warnings(
+        config, calibration, allow_missing_predictors=args.allow_missing_predictors
+    ))
     report["locked_model_sha256"] = model_source_sha256()
     report["locked_model_hash_ok"] = True
     report["warnings"] = warnings
@@ -229,6 +244,11 @@ def cmd_score(args):
         adme_map=maps.get("adme"),
         tox_map=maps.get("toxicity"),
     )
+    warnings.extend(collect_method_warnings(
+        config, calibration, selected_panels=panels,
+        allow_missing_predictors=args.allow_missing_predictors,
+        primary_only=args.primary_only,
+    ))
     metadata = base_run_metadata(
         command="score --demo" if args.demo else "score",
         input_paths=input_paths,
@@ -249,6 +269,7 @@ def cmd_score(args):
             "primary_only": args.primary_only,
             "panels": panels or list(config["panels"]),
             "demo": bool(args.demo),
+            "nonstandard_mode": bool(args.allow_missing_predictors),
         }
     )
     output_dir = _write_score_outputs(
@@ -302,6 +323,47 @@ def cmd_reproduce(args):
         raise SystemExit(1)
 
 
+def cmd_reproduce_manuscript(args):
+    _require_locked_hash()
+    adme_rows, adme_fields, tox_rows, tox_fields, dock_rows, dock_fields, config, calibration = _manuscript_inputs()
+    scores, target_rows = score_pipeline(
+        adme_rows, adme_fields, tox_rows, tox_fields, dock_rows, dock_fields,
+        calibration, config, selected_panels=["Colon", "Prostate", "RCC"],
+        require_full_panel_coverage=True
+    )
+    domain_rows, liability_rows = calculate_domain_audit_tables(
+        adme_rows, adme_fields, tox_rows, tox_fields, config,
+        selected_panels=["Colon", "Prostate", "RCC"]
+    )
+    warnings = collect_domain_warnings(adme_rows, adme_fields, tox_rows, tox_fields)
+    warnings.extend(collect_method_warnings(config, calibration, selected_panels=["Colon", "Prostate", "RCC"]))
+    report = run_manuscript_reproduction()
+    metadata = base_run_metadata(
+        command="reproduce-manuscript", config=config, warnings=warnings,
+        input_paths=[]
+    )
+    metadata.update({
+        "config": "published-oncology",
+        "calibration_source": "published",
+        "manuscript_reproduction": True,
+        "source_manifest": "manuscript_source_manifest.json",
+        "manuscript_adme_source": "manuscript_swissadme_canonical_full.csv",
+        "manuscript_toxicity_source": "manuscript_protox_raw.csv",
+        "manuscript_docking_source": "manuscript_candidate_docking.csv",
+        "verification_status": report["status"],
+        "manuscript_resource_hashes": report["resource_hashes"],
+        "nonstandard_mode": False,
+    })
+    output_dir = _write_score_outputs(
+        output_dir=args.output_dir, scores=scores, target_rows=target_rows, calibration=calibration,
+        domain_rows=domain_rows, liability_rows=liability_rows, warnings=warnings, metadata=metadata
+    )
+    write_json(Path(output_dir) / "manuscript_reproduction_report.json", report)
+    print(json.dumps(report, indent=2))
+    if report["status"] != "PASS":
+        raise SystemExit(1)
+
+
 def cmd_redock_reference(args):
     rows, calibration, runs = run_vina_reference_redocking(
         args.targets_config,
@@ -322,9 +384,9 @@ def cmd_explain_model(args):
         "locked_model_sha256": model_source_sha256(),
         "specification": model_specification(),
         "workflow": {
-            "ADME": "Raw SwissADME/property fields -> nine bounded desirabilities -> geometric mean adme_score.",
+            "ADME": "Raw SwissADME/property fields (complete export required) -> nine bounded desirabilities -> geometric mean adme_score. Consensus Log P is required; incomplete exports are rejected rather than imputed.",
             "Safety": "Raw LD50 + toxicity class -> acute_safety; five confidence-coded organ toxicity endpoints -> organ_safety; geometric mean -> safety_score.",
-            "Liability": "Confidence-coded BBB, neurotoxicity, and panel-dependent Complex I predictions -> panel-specific liability_score.",
+            "Liability": "Colon uses BBB + neurotoxicity only; Complex I is accepted in the shared toxicity table but explicitly excluded from the Colon liability geometric mean. Prostate and RCC use BBB + Complex I + neurotoxicity.",
             "Binding": "Candidate grid-level docking -> median dG per compound-target -> target-specific reference-redocking calibration -> target desirability -> BestNode across reference-calibrated panel targets.",
             "Final": "Equal-weight geometric mean of safety_score, adme_score, BestNode binding, and liability_score.",
         },
@@ -341,7 +403,12 @@ def cmd_explain_model(args):
 
 
 def cmd_verify(args):
-    report = verify_installation(check_vina=args.check_vina, vina_executable=args.vina_executable)
+    report = verify_installation(
+        check_vina=args.check_vina or args.strict,
+        vina_executable=args.vina_executable,
+        strict=args.strict,
+        check_manuscript=args.manuscript,
+    )
     if args.vina_config:
         if not args.output_dir:
             raise InputValidationError("--vina-config requires --output-dir so the real Vina integration artifacts are preserved for review.")
@@ -382,7 +449,7 @@ def build_parser():
             "reference-ligand redocking can be executed directly with AutoDock Vina."
         ),
     )
-    parser.add_argument("--version", action="version", version=f"swan-mpo {__version__} | {MODEL_VERSION}")
+    parser.add_argument("--version", action="version", version=f"swan-mpo {__version__} | model={MODEL_VERSION} | sha256={EXPECTED_LOCKED_SHA256} | expected-vina={EXPECTED_VINA_VERSION}")
     sub = parser.add_subparsers(dest="command", required=True)
 
     command = sub.add_parser("redock-reference", help="Run AutoDock Vina for configured native/reference ligands and derive target calibration.")
@@ -425,12 +492,18 @@ def build_parser():
     command.add_argument("--output-dir")
     command.set_defaults(func=cmd_reproduce)
 
+    command = sub.add_parser("reproduce-manuscript", help="Recompute the frozen 59-compound expanded screen from packaged raw predictor/scoring inputs and compare all 177 panel rows with canonical expected outputs.")
+    command.add_argument("--output-dir", required=True)
+    command.set_defaults(func=cmd_reproduce_manuscript)
+
     command = sub.add_parser("verify", help="Verify the locked model, published calibration, packaged demo, and optionally the local Vina installation / real redocking path.")
     command.add_argument("--check-vina", action="store_true", help=f"Require AutoDock Vina {EXPECTED_VINA_VERSION} on this machine.")
     command.add_argument("--vina-executable", default="vina")
     command.add_argument("--vina-config", help="Run an actual end-to-end Vina reference-redocking integration using this target config. Requires Vina 1.2.7.")
     command.add_argument("--output-dir", help="Directory for real Vina integration artifacts when --vina-config is used.")
     command.add_argument("--report", help="Optional JSON path for the verification report.")
+    command.add_argument("--manuscript", action="store_true", help="Also run the packaged 59-compound/177-panel-row manuscript reproduction regression.")
+    command.add_argument("--strict", action="store_true", help="Strict release verification: manuscript reproduction + exact Vina 1.2.7 + pinned runtime package versions + Python 3.13.x.")
     command.set_defaults(func=cmd_verify)
 
     return parser

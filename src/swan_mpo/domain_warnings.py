@@ -4,7 +4,7 @@ import math
 
 from .columns import ADME_ALIASES
 from .locked_model import SPEC, as_float
-from .pipeline import standardize_compound_table, standardize_toxicity_table
+from .pipeline import standardize_adme_table, standardize_toxicity_table
 
 
 def collect_domain_warnings(
@@ -17,7 +17,7 @@ def collect_domain_warnings(
     tox_map=None,
 ):
     """Return non-fatal warnings for values outside frozen desirability anchor ranges."""
-    adme = standardize_compound_table(adme_rows, adme_fields, ADME_ALIASES, adme_map, "ADME")
+    adme = standardize_adme_table(adme_rows, adme_fields, adme_map, "ADME")
     tox = standardize_toxicity_table(tox_rows, tox_fields, tox_map, "toxicity")
     warnings = []
 

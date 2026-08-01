@@ -1,26 +1,20 @@
-# Scope and automation boundary
+# Scope and interpretation
 
-SWAN-MPO is the **scoring and target-calibration layer**, not a complete virtual-screening platform.
+## Standard supported workflow
+SWAN-MPO accepts candidate grid-level docking, raw ADME/property output, and raw toxicity/liability output, then computes the frozen domain desirabilities, target-calibrated BestNode, final geometric mean, ranks, warnings, and audit tables.
 
-## SWAN-MPO performs
+## Reference redocking
+For new targets SWAN-MPO can execute AutoDock Vina reference/native-ligand redocking from prepared PDBQT inputs. Candidate-compound docking remains upstream.
 
-- schema/value validation of raw candidate-docking, ADME, and toxicity/liability inputs;
-- frozen safety, ADME, and panel-specific liability transformations;
-- grid-level candidate-docking aggregation to compound-target medians;
-- target-specific reference-normalized binding;
-- BestNode selection from reference-calibrated panel targets;
-- final equal-weight geometric MPO integration and ranking;
-- reference/native-ligand AutoDock Vina redocking for **new-target calibration** when the user supplies prepared receptor/ligand PDBQT files and a justified box;
-- symmetry-aware fixed-receptor-frame heavy-atom RMSD for that redocking path;
-- audit tables, warnings, version records, input hashes, and run logs.
+## Intentionally unsupported
+- automatic SwissADME or ProTox web calls;
+- candidate-compound docking automation;
+- a GUI;
+- runtime modification of frozen desirability thresholds.
 
-## SWAN-MPO does not perform
+## Nonstandard historical mode
+`--allow-missing-predictors` is not the standard workflow. It activates locked historical missing/default rules, emits `NONSTANDARD_MODE_ACTIVATED`, and sets `nonstandard_mode: true`. Results generated this way are not directly comparable to standard complete-input outputs without disclosure.
 
-- candidate-compound docking or receptor/ligand preparation;
-- binding-site discovery or automatic box selection;
-- SwissADME prediction/retrieval;
-- ProTox prediction/retrieval;
-- experimental target validation;
-- molecular dynamics, free-energy calculations, or wet-lab validation.
 
-The user remains responsible for the scientific validity and provenance of upstream docking, ADME, and toxicity predictions. The CLI makes their downstream SWAN-MPO treatment deterministic, inspectable, and reproducible.
+## Interpretation warnings
+The published Colon panel has one reference-calibrated primary BestNode target (mTOR), so the software emits `PANEL_SINGLE_NODE_BESTNODE`. This is already disclosed in the manuscript and limits multi-target interpretation; it does not invalidate the arithmetic. Out-of-anchor warnings are screening-context flags, not a formal applicability-domain model.

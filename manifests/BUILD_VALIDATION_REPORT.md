@@ -1,54 +1,54 @@
-# SWAN-MPO CLI v1.3.1 release-candidate validation
+# RC2 build validation report
 
-## Status
+## Frozen artifacts
+- locked model expected SHA-256: `97799e91f23803de3b9a477aea3bbcfb061f1b1d9abebdecfdadcd1b537f4454`
+- published calibration expected SHA-256: `e7584f10c0f970bb54ddf39cfdacbb6cb061bc6a3d2bd795e2d5f119efc7287c`
 
-**READY FOR USER TERMINAL / SECOND-AI REVIEW — NOT YET A PUBLIC RELEASE**
+## Previously completed real-machine evidence
+The v1.3.1 execution path passed a fresh macOS ARM install, ordinary tests, release/license audits, Vina 1.2.7 detection, actual mTOR/4JSP reference redocking, and real-Vina pytest twice. See `REAL_VINA_VALIDATION_SUMMARY.md`.
 
-The only critical empirical check not executable in the present build environment is a real AutoDock Vina 1.2.7 integration run. The release candidate includes the command and preservation workflow for the user to run on a machine where Vina is installed.
+## RC2 changes
+- exact canonical manuscript ADME/ProTox/docking inputs packaged;
+- one-command 177-panel + 531-target manuscript regression;
+- Colon Complex I exclusion made explicit/auditable without changing locked math;
+- golden demo numeric assertion;
+- single-node and nonstandard-mode warnings;
+- Vina expectation in version output and command echo;
+- strict verifier;
+- expanded boundary-warning tests;
+- expanded cross-platform privacy audit;
+- CI manuscript regression;
+- unverified Docker recipe removed.
 
-## Frozen artifacts verified
+The RC2 Mac and real-Vina gates passed on the author's macOS ARM machine. The clean-clone gate remains pending until the tagged private GitHub RC2 commit is cloned into a fresh directory.
 
-- locked model SHA-256: `97799e91f23803de3b9a477aea3bbcfb061f1b1d9abebdecfdadcd1b537f4454`
-- published target-calibration CSV SHA-256: `e7584f10c0f970bb54ddf39cfdacbb6cb061bc6a3d2bd795e2d5f119efc7287c`
+## Sandbox RC2 verification
+- Python compilation of `src/`, `tests/`, and `scripts/`: **PASS**.
+- ordinary/unit/integration suite excluding actual Vina: **70 passed, 1 real-Vina test skipped**.
+- exact manuscript packaged-input hash checks: **PASS**.
+- incomplete historical SwissADME export rejection/no-imputation regression: **PASS**.
+- standalone `verify --manuscript`: **PASS**.
+- standalone one-command manuscript reproduction: **PASS — 177 panel rows, 531 target rows, zero failures**.
+- Muricatacin reproduced as Colon rank 1, Prostate rank 2, RCC rank 2; binding rank 47 in all three panels.
+- locked model SHA-256: **PASS** (`97799e91...f4454`).
+- published calibration SHA-256: **PASS** (`e7584f10...c7287c`).
+- RC2 release/privacy audit: **PASS**.
+- RC2 license/redistribution audit: **PASS**.
 
-Neither frozen artifact was modified.
+## RC2 author-Mac validation
+- Python 3.13.12 / macOS ARM fresh virtual-environment install: **PASS**.
+- full test invocation: **71 passed**.
+- `verify --manuscript`: **PASS**.
+- manuscript regression: **177/177 panel rows and 531/531 target rows; zero failures**.
+- release/privacy audit: **PASS**.
+- license/redistribution audit: **PASS**.
+- AutoDock Vina 1.2.7 detection: **PASS**.
+- actual mTOR/4JSP reference redocking: **PASS**.
+- real-Vina result: generated-mode recovery, mode 13, ΔG = -6.578 kcal/mol,
+  symmetry-aware fixed-frame RMSD = 1.1326525817600657 Å.
+- dedicated `pytest -q -m real_vina`: **PASS**.
+- `swan-mpo verify --strict`: **PASS**.
 
-## Local build verification
-
-- 59 ordinary tests passed.
-- 1 real-Vina integration test skipped because no Vina executable/config is available in the build environment.
-- `swan-mpo verify`: PASS.
-- packaged raw-input demo: PASS.
-- installed CLI `--version`: PASS.
-- Python compilation: PASS.
-- release privacy/path audit: PASS.
-- redistribution/structural-file audit: PASS; zero receptor/ligand structure assets bundled.
-- published calibration classes normalize to 4 strict top-pose, 2 generated-mode recovery, 3 comparative-only.
-- strict ProTox endpoint-confidence validation: PASS.
-- separate status/confidence column adapter: PASS.
-- exact 20-grid count checks: PASS.
-- finite positive/weak individual grid energies accepted; nonnegative **calibrated median** rejected: PASS.
-- receptor PDB mismatch rejected: PASS.
-- missing target calibration rejected: PASS.
-- comparative-only target exclusion from primary BestNode: PASS.
-- generated-mode calibration chooses recovered native-like mode energy: PASS.
-- symmetry/atom-order RMSD test: PASS.
-- fixed-frame RMSD translation is not aligned away: PASS.
-- Vina 1.2.7 version parser/enforcement tests: PASS.
-- out-of-frozen-anchor warning generation: PASS.
-- run metadata/input SHA recording without committed author-machine paths: PASS.
-- threshold-source registry: PASS.
-
-## User-machine evidence and v1.3.1 patch status
-
-The immediately preceding v1.3.0 release candidate completed a fresh macOS/Apple-Silicon venv installation on the user's machine: 57 tests passed, the only configured real-Vina test was skipped, `swan-mpo verify` passed, and the installed AutoDock Vina executable reported v1.2.7. That run exposed a release-audit false positive because the audit scanned locally generated `demo_results/` files containing the console-script home path. v1.3.1 fixes both sides of that issue: shareable run metadata now redacts the home prefix and runtime output directories/local configs are git-ignored and excluded from the source-release audit.
-
-The hosted build environment now passes 59 ordinary tests plus both audits. The exact v1.3.1 ZIP still requires a short user-machine regression and the real mTOR Vina integration before public release.
-
-## Public-release blockers still open
-
-1. Run the v1.3.1 regression suite on the user's Mac and confirm the fixed release audit passes after demo generation.
-2. Run the real AutoDock Vina 1.2.7 mTOR/4JSP integration using `scripts/make_mtor_real_vina_config.py`.
-3. Second-AI adversarial review of this exact v1.3.1 ZIP.
-4. Fix any verified findings, rerun tests, then private-GitHub clean clone.
-5. Only then tag/public-release and archive.
+## Remaining external release gates
+1. Push/tag RC2 privately and run a **fresh clean clone** install + tests + manuscript regression + audits.
+2. Make the final code/data endpoint publicly accessible without login and verify archival/public links before JoC submission.

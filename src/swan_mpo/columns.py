@@ -8,9 +8,9 @@ ADME_ALIASES = {
     "mw": ["mw", "molecular_weight", "molwt", "molecular weight", "molecular weight (g/mol)"],
     "consensus_logp": ["consensus_logp", "consensus log p", "consensus logp", "logp", "consensus_log_p"],
     "tpsa": ["tpsa", "topological polar surface area", "topological polar surface area (a2)", "topological polar surface area (å²)"],
-    "rotatable_bonds": ["rotatable_bonds", "num. rotatable bonds", "num rotatable bonds", "rotatable bonds", "rotatable bond count"],
-    "hba": ["hba", "num. h-bond acceptors", "num h-bond acceptors", "h-bond acceptors", "h bond acceptors"],
-    "hbd": ["hbd", "num. h-bond donors", "num h-bond donors", "h-bond donors", "h bond donors"],
+    "rotatable_bonds": ["rotatable_bonds", "num. rotatable bonds", "num rotatable bonds", "rotatable bonds", "rotatable bond count", "#rotatable bonds"],
+    "hba": ["hba", "num. h-bond acceptors", "num h-bond acceptors", "h-bond acceptors", "h bond acceptors", "#h-bond acceptors"],
+    "hbd": ["hbd", "num. h-bond donors", "num h-bond donors", "h-bond donors", "h bond donors", "#h-bond donors"],
     "pains_alerts": ["pains_alerts", "pains #alerts", "pains alerts", "pains", "pains alert count"],
     "gi_absorption": ["gi_absorption", "gi absorption", "gastrointestinal absorption", "gi_abs"],
     "synthetic_accessibility": ["synthetic_accessibility", "synthetic accessibility", "sa score", "sascore", "synthetic accessibility score"],
@@ -18,7 +18,7 @@ ADME_ALIASES = {
 
 TOX_ALIASES = {
     "compound": ["compound", "compound_name", "name", "molecule", "molecule name"],
-    "ld50_mgkg": ["ld50_mgkg", "ld50", "predicted ld50", "ld50 (mg/kg)", "ld50 mg/kg", "predicted ld50 (mg/kg)"],
+    "ld50_mgkg": ["ld50_mgkg", "ld50", "predicted ld50", "ld50 (mg/kg)", "ld50 mg/kg", "predicted ld50 (mg/kg)", "LD₅₀ (mg/kg)"],
     "toxicity_class": ["toxicity_class", "toxicity class", "predicted toxicity class", "tox class"],
     "hepato": ["hepato", "hepatotoxicity", "hepatotoxicity prediction"],
     "neuro": ["neuro", "neurotoxicity", "neurotoxicity prediction"],
@@ -26,7 +26,7 @@ TOX_ALIASES = {
     "respi": ["respi", "respiratory toxicity", "respiratory_toxicity", "respiratory toxicity prediction"],
     "cardio": ["cardio", "cardiotoxicity", "cardiotoxicity prediction"],
     "bbb": ["bbb", "blood-brain barrier", "blood brain barrier", "bbb permeability", "bbb prediction"],
-    "complex_i": ["complex_i", "complex i", "mitochondrial complex i", "complex1", "complex i toxicity", "complex i prediction"],
+    "complex_i": ["complex_i", "complex i", "mitochondrial complex i", "complex1", "complex i toxicity", "complex i prediction", "nadh-qo", "nadh qo", "nadh-quinone oxidoreductase", "nadhox"],
 }
 
 # Optional companion columns. If a status cell already embeds a numeric confidence,
