@@ -1,0 +1,35 @@
+{
+  "rmsd_cutoff_A": 2.0,
+  "required_vina_version": "1.2.7",
+  "provenance_note": "Canonical mTOR/4JSP tight-native-box redocking parameters recovered from the frozen phase3_target_pdb_validation audit. Local PDBQT paths are intentionally not bundled.",
+  "canonical_config_tight_sha256": "af0147f5f1b7e516d2612bcd31923fd360f17931461255cb4934a7373ac51506",
+  "defaults": {
+    "scoring": "vina",
+    "rmsd_backend": "symmetry"
+  },
+  "targets": [
+    {
+      "target": "mTOR",
+      "pdb_id": "4JSP",
+      "receptor_pdbqt": "FILL_WITH_LOCAL_4JSP_receptor.pdbqt",
+      "native_ligand_pdbqt": "FILL_WITH_LOCAL_AGS_native.pdbqt",
+      "center": [
+        49.224,
+        -1.763,
+        -45.895
+      ],
+      "size": [
+        16,
+        16,
+        16
+      ],
+      "exhaustiveness": 64,
+      "num_modes": 20,
+      "energy_range": 4,
+      "seed": 2026,
+      "cpu": 0,
+      "scoring": "vina",
+      "rmsd_backend": "symmetry"
+    }
+  ]
+}

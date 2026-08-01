@@ -1,0 +1,55 @@
+{
+  "name": "published-oncology",
+  "expected_grid_centers": 20,
+  "panels": {
+    "Colon": [
+      "ComplexI",
+      "EGFR",
+      "mTOR"
+    ],
+    "Prostate": [
+      "5AR2",
+      "AR",
+      "Bcl-2",
+      "EGFR",
+      "mTOR"
+    ],
+    "RCC": [
+      "AKT1",
+      "Bcl-2",
+      "Caspase3",
+      "PI3Ka",
+      "mTOR"
+    ]
+  },
+  "pdb_ids": {
+    "mTOR": "4JSP",
+    "5AR2": "3V3N",
+    "AR": "2AMA",
+    "Bcl-2": "4LVT",
+    "PI3Ka": "6OAC",
+    "AKT1": "3MVH",
+    "Caspase3": "1QX3",
+    "EGFR": "1IVO",
+    "ComplexI": "5LNK"
+  },
+  "bestnode_tie_priority": {
+    "Colon": [
+      "mTOR"
+    ],
+    "Prostate": [
+      "5AR2",
+      "AR",
+      "Bcl-2",
+      "mTOR"
+    ],
+    "RCC": [
+      "AKT1",
+      "Bcl-2",
+      "PI3Ka",
+      "mTOR"
+    ]
+  },
+  "candidate_docking_seed": 2026,
+  "reference_redocking_seed": 2026
+}

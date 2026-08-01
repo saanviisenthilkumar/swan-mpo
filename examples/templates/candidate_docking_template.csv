@@ -1,0 +1,4 @@
+compound,target,pdb_id,grid_id,best_affinity_kcal_mol
+ExampleCompound,mTOR,4JSP,grid_01,-7.3
+ExampleCompound,mTOR,4JSP,grid_02,-7.1
+# Continue through every prespecified grid center required by the selected config (20 for published-oncology).

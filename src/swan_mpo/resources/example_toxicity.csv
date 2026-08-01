@@ -1,0 +1,3 @@
+compound,LD50 (mg/kg),Toxicity class,Hepatotoxicity,Neurotoxicity,Nephrotoxicity,Respiratory toxicity,Cardiotoxicity,Blood-Brain Barrier,Complex I
+Alpha,1500,5,Inactive (0.80),Inactive (0.75),Inactive (0.70),Inactive (0.80),Inactive (0.85),Inactive (0.70),Inactive (0.75)
+Beta,100,2,Active (0.80),Active (0.70),Inactive (0.60),Active (0.65),Inactive (0.55),Active (0.70),Active (0.65)

@@ -1,0 +1,12 @@
+{
+  "important_note": "Preferred-region anchors are partly literature-grounded; several outer tolerated-range endpoints and categorical desirability values are prespecified SWAN-MPO design anchors, not universal medicinal-chemistry cutoffs.",
+  "references": [
+    {"key":"Lipinski2001","doi":"10.1016/S0169-409X(00)00129-0","supports":["MW preferred boundary","LogP upper preferred boundary","HBA preferred boundary","HBD preferred boundary"]},
+    {"key":"Veber2002","doi":"10.1021/jm020017n","supports":["TPSA preferred boundary","rotatable-bond preferred boundary"]},
+    {"key":"Ertl2009","doi":"10.1186/1758-2946-1-8","supports":["synthetic-accessibility metric; SWAN desirability anchors are framework choices"]},
+    {"key":"SwissADME2017","doi":"10.1038/srep42717","supports":["SwissADME property and GI-absorption inputs"]},
+    {"key":"BOILED-Egg2016","doi":"10.1002/cmdc.201600182","supports":["GI absorption / brain penetration context"]},
+    {"key":"Baell2010","doi":"10.1021/jm901137j","supports":["PAINS alert concept; SWAN numeric penalty is a framework choice"]},
+    {"key":"ProTox3_2024","doi":"10.1093/nar/gkae303","supports":["ProTox acute toxicity and endpoint predictions"]}
+  ]
+}

@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+build/
+dist/
+*.egg-info/
+.DS_Store
+demo_results/
+real_vina_verification/
+real_vina_verification_report.json
+my_real_vina_target.json
+my_real_vina_mtor.json
+*_local_redocking.json
