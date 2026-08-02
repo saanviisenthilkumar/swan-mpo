@@ -1,10 +1,12 @@
-# SWAN-MPO v1.3.2 — private review candidate RC2
+# SWAN-MPO v1.3.2
 
 [![tests](https://github.com/saanviisenthilkumar/swan-mpo/actions/workflows/tests.yml/badge.svg)](https://github.com/saanviisenthilkumar/swan-mpo/actions/workflows/tests.yml)
 
 SWAN-MPO is a transparent scoring layer for safety-aware, affinity-normalized multi-parameter optimization. The standard workflow starts from **raw upstream candidate-docking, ADME/property, and toxicity/liability outputs**. Users do **not** calculate SWAN domain scores themselves.
 
-> **Frozen science:** `src/swan_mpo/locked_model.py` remains byte-identical to SHA-256 `97799e91f23803de3b9a477aea3bbcfb061f1b1d9abebdecfdadcd1b537f4454`. The bundled published calibration remains SHA-256 `e7584f10c0f970bb54ddf39cfdacbb6cb061bc6a3d2bd795e2d5f119efc7287c`. RC2 changes release engineering, validation, warnings, provenance, and manuscript reproduction only.
+It is designed for compound-triage settings in which favorable docking can coexist with unfavorable safety, ADME, or panel-specific liability profiles.
+
+> **Frozen science:** `src/swan_mpo/locked_model.py` remains byte-identical to SHA-256 `97799e91f23803de3b9a477aea3bbcfb061f1b1d9abebdecfdadcd1b537f4454`. The bundled published calibration remains SHA-256 `e7584f10c0f970bb54ddf39cfdacbb6cb061bc6a3d2bd795e2d5f119efc7287c`. Public-release engineering and documentation changes do not alter the locked scoring equations or published calibration.
 
 ## Scientific automation boundary
 
@@ -24,6 +26,8 @@ python -m pip install -e ".[dev]"
 pytest -q
 swan-mpo verify
 ```
+
+On Windows PowerShell, activate the environment with `.venv\Scripts\Activate.ps1` instead of `source .venv/bin/activate`.
 
 The tested macOS ARM validation used Python 3.13.12 and AutoDock Vina 1.2.7. See `docs/ENVIRONMENTS.md`.
 
@@ -63,6 +67,8 @@ swan-mpo score \
   --config published-oncology \
   --output-dir results
 ```
+
+The bundled `published-oncology` configuration reproduces the frozen nine-target oncology implementation. Custom configurations can be supplied by path; see `examples/templates/` and `docs/INPUTS_AND_CALIBRATION.md`.
 
 `--allow-missing-predictors` is an explicit nonstandard historical-reproduction mode. When used, SWAN writes `NONSTANDARD_MODE_ACTIVATED` to `warnings.csv` and `nonstandard_mode: true` to `run_metadata.json`.
 
@@ -110,9 +116,9 @@ swan-mpo show-published-calibration
 
 Ties in the frozen expanded-screen BestNode implementation are broken deterministically using the historical target/PDB ordering encoded in `bestnode_tie_priority`; this reproduces all 177 canonical selected-node labels.
 
-## Real-Vina validation already completed
+## Real-Vina validation
 
-The v1.3.1 code path immediately preceding RC2 was tested on the author's Mac against an actual AutoDock Vina 1.2.7 executable using the canonical mTOR/4JSP tight-box setup. It reproduced `generated_mode_recovery`, selected mode 13, ΔG = -6.578 kcal/mol, and symmetry-aware fixed-frame RMSD = 1.1326525817600657 Å. The optional real-Vina pytest passed twice. RC2 must be rerun on the same machine after review fixes before public release.
+The scientific code path frozen at `v1.3.2-rc2` was tested on the author's Mac against AutoDock Vina 1.2.7 using the canonical mTOR/4JSP tight-box setup. It reproduced `generated_mode_recovery`, selected mode 13, ΔG = -6.578 kcal/mol, and symmetry-aware fixed-frame RMSD = 1.1326525817600657 Å. The dedicated real-Vina pytest passed, and `swan-mpo verify --strict` passed on the validated build. Subsequent public-release changes were limited to documentation, provenance, and privacy cleanup.
 
 ## Documentation
 
