@@ -2,9 +2,9 @@
 
 [![tests](https://github.com/saanviisenthilkumar/swan-mpo/actions/workflows/tests.yml/badge.svg)](https://github.com/saanviisenthilkumar/swan-mpo/actions/workflows/tests.yml)
 
-SWAN-MPO is a transparent scoring layer for safety-aware, affinity-normalized multi-parameter optimization. The standard workflow starts from **raw upstream candidate-docking, ADME/property, and toxicity/liability outputs**. Users do **not** calculate SWAN domain scores themselves.
+SWAN-MPO is a safety-aware, affinity-normalized multi-parameter optimization (MPO) framework with target-calibrated binding integration. Existing MPO approaches often emphasize general physicochemical or developability objectives, while target-calibrated binding, safety-aware scoring, and scaffold-specific liability handling are not typically integrated within a single auditable framework. SWAN-MPO addresses this gap through a transparent scoring architecture that integrates target-calibrated binding, safety, ADME, and panel-specific liabilities under a locked-hash implementation. The framework was developed and evaluated for natural-product scaffold triage in oncology as its primary deployment context, where candidates can combine favorable predicted binding with complex ADME, toxicity, and scaffold-specific liability profiles.
 
-It is designed for compound-triage settings in which favorable docking can coexist with unfavorable safety, ADME, or panel-specific liability profiles.
+The standard workflow starts from **raw upstream candidate-docking, ADME/property, and toxicity/liability outputs**. Users do **not** calculate SWAN domain scores themselves.
 
 > **Frozen science:** `src/swan_mpo/locked_model.py` remains byte-identical to SHA-256 `97799e91f23803de3b9a477aea3bbcfb061f1b1d9abebdecfdadcd1b537f4454`. The bundled published calibration remains SHA-256 `e7584f10c0f970bb54ddf39cfdacbb6cb061bc6a3d2bd795e2d5f119efc7287c`. Public-release engineering and documentation changes do not alter the locked scoring equations or published calibration.
 
@@ -119,6 +119,11 @@ Ties in the frozen expanded-screen BestNode implementation are broken determinis
 ## Real-Vina validation
 
 The scientific code path frozen at `v1.3.2-rc2` was tested on the author's Mac against AutoDock Vina 1.2.7 using the canonical mTOR/4JSP tight-box setup. It reproduced `generated_mode_recovery`, selected mode 13, ΔG = -6.578 kcal/mol, and symmetry-aware fixed-frame RMSD = 1.1326525817600657 Å. The dedicated real-Vina pytest passed, and `swan-mpo verify --strict` passed on the validated build. Subsequent public-release changes were limited to documentation, provenance, and privacy cleanup.
+
+## Citation
+
+Software release: Senthilkumar, Saanvii. **SWAN-MPO v1.3.2** [Computer software]. Zenodo. DOI: `10.5281/zenodo.21753539`.
+
 
 ## Documentation
 
