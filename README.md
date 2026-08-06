@@ -122,8 +122,9 @@ The scientific code path frozen at `v1.3.2-rc2` was tested on the author's Mac a
 
 ## Citation
 
-Software release: Senthilkumar, Saanvii. **SWAN-MPO v1.3.2** [Computer software]. Zenodo. DOI: [10.5281/zenodo.21753539](https://doi.org/10.5281/zenodo.21753539).
+Software release: Senthilkumar, Saanvii. SWAN-MPO v1.3.2 [Computer software]. Zenodo. DOI: https://doi.org/10.5281/zenodo.21753539
 
+Study data and reproducibility materials: https://doi.org/10.17605/OSF.IO/35QF2
 
 ## Documentation
 
