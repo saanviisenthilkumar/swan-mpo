@@ -1,0 +1,22 @@
+{
+  "name": "demo",
+  "expected_grid_centers": 20,
+  "panels": {
+    "Colon": [
+      "T1",
+      "T2"
+    ]
+  },
+  "pdb_ids": {
+    "T1": "DEMO1",
+    "T2": "DEMO2"
+  },
+  "bestnode_tie_priority": {
+    "Colon": [
+      "T1",
+      "T2"
+    ]
+  },
+  "candidate_docking_seed": 2026,
+  "reference_redocking_seed": 2026
+}

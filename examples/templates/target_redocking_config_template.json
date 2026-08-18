@@ -1,0 +1,31 @@
+{
+  "rmsd_cutoff_A": 2.0,
+  "required_vina_version": "1.2.7",
+  "defaults": {
+    "exhaustiveness": 12,
+    "num_modes": 9,
+    "seed": 2026,
+    "cpu": 1,
+    "scoring": "vina",
+    "rmsd_backend": "symmetry",
+    "energy_range": 4
+  },
+  "targets": [
+    {
+      "target": "REPLACE_TARGET",
+      "pdb_id": "REPLACE_PDB_ID",
+      "receptor_pdbqt": "REPLACE_WITH_PREPARED_RECEPTOR.pdbqt",
+      "native_ligand_pdbqt": "REPLACE_WITH_PREPARED_NATIVE_LIGAND.pdbqt",
+      "center": [
+        "REPLACE_CENTER_X",
+        "REPLACE_CENTER_Y",
+        "REPLACE_CENTER_Z"
+      ],
+      "size": [
+        "REPLACE_SIZE_X",
+        "REPLACE_SIZE_Y",
+        "REPLACE_SIZE_Z"
+      ]
+    }
+  ]
+}

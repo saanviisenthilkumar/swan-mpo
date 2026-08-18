@@ -1,0 +1,31 @@
+{
+  "rmsd_cutoff_A": 2.0,
+  "required_vina_version": "1.2.7",
+  "defaults": {
+    "exhaustiveness": 12,
+    "num_modes": 9,
+    "seed": 2026,
+    "cpu": 1,
+    "scoring": "vina",
+    "rmsd_backend": "symmetry",
+    "energy_range": 4
+  },
+  "targets": [
+    {
+      "target": "mTOR",
+      "pdb_id": "4JSP",
+      "receptor_pdbqt": "FILL_WITH_YOUR_VERIFIED_4JSP_RECEPTOR_PDBQT_PATH",
+      "native_ligand_pdbqt": "FILL_WITH_YOUR_VERIFIED_4JSP_NATIVE_LIGAND_PDBQT_PATH",
+      "center": [
+        "FILL_FROM_CANONICAL_REDOCKING_SETUP",
+        "FILL_FROM_CANONICAL_REDOCKING_SETUP",
+        "FILL_FROM_CANONICAL_REDOCKING_SETUP"
+      ],
+      "size": [
+        "FILL_FROM_CANONICAL_REDOCKING_SETUP",
+        "FILL_FROM_CANONICAL_REDOCKING_SETUP",
+        "FILL_FROM_CANONICAL_REDOCKING_SETUP"
+      ]
+    }
+  ]
+}

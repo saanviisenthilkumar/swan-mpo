@@ -1,0 +1,71 @@
+{
+  "analysis_name": "SWAN ChEMBL drug-warning multi-constraint benchmark",
+  "script_sha256": "450f011e3ec3a53977e5b1fe7eab7277a1652aa34a834e0df97a29f4488a82a3",
+  "input_sha256": "1467e09f92e6d6c57d2f10f8b1a537c0c344221a0f86dc0683b0c4f33be19d98",
+  "chembl_api_status": {
+    "activities": 24527044,
+    "chembl_db_version": "ChEMBL_37",
+    "chembl_release_date": "2026-05-01",
+    "compound_records": 3824604,
+    "disinct_compounds": 2921148,
+    "publications": 101100,
+    "status": "UP",
+    "targets": 18552
+  },
+  "primary_targets": [
+    "5AR2",
+    "AKT1",
+    "AR",
+    "Caspase3",
+    "EGFR",
+    "PI3Kalpha",
+    "mTOR"
+  ],
+  "activity_labels": {
+    "active": "active",
+    "inactive": "weak_inactive"
+  },
+  "external_status": {
+    "serious_warning_types": [
+      "Black Box Warning",
+      "Withdrawn"
+    ],
+    "favorable_status": "parent max_phase == 4 AND no Black Box Warning/Withdrawn record",
+    "warning_status": "any parent-level Black Box Warning or Withdrawn record",
+    "all other clinical-status records": "excluded"
+  },
+  "primary_endpoint": "A_active_approved_no_serious_warning vs B_active_serious_warning + C_inactive_approved_no_serious_warning",
+  "secondary_endpoint": "A vs B + C + D",
+  "feasibility_thresholds_unique_parent_molecules": {
+    "A": 25,
+    "B": 15,
+    "C": 25
+  },
+  "binding_transform": {
+    "source": "median_value_nm",
+    "pActivity_formula": "9 - log10(nM)",
+    "desirability_bounds_pActivity": [
+      4.0,
+      9.0
+    ],
+    "score_bounds": [
+      0.01,
+      1.0
+    ]
+  },
+  "aggregation": "equal-weight geometric mean for integrated_gm3",
+  "metrics": [
+    "ROC-AUC",
+    "PR-AUC",
+    "BEDROC alpha=20",
+    "tie-aware EF@1%",
+    "tie-aware EF@5%"
+  ],
+  "bootstrap": {
+    "reps": 2000,
+    "cluster": "parent_chembl_id",
+    "seed": 2026
+  },
+  "important_scope_note": "Not full end-to-end four-domain SWAN-MPO validation.",
+  "rdkit_version": "2026.03.2"
+}

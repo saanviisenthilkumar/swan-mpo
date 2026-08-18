@@ -1,0 +1,5 @@
+benchmark_group,n_rows,n_unique_parent_molecules,n_targets
+A_active_approved_no_serious_warning,46,43,6
+B_active_serious_warning,25,25,5
+C_inactive_approved_no_serious_warning,119,62,5
+D_inactive_serious_warning,61,29,6

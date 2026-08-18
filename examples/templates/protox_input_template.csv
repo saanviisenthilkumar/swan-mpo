@@ -1,0 +1,2 @@
+Compound,LD50 (mg/kg),Toxicity class,Hepatotoxicity,Hepatotoxicity confidence,Neurotoxicity,Neurotoxicity confidence,Nephrotoxicity,Nephrotoxicity confidence,Respiratory toxicity,Respiratory toxicity confidence,Cardiotoxicity,Cardiotoxicity confidence,BBB,BBB confidence,Complex I,Complex I confidence
+ExampleCompound,1200,4,Inactive,0.84,Inactive,0.79,Inactive,0.76,Inactive,0.81,Inactive,0.83,Inactive,0.75,Inactive,0.72

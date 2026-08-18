@@ -1,0 +1,12 @@
+{
+  "analysis_status": "POST HOC SENSITIVITY / MECHANISM DECOMPOSITION",
+  "reason": "Run after inspection of the locked primary A vs (B+C) benchmark. The purpose is to decompose the two complementary hard-negative mechanisms already encoded by groups B and C and to evaluate a B/C-balanced sensitivity.",
+  "score_definitions_changed": false,
+  "labels_changed": false,
+  "activity_thresholds_changed": false,
+  "external_status_definition_changed": false,
+  "primary_benchmark_replaced": false,
+  "bootstrap_cluster": "parent_chembl_id",
+  "bootstrap_reps": 5000,
+  "random_seed": 2026
+}

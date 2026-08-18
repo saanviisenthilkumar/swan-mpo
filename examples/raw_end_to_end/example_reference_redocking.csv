@@ -1,0 +1,6 @@
+target,pdb_id,mode,dg_kcal_mol,rmsd_A
+T1,DEMO1,1,-8.0,1.2
+T1,DEMO1,2,-7.5,2.8
+T2,DEMO2,1,-9.0,3.1
+T2,DEMO2,2,-8.6,1.4
+T2,DEMO2,3,-8.1,2.3

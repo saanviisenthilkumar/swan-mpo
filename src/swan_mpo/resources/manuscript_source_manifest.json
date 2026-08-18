@@ -1,0 +1,81 @@
+{
+  "purpose": "Exact scoring inputs and canonical expected outputs for one-command reproduction of the frozen 59-compound expanded SWAN-MPO screen.",
+  "required_scoring_sources": [
+    {
+      "role": "canonical full SwissADME export used by frozen expanded analysis",
+      "original_name": "expanded_acetogenins_swissadme_CANONICAL_FULL.csv",
+      "sha256": "a1b6339695bba431239def8969d56244cecd978e195e5eaf2a3019ca21ec7ab1",
+      "rows": 59,
+      "note": "Direct full SwissADME CSV export; Consensus Log P is populated. No logP imputation is performed by reproduce-manuscript."
+    },
+    {
+      "role": "ProTox raw export used by frozen expanded analysis",
+      "original_name": "expanded_acetogenins_protox_raw.csv",
+      "sha256": "4ef8ea376f89533ad3bd3afb9d810aab9c8fccc3f216179414d6de776b3f08ee",
+      "rows": 59
+    },
+    {
+      "role": "canonical complete docking ledger",
+      "original_name": "Table_S3_expanded_annona_docking_deployment_PHASE3.csv",
+      "sha256": "3eff29c597802a7052a546cdc00012a3445c684fb7726513492ea923daa996c4",
+      "rows": 10620
+    }
+  ],
+  "canonical_validation_sources": [
+    {
+      "role": "canonical expanded panel scores",
+      "original_name": "canonical_expanded_panel_scores.csv",
+      "sha256": "750a5d0ef13ceeccb6def1fd1c9d148eb35a5cc3a7ddb3f4d59af92973286cb5",
+      "rows": 177
+    },
+    {
+      "role": "canonical expanded target-level binding",
+      "original_name": "canonical_expanded_target_level_binding.csv",
+      "sha256": "b3084e76615c2937a9a4214d9061d803fd735d3d717e3a8a199618f67d8ead28",
+      "rows": 531
+    }
+  ],
+  "historical_provenance_only": [
+    {
+      "role": "earlier incomplete SwissADME export, not used for frozen canonical reproduction",
+      "original_name": "expanded_acetogenins_swissadme_raw.csv",
+      "sha256": "a90b7c3cdee1d9b10257ccdf368dab6bedbe31520031113f6b1255b79deba7ca",
+      "rows": 59,
+      "note": "Consensus Log P/iLOGP were blank. The canonical workflow explicitly required a new full SwissADME batch export and instructed not to calculate an available-model mean."
+    }
+  ],
+  "packaged_files": [
+    {
+      "name": "manuscript_swissadme_canonical_full.csv",
+      "sha256": "a1b6339695bba431239def8969d56244cecd978e195e5eaf2a3019ca21ec7ab1"
+    },
+    {
+      "name": "manuscript_swissadme_original_incomplete.csv",
+      "sha256": "a90b7c3cdee1d9b10257ccdf368dab6bedbe31520031113f6b1255b79deba7ca",
+      "use": "provenance only"
+    },
+    {
+      "name": "manuscript_protox_raw.csv",
+      "sha256": "4ef8ea376f89533ad3bd3afb9d810aab9c8fccc3f216179414d6de776b3f08ee"
+    },
+    {
+      "name": "manuscript_candidate_docking.csv",
+      "sha256": "6172ccc65f3ffddf07ce835ab5b5f45803f1b708f36499f5e5260971ed47530b",
+      "derivation": "Five scoring-required columns copied row-for-row from the canonical 10,620-row ledger; local path columns omitted."
+    },
+    {
+      "name": "manuscript_expected_panel_scores.csv",
+      "sha256": "cd94a21ed3bb9160220ef0d7c4897bba045c7c3eb6fd45ded717f209a073f8ca",
+      "derivation": "Key validation columns copied row-for-row from canonical 177-row panel scores."
+    },
+    {
+      "name": "manuscript_expected_target_level_binding.csv",
+      "sha256": "8148755f8085c0d17ca5abde608ef62fd2c8621545e9f03225ef994c29f00641",
+      "derivation": "Scoring-relevant validation columns copied row-for-row from canonical 531-row target-level table; local-path provenance field omitted."
+    }
+  ],
+  "canonical_input_manifest_evidence": {
+    "sha256": "f16fe4218a85fdf7443dd1b8ed7df2882577d642436c827a97b0458eb67b4fa4",
+    "canonical_swissadme_sha256": "a1b6339695bba431239def8969d56244cecd978e195e5eaf2a3019ca21ec7ab1"
+  }
+}
