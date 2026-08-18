@@ -191,7 +191,7 @@ Key documentation and analysis packages include:
 
 **Software release**
 Senthilkumar S. *SWAN-MPO v1.3.2* [Computer software].
-**Version-specific Zenodo DOI: pending clean replacement deposit**
+**Version-specific Zenodo DOI:** https://doi.org/10.5281/zenodo.21988306
 
 **Study data and reproducibility materials**
 Open Science Framework: `10.17605/OSF.IO/35QF2`
