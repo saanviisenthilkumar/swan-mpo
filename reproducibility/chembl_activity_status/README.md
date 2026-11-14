@@ -28,6 +28,20 @@ The primary endpoint is:
 A secondary all-groups table additionally contains group D
 (weak/inactive + serious warning).
 
+### Revised target scope
+
+The v1.3.3 analysis tables exclude the 5AR2/SRD5A2 target entirely. Two
+5AR2 assay rows were removed from the active primary (190 to 188 records),
+secondary (251 to 249 records), and external-status cohort tables. All metric,
+target-stratified, bootstrap, and domain-decomposition expected outputs are
+recomputed from this reduced cohort. This is a target-scope correction, not a
+change to activity thresholds, score definitions, or clinical warning labels.
+
+The upstream descriptor source still contains 514 historical 5AR2 records.
+Those records are **not** part of the active v1.3.3 analyses. The source and
+the original analysis lock are preserved byte-for-byte for provenance.
+`scripts/exclude_5ar2.py` documents and verifies the row-exclusion step.
+
 ## Frozen ChEMBL provenance
 
 The benchmark was generated against **ChEMBL 37**, release date 2026-05-01.
@@ -49,9 +63,9 @@ The original generating-script SHA-256 recorded by the analysis lock is:
 `450f011e3ec3a53977e5b1fe7eab7277a1652aa34a834e0df97a29f4488a82a3`
 
 The public scripts in this directory are separate **offline reproduction
-scripts**. They intentionally operate on the frozen record tables instead of
-querying a live ChEMBL API, so later database updates cannot change the
-manuscript-facing results.
+scripts**. They operate on the revised, target-filtered record tables instead
+of querying a live ChEMBL API, so later database updates cannot change the
+revised benchmark outputs. Both reproduction scripts reject 5AR2 input rows.
 
 ## Reproduce the primary benchmark
 

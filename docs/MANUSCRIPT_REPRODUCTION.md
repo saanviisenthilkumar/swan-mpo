@@ -1,6 +1,6 @@
 # Manuscript reproduction
 
-The public release is designed so a third party can reproduce the frozen 59-compound expanded SWAN-MPO screen without manually calculating any SWAN domain score.
+The revised release is designed so a third party can reproduce the corrected 59-compound, eight-structure expanded SWAN-MPO screen without manually calculating any SWAN domain score.
 
 ## Inputs bundled with the release
 
@@ -8,10 +8,10 @@ The package contains:
 
 - the exact canonical 59-row full SwissADME export used by the frozen analysis;
 - the exact unchanged 59-row ProTox export used by the frozen analysis;
-- a 10,620-row five-column docking extract copied row-for-row from the canonical complete docking ledger, retaining every compound/target/PDB/grid/affinity value required for scoring while omitting local filesystem paths and runtime-only fields;
+- a 9,440-row five-column docking extract retaining every value from the corrected eight-structure ledger required for scoring, while omitting local filesystem paths and runtime-only fields;
 - the frozen 177-row panel-score validation extract;
-- the frozen 531-row target-level binding validation extract;
-- the frozen nine-target redocking/calibration resource.
+- the 472-row target-level binding validation extract;
+- the eight-structure redocking/calibration resource, excluding the misattributed 3V3N record.
 
 Exact original-source and packaged-file SHA-256 values are recorded in `src/swan_mpo/resources/manuscript_source_manifest.json`.
 
@@ -26,12 +26,12 @@ The command recomputes:
 1. raw ADME desirabilities and the ADME domain score;
 2. raw safety desirabilities and the safety domain score;
 3. panel-specific liability, including explicit exclusion of Complex I from Colon liability;
-4. the median docking energy for each of 531 compound-target blocks from 20 grid values per block;
+4. the median docking energy for each of 472 compound-target blocks from 20 grid values per block;
 5. target-reference-calibrated binding for eligible targets;
 6. primary BestNode selection;
 7. the four-domain SWAN-MPO score and within-panel ranks.
 
-It then compares all 177 panel records and all 531 target-level records against the frozen canonical outputs. A nonzero mismatch causes the command to report `FAIL` and exit nonzero.
+It then compares all 177 panel records and all 472 target-level records against the corrected reference outputs. A nonzero mismatch causes the command to report `FAIL` and exit nonzero.
 
 Expected Muricatacin regression:
 

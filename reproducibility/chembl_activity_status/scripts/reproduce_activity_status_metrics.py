@@ -307,6 +307,8 @@ def main() -> int:
         missing = sorted(required - set(df.columns))
         if missing:
             raise ValueError(f"{label} input missing required columns: {missing}")
+        if df["target_label"].astype(str).str.upper().eq("5AR2").any():
+            raise ValueError(f"{label} input contains excluded target 5AR2")
 
     observed = {}
 

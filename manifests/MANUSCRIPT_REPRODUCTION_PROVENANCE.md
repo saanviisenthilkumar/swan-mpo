@@ -1,21 +1,21 @@
-# Manuscript extract derivation audit
+# Manuscript reproduction provenance: eight-structure revision
 
-The compact reproduction files were independently compared against the canonical source files used to build them.
+The corrected 59-compound deployment excludes PDB 3V3N (bacterial TetX2, not human SRD5A2). No replacement docking structure or modified scoring equation was introduced. The revised Online Resource 2 ZIP was independently verified at SHA-256 `1904978856fa232f46f2c3fcbf45a9c17ff7db58507f188faab390ab5c3b547a`.
 
-## Canonical source identities
+## Corrected source identities
 
-- complete docking ledger: 10,620 rows; SHA-256 `3eff29c597802a7052a546cdc00012a3445c684fb7726513492ea923daa996c4`
-- canonical expanded panel scores: 177 rows; SHA-256 `750a5d0ef13ceeccb6def1fd1c9d148eb35a5cc3a7ddb3f4d59af92973286cb5`
-- canonical expanded target-level binding: 531 rows; SHA-256 `b3084e76615c2937a9a4214d9061d803fd735d3d717e3a8a199618f67d8ead28`
-- canonical full SwissADME export: 59 rows; SHA-256 `a1b6339695bba431239def8969d56244cecd978e195e5eaf2a3019ca21ec7ab1`
-- canonical ProTox export: 59 rows; SHA-256 `4ef8ea376f89533ad3bd3afb9d810aab9c8fccc3f216179414d6de776b3f08ee`
+- Docking deployment, Table S3: 9,440 rows; SHA-256 `987269cbcef84be063fa40aa9971e5219bcabc915122ec899139429d3ec0b256`.
+- Expanded panel scores, Table S8B: 177 rows; SHA-256 `28fbd6167c15a03f65e02deb46e53889658fc92992cb817bdcd7228767bb13b9`.
+- Expanded target-level audit, Table S17D: 472 rows; SHA-256 `16707e45c6fc3851eae8203b43c8f5c7d060dee16442b8a1afc7379fe72b517b`.
+- Unmodified full SwissADME export: 59 rows; SHA-256 `a1b6339695bba431239def8969d56244cecd978e195e5eaf2a3019ca21ec7ab1`.
+- Unmodified ProTox export: 59 rows; SHA-256 `4ef8ea376f89533ad3bd3afb9d810aab9c8fccc3f216179414d6de776b3f08ee`.
 
-## Independent comparison result
+## Rebuild checks
 
-- `manuscript_swissadme_canonical_full.csv`: byte-identical to the canonical 59-row source — PASS.
-- `manuscript_protox_raw.csv`: byte-identical to the canonical 59-row source — PASS.
-- `manuscript_candidate_docking.csv`: all 10,620 rows are exact row-order-preserving copies of the five scoring-required columns (`compound_name`, `target`, `pdb_id`, `grid_id`, `best_affinity_kcal_mol`) from the canonical complete ledger — PASS.
-- `manuscript_expected_panel_scores.csv`: all 177 rows are exact row-order-preserving copies of the packaged validation columns from the canonical expanded panel table — PASS.
-- `manuscript_expected_target_level_binding.csv`: all 531 rows are exact row-order-preserving copies of the packaged validation columns from the canonical target-level table — PASS.
+- The 9,440-row compact docking CSV retains the original values for all surviving 472 compound/structure blocks (20 grids each).
+- The 472-row compact target validation CSV was compared field-by-field against corrected Table S17D, including calibration statuses.
+- All 177 primary SWAN-MPO scores, domain values, and primary ranks match corrected Table S8B; the selected BestNode label of prostate Annomuricatin B changes from 5AR2 to mTOR due to removal of the former node. No primary numerical score or rank changes.
+- The bundled calibration CSV contains eight records, with four strict, one generated-mode, and three comparative-only classes.
+- The frozen `locked_model.py` hash remains `97799e91f23803de3b9a477aea3bbcfb061f1b1d9abebdecfdadcd1b537f4454`.
 
-The compact files deliberately omit machine-local path/runtime fields that are not inputs to SWAN scoring. Their derivation does not alter any retained scientific value.
+The source manifests retain the previous nine-structure hashes as historical provenance. The superseded docking ledger had 10,620 rows (SHA-256 `3eff29c597802a7052a546cdc00012a3445c684fb7726513492ea923daa996c4`) and the original target audit had 531 rows (SHA-256 `b3084e76615c2937a9a4214d9061d803fd735d3d717e3a8a199618f67d8ead28`).

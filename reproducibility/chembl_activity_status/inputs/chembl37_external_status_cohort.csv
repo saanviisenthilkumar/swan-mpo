@@ -1,6 +1,4 @@
 target_label,molecule_chembl_id,parent_chembl_id,parent_pref_name,canonical_smiles,chembl_activity_label,median_value_nm,max_phase,has_serious_warning,external_status,benchmark_group,d_adme_proxy,d_safety_proxy
-5AR2,CHEMBL1200969,CHEMBL1200969,DUTASTERIDE,C[C@]12C=CC(=O)N[C@@H]1CC[C@@H]1[C@@H]2CC[C@]2(C)[C@@H](C(=O)Nc3cc(C(F)(F)F)ccc3C(F)(F)F)CC[C@@H]12,active,0.1,4.0,False,approved_no_serious_warning,A_active_approved_no_serious_warning,0.8495165920700718,0.9115941873772124
-5AR2,CHEMBL710,CHEMBL710,FINASTERIDE,CC(C)(C)NC(=O)[C@H]1CC[C@H]2[C@@H]3CC[C@H]4NC(=O)C=C[C@]4(C)[C@H]3CC[C@]12C,active,4.365,4.0,False,approved_no_serious_warning,A_active_approved_no_serious_warning,1.0,1.0
 AKT1,CHEMBL1078178,CHEMBL1078178,MOMELOTINIB,N#CCNC(=O)c1ccc(-c2ccnc(Nc3ccc(N4CCOCC4)cc3)n2)cc1,weak_inactive,15500.0,4.0,False,approved_no_serious_warning,C_inactive_approved_no_serious_warning,1.0,0.7218121425219773
 AKT1,CHEMBL1171837,CHEMBL1171837,PONATINIB,Cc1ccc(C(=O)Nc2ccc(CN3CCN(C)CC3)c(C(F)(F)F)c2)cc1C#Cc1cnc2cccnn12,weak_inactive,30000.0,4.0,True,serious_warning,D_inactive_serious_warning,1.0,0.7734505615898847
 AKT1,CHEMBL1173655,CHEMBL1173655,AFATINIB,CN(C)C/C=C/C(=O)Nc1cc2c(Nc3ccc(F)c(Cl)c3)ncnc2cc1O[C@H]1CCOC1,weak_inactive,10000.0,4.0,False,approved_no_serious_warning,C_inactive_approved_no_serious_warning,1.0,0.8200250959019855

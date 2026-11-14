@@ -224,7 +224,6 @@ def balanced_cluster_bootstrap(
         )
         for g in (A, B, C)
     }
-
     rng = np.random.default_rng(seed)
     vals = {c: [] for c in comparators}
 
@@ -364,6 +363,10 @@ def main() -> int:
     missing = sorted(required - set(df.columns))
     if missing:
         raise ValueError(f"Input is missing required columns: {missing}")
+    if "target_label" not in df.columns:
+        raise ValueError("Input is missing required column: target_label")
+    if df["target_label"].astype(str).str.upper().eq("5AR2").any():
+        raise ValueError("Input contains excluded target 5AR2")
 
     primary_groups = df[df["benchmark_group"].isin([A, B, C])].copy()
     avb = primary_groups[primary_groups["benchmark_group"].isin([A, B])].copy()
