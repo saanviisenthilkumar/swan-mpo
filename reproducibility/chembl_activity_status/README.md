@@ -28,13 +28,13 @@ The primary endpoint is:
 A secondary all-groups table additionally contains group D
 (weak/inactive + serious warning).
 
-### Revised target scope
+### Target scope
 
 The v1.3.3 analysis tables exclude the 5AR2/SRD5A2 target entirely. Two
 5AR2 assay rows were removed from the active primary (190 to 188 records),
 secondary (251 to 249 records), and external-status cohort tables. All metric,
 target-stratified, bootstrap, and domain-decomposition expected outputs are
-recomputed from this reduced cohort. This is a target-scope correction, not a
+recomputed from this cohort. This is a target-scope update, not a
 change to activity thresholds, score definitions, or clinical warning labels.
 
 The upstream descriptor source still contains 514 historical 5AR2 records.

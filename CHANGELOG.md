@@ -1,10 +1,10 @@
 # Changelog
 
-## v1.3.3 eight-structure correction (November 2026)
+## v1.3.3 (November 2026)
 
-- Removed the PDB 3V3N structure from the oncology screen because it was incorrectly attributed to human SRD5A2; no substitute receptor was introduced.
+- Removed PDB 3V3N from the oncology target panel following receptor-identity review; 3V3N represents bacterial TetX2 rather than human SRD5A2. No substitute receptor was introduced.
 - Excluded 1,180 PDB 3V3N docking rows, retaining 9,440 existing observations; updated the 472 target-level and 177 panel reference records without changing the locked scoring equations.
-- Recorded the superseded nine-structure source filenames and SHA-256 values as historical provenance and synchronized the tests, hashes, and documentation.
+- Retained prior source filenames and SHA-256 values as historical provenance and synchronized the tests, hashes, and documentation.
 - Excluded the two 5AR2 assay records from the active ChEMBL activity/status cohort and recomputed benchmark and domain-decomposition outputs (188 primary records and 249 secondary records). The original hash-locked ChEMBL descriptor source remains available solely as historical provenance.
 
 ## 1.3.2

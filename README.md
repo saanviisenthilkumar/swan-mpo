@@ -1,4 +1,4 @@
-# SWAN-MPO v1.3.3 (eight-structure correction)
+# SWAN-MPO v1.3.3
 
 **SWAN-MPO (Target-Calibrated Multi-Parameter Optimization)** is a reproducible framework for **multi-domain natural-product scaffold triage**. It integrates receptor-specific binding evidence with ADME, general safety, and context-dependent liability on a common bounded desirability scale, then combines those domains using an equal-weight geometric mean.
 
@@ -7,10 +7,10 @@ The framework was developed and evaluated in oncology-focused natural-product sc
 > **Frozen scoring implementation:** `src/swan_mpo/locked_model.py`
 > SHA-256: `97799e91f23803de3b9a477aea3bbcfb061f1b1d9abebdecfdadcd1b537f4454`
 >
-> **Revised eight-structure target-calibration resource:**
+> **Oncology target-calibration resource:**
 > SHA-256: `1c4d9b17a745792a38fd0b6a0fe3793730a991c3e621b0b5e10535297ea1f88e`
 >
-> The receptor-attribution correction excludes PDB 3V3N, which is not a human SRD5A2 structure. The frozen scoring equations and all retained calibration records are unchanged. The earlier nine-structure release remains a historical, superseded snapshot.
+> The bundled oncology configuration covers eight receptor structures. The locked scoring equations remain unchanged.
 
 ## What SWAN-MPO does
 
@@ -70,7 +70,7 @@ swan-mpo score \
   --output-dir results
 ```
 
-The bundled `published-oncology` configuration reproduces the corrected eight-structure oncology implementation. Custom configurations can be supplied by path; see `examples/templates/` and `docs/INPUTS_AND_CALIBRATION.md`.
+The bundled `published-oncology` configuration reproduces the eight-structure oncology implementation. Custom configurations can be supplied by path; see `examples/templates/` and `docs/INPUTS_AND_CALIBRATION.md`.
 
 ## Frozen scoring reproduction
 
@@ -80,7 +80,7 @@ The exact canonical upstream predictor inputs required for the 59-compound expan
 swan-mpo reproduce-manuscript --output-dir manuscript_reproduction
 ```
 
-This command deterministically recomputes the corrected **candidate-library SWAN-MPO scoring outputs** and verifies them against the revised expected results. It reproduces 472 target-level summaries and 177 panel-level scores from the 59-compound × 8-structure deployment, with 9,440 expanded docking observations.
+This command deterministically recomputes the **candidate-library SWAN-MPO scoring outputs** and verifies them against the packaged reference results. It reproduces 472 target-level summaries and 177 panel-level scores from the 59-compound × 8-structure deployment, with 9,440 expanded docking observations.
 
 It does **not** rerun docking or regenerate SwissADME/ProTox predictions. Paper-specific external validation analyses are reproduced separately from dedicated offline analysis scripts rather than exposed as core CLI commands.
 
@@ -106,7 +106,7 @@ Reproduce the secondary domain decomposition:
 python reproducibility/chembl_activity_status/scripts/reproduce_domain_decomposition.py
 ```
 
-The revised benchmark excludes two 5AR2-target assay records, leaving 188 primary and 249 secondary records. The reported activity/status metrics and domain-decomposition expected outputs were recomputed for this subset. The original ChEMBL descriptor source and its analysis lock are retained unchanged as historical provenance. No live ChEMBL API is used during reproduction.
+The packaged benchmark uses 188 primary and 249 secondary records, excluding 5AR2-target assay records. Activity/status metrics and domain-decomposition outputs correspond to these inputs. The original ChEMBL descriptor source and its analysis lock are retained as provenance. No live ChEMBL API is used during reproduction.
 
 ## Descriptor-compatible MPO comparator reproduction
 
@@ -189,11 +189,9 @@ Key documentation and analysis packages include:
 
 ## Citation
 
-**Historical software release (nine structures, superseded for revised screen)**
-Senthilkumar S. *SWAN-MPO v1.3.2* [Computer software].
-**Version-specific Zenodo DOI:** https://doi.org/10.5281/zenodo.21988306
+**Current software:** *SWAN-MPO v1.3.3*. See `CITATION.cff` for citation metadata. The version-specific archival DOI will be added after the v1.3.3 Zenodo record is available.
 
-The eight-structure revision must receive its own archival release and version-specific DOI before the revised manuscript cites it as permanently archived.
+**Previous archived version:** Senthilkumar S. *SWAN-MPO v1.3.2* [Computer software]. DOI: https://doi.org/10.5281/zenodo.21988306
 
 **Study data and reproducibility materials**
 Open Science Framework: `10.17605/OSF.IO/35QF2`

@@ -1,6 +1,6 @@
 # Manuscript reproduction
 
-The revised release is designed so a third party can reproduce the corrected 59-compound, eight-structure expanded SWAN-MPO screen without manually calculating any SWAN domain score.
+This release enables third parties to reproduce the 59-compound, eight-structure SWAN-MPO screen without manually calculating any SWAN domain score.
 
 ## Inputs bundled with the release
 
@@ -8,10 +8,10 @@ The package contains:
 
 - the exact canonical 59-row full SwissADME export used by the frozen analysis;
 - the exact unchanged 59-row ProTox export used by the frozen analysis;
-- a 9,440-row five-column docking extract retaining every value from the corrected eight-structure ledger required for scoring, while omitting local filesystem paths and runtime-only fields;
+- a 9,440-row five-column docking extract containing the eight-structure docking values required for scoring, while omitting local filesystem paths and runtime-only fields;
 - the frozen 177-row panel-score validation extract;
 - the 472-row target-level binding validation extract;
-- the eight-structure redocking/calibration resource, excluding the misattributed 3V3N record.
+- the eight-structure redocking/calibration resource.
 
 Exact original-source and packaged-file SHA-256 values are recorded in `src/swan_mpo/resources/manuscript_source_manifest.json`.
 
@@ -31,7 +31,7 @@ The command recomputes:
 6. primary BestNode selection;
 7. the four-domain SWAN-MPO score and within-panel ranks.
 
-It then compares all 177 panel records and all 472 target-level records against the corrected reference outputs. A nonzero mismatch causes the command to report `FAIL` and exit nonzero.
+It then compares all 177 panel records and all 472 target-level records against the packaged reference outputs. A nonzero mismatch causes the command to report `FAIL` and exit nonzero.
 
 Expected Muricatacin regression:
 
