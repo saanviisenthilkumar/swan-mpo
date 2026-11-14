@@ -16,7 +16,7 @@ from .provenance import sha256_file, runtime_versions, portable_text
 from .vina_redocking import EXPECTED_VINA_VERSION, resolve_vina_executable, vina_version, run_vina_reference_redocking
 
 EXPECTED_LOCKED_SHA256 = "97799e91f23803de3b9a477aea3bbcfb061f1b1d9abebdecfdadcd1b537f4454"
-EXPECTED_PUBLISHED_CALIBRATION_SHA256 = "e7584f10c0f970bb54ddf39cfdacbb6cb061bc6a3d2bd795e2d5f119efc7287c"
+EXPECTED_PUBLISHED_CALIBRATION_SHA256 = "1c4d9b17a745792a38fd0b6a0fe3793730a991c3e621b0b5e10535297ea1f88e"
 
 EXPECTED_RUNTIME_PACKAGES = {
     "numpy": "2.3.5",
@@ -25,13 +25,13 @@ EXPECTED_RUNTIME_PACKAGES = {
 EXPECTED_PYTHON_MAJOR_MINOR = "3.13"
 
 EXPECTED_MANUSCRIPT_RESOURCE_SHA256 = {
-    "manuscript_source_manifest.json": "8e48007744de8ec50e7ba9941f4b71970161fea31034a8df231ed5502bb45561",
+    "manuscript_source_manifest.json": "10426308643c15cae692db29962834420641169f3f50ca0b8dcee7be5599c06d",
     "manuscript_swissadme_canonical_full.csv": "a1b6339695bba431239def8969d56244cecd978e195e5eaf2a3019ca21ec7ab1",
     "manuscript_swissadme_original_incomplete.csv": "a90b7c3cdee1d9b10257ccdf368dab6bedbe31520031113f6b1255b79deba7ca",
     "manuscript_protox_raw.csv": "4ef8ea376f89533ad3bd3afb9d810aab9c8fccc3f216179414d6de776b3f08ee",
-    "manuscript_candidate_docking.csv": "6172ccc65f3ffddf07ce835ab5b5f45803f1b708f36499f5e5260971ed47530b",
-    "manuscript_expected_panel_scores.csv": "cd94a21ed3bb9160220ef0d7c4897bba045c7c3eb6fd45ded717f209a073f8ca",
-    "manuscript_expected_target_level_binding.csv": "8148755f8085c0d17ca5abde608ef62fd2c8621545e9f03225ef994c29f00641",
+    "manuscript_candidate_docking.csv": "775fcd6cc9d5b8936ae78c2e278327396c88db52ccad165a2b5139287d986556",
+    "manuscript_expected_panel_scores.csv": "35fec0da1c2aca775e3f4efe7c5ef0b4fc31fb0de7e75d7c3aa2cb0b743cc5c1",
+    "manuscript_expected_target_level_binding.csv": "8f3cbff9ddc177152115ab723b0ded305d4eb9708aa57d17513ba69bf65cebe2",
 }
 
 
@@ -85,8 +85,8 @@ def run_manuscript_reproduction(*, tolerance=1e-10):
     The reproduction uses the exact canonical 59-row full SwissADME export
     (SHA-256 a1b6339695bba431239def8969d56244cecd978e195e5eaf2a3019ca21ec7ab1),
     the exact 59-row ProTox export, and the scoring-required columns copied row-for-row
-    from the canonical 10,620-row docking ledger. It checks all 177 panel rows and all
-    531 target-level binding rows against frozen canonical expected outputs.
+    from the corrected 9,440-row docking ledger. It checks all 177 panel rows and all
+    472 target-level binding rows against frozen corrected expected outputs.
     """
     resources = files("swan_mpo.resources")
     adme_rows, adme_fields = read_csv(resources / "manuscript_swissadme_canonical_full.csv")
@@ -231,7 +231,7 @@ def verify_installation(*, check_vina=False, vina_executable="vina", strict=Fals
         "published_calibration_classes": {
             "status": "PASS"
             if classes.count("strict_top_pose") == 4
-            and classes.count("generated_mode_recovery") == 2
+            and classes.count("generated_mode_recovery") == 1
             and classes.count("comparative_only") == 3
             else "FAIL",
             "strict_top_pose": classes.count("strict_top_pose"),

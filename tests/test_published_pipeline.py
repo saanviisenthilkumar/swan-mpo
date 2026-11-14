@@ -3,7 +3,7 @@ from swan_mpo.config import load_config
 from swan_mpo.pipeline import score_pipeline
 
 def test_full_published_pipeline_has_expected_calibrated_counts_and_excludes_comparative():
-    targets={'ComplexI':'5LNK','EGFR':'1IVO','mTOR':'4JSP','5AR2':'3V3N','AR':'2AMA','Bcl-2':'4LVT','AKT1':'3MVH','Caspase3':'1QX3','PI3Ka':'6OAC'}
+    targets={'ComplexI':'5LNK','EGFR':'1IVO','mTOR':'4JSP','AR':'2AMA','Bcl-2':'4LVT','AKT1':'3MVH','Caspase3':'1QX3','PI3Ka':'6OAC'}
     docking=[]
     for t,pdb in targets.items():
         # Make comparative-only targets absurdly favorable; they still cannot enter primary BestNode.
@@ -16,6 +16,6 @@ def test_full_published_pipeline_has_expected_calibrated_counts_and_excludes_com
     assert len(scores)==3
     by={x['panel']:x for x in scores}
     assert by['Colon']['n_calibrated_panel_targets']==1 and by['Colon']['selected_best_node']=='mTOR'
-    assert by['Prostate']['n_calibrated_panel_targets']==4 and by['Prostate']['selected_best_node'] in {'5AR2','AR','Bcl-2','mTOR'}
+    assert by['Prostate']['n_calibrated_panel_targets']==3 and by['Prostate']['selected_best_node'] in {'AR','Bcl-2','mTOR'}
     assert by['RCC']['n_calibrated_panel_targets']==4 and by['RCC']['selected_best_node'] in {'AKT1','Bcl-2','PI3Ka','mTOR'}
     assert all(x['selected_best_node'] not in {'ComplexI','EGFR','Caspase3'} for x in scores)

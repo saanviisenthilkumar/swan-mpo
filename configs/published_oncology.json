@@ -8,7 +8,6 @@
       "mTOR"
     ],
     "Prostate": [
-      "5AR2",
       "AR",
       "Bcl-2",
       "EGFR",
@@ -24,7 +23,6 @@
   },
   "pdb_ids": {
     "mTOR": "4JSP",
-    "5AR2": "3V3N",
     "AR": "2AMA",
     "Bcl-2": "4LVT",
     "PI3Ka": "6OAC",
@@ -39,7 +37,6 @@
     ],
     "Prostate": [
       "AR",
-      "5AR2",
       "mTOR",
       "Bcl-2"
     ],

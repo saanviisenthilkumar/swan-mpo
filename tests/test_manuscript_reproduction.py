@@ -36,8 +36,8 @@ def test_packaged_manuscript_reproduction_matches_all_177_rows():
     assert report['status']=='PASS', report['failures'][:5]
     assert report['rows_observed']==177
     assert report['rows_expected']==177
-    assert report['target_level_rows']==531
-    assert report['target_level_rows_expected']==531
+    assert report['target_level_rows']==472
+    assert report['target_level_rows_expected']==472
     mur={r['panel']:r for r in report['muricatacin']}
     assert mur['Colon']['rank']==1
     assert mur['Prostate']['rank']==2
@@ -52,17 +52,36 @@ def test_manuscript_packaged_resource_hashes_are_exact():
     import hashlib
     resources = files("swan_mpo.resources")
     expected = {
-        "manuscript_source_manifest.json": "8e48007744de8ec50e7ba9941f4b71970161fea31034a8df231ed5502bb45561",
+        "manuscript_source_manifest.json": "10426308643c15cae692db29962834420641169f3f50ca0b8dcee7be5599c06d",
         "manuscript_swissadme_canonical_full.csv": "a1b6339695bba431239def8969d56244cecd978e195e5eaf2a3019ca21ec7ab1",
         "manuscript_swissadme_original_incomplete.csv": "a90b7c3cdee1d9b10257ccdf368dab6bedbe31520031113f6b1255b79deba7ca",
         "manuscript_protox_raw.csv": "4ef8ea376f89533ad3bd3afb9d810aab9c8fccc3f216179414d6de776b3f08ee",
-        "manuscript_candidate_docking.csv": "6172ccc65f3ffddf07ce835ab5b5f45803f1b708f36499f5e5260971ed47530b",
-        "manuscript_expected_panel_scores.csv": "cd94a21ed3bb9160220ef0d7c4897bba045c7c3eb6fd45ded717f209a073f8ca",
-        "manuscript_expected_target_level_binding.csv": "8148755f8085c0d17ca5abde608ef62fd2c8621545e9f03225ef994c29f00641",
+        "manuscript_candidate_docking.csv": "775fcd6cc9d5b8936ae78c2e278327396c88db52ccad165a2b5139287d986556",
+        "manuscript_expected_panel_scores.csv": "35fec0da1c2aca775e3f4efe7c5ef0b4fc31fb0de7e75d7c3aa2cb0b743cc5c1",
+        "manuscript_expected_target_level_binding.csv": "8f3cbff9ddc177152115ab723b0ded305d4eb9708aa57d17513ba69bf65cebe2",
     }
     for name, digest in expected.items():
         data = (resources / name).read_bytes()
         assert hashlib.sha256(data).hexdigest() == digest, name
+
+
+def test_corrected_screen_contains_eight_unique_structures_and_no_3v3n():
+    from swan_mpo.io import read_csv
+
+    resources = files("swan_mpo.resources")
+    docking, _ = read_csv(resources / "manuscript_candidate_docking.csv")
+    targets, _ = read_csv(resources / "manuscript_expected_target_level_binding.csv")
+    panel, _ = read_csv(resources / "manuscript_expected_panel_scores.csv")
+    calibration = load_published_calibration()
+    assert len(docking) == 9440
+    assert len(targets) == 472
+    assert len(panel) == 177
+    assert len(calibration) == 8
+    assert len(set(row['pdb_id'] for row in targets)) == 8
+    assert all(row['pdb_id'].upper() != '3V3N' for row in docking + targets + calibration)
+    assert not any('5AR2' in values for values in PUBLISHED_ONCOLOGY['panels'].values())
+    selected = {(r['panel'], r['Compound']): r['selected_best_node'] for r in panel}
+    assert selected[('Prostate', 'Annomuricatin B')] == 'mTOR'
 
 
 def test_incomplete_swissadme_export_is_rejected_not_imputed():

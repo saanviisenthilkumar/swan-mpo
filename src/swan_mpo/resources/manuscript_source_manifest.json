@@ -1,5 +1,5 @@
 {
-  "purpose": "Exact scoring inputs and canonical expected outputs for one-command reproduction of the frozen 59-compound expanded SWAN-MPO screen.",
+  "purpose": "Verified eight-structure scoring inputs and expected outputs; excludes the misattributed 3V3N structure without substituting a new receptor.",
   "required_scoring_sources": [
     {
       "role": "canonical full SwissADME export used by frozen expanded analysis",
@@ -16,23 +16,23 @@
     },
     {
       "role": "canonical complete docking ledger",
-      "original_name": "Table_S3_expanded_annona_docking_deployment_PHASE3.csv",
-      "sha256": "3eff29c597802a7052a546cdc00012a3445c684fb7726513492ea923daa996c4",
-      "rows": 10620
+      "original_name": "Table_S3_expanded_annona_docking_deployment.csv",
+      "sha256": "987269cbcef84be063fa40aa9971e5219bcabc915122ec899139429d3ec0b256",
+      "rows": 9440
     }
   ],
   "canonical_validation_sources": [
     {
       "role": "canonical expanded panel scores",
-      "original_name": "canonical_expanded_panel_scores.csv",
-      "sha256": "750a5d0ef13ceeccb6def1fd1c9d148eb35a5cc3a7ddb3f4d59af92973286cb5",
+      "original_name": "Table_S8B_expanded_library_final_SWAN_scores.csv",
+      "sha256": "28fbd6167c15a03f65e02deb46e53889658fc92992cb817bdcd7228767bb13b9",
       "rows": 177
     },
     {
       "role": "canonical expanded target-level binding",
-      "original_name": "canonical_expanded_target_level_binding.csv",
-      "sha256": "b3084e76615c2937a9a4214d9061d803fd735d3d717e3a8a199618f67d8ead28",
-      "rows": 531
+      "original_name": "Table_S17D_expanded_target_level_ligand_efficiency.csv",
+      "sha256": "16707e45c6fc3851eae8203b43c8f5c7d060dee16442b8a1afc7379fe72b517b",
+      "rows": 472
     }
   ],
   "historical_provenance_only": [
@@ -42,6 +42,18 @@
       "sha256": "a90b7c3cdee1d9b10257ccdf368dab6bedbe31520031113f6b1255b79deba7ca",
       "rows": 59,
       "note": "Consensus Log P/iLOGP were blank. The canonical workflow explicitly required a new full SwissADME batch export and instructed not to calculate an available-model mean."
+    },
+    {
+      "role": "original nine-structure docking ledger (superseded)",
+      "original_name": "Table_S3_expanded_annona_docking_deployment_PHASE3.csv",
+      "sha256": "3eff29c597802a7052a546cdc00012a3445c684fb7726513492ea923daa996c4",
+      "rows": 10620
+    },
+    {
+      "role": "original nine-structure target-level table (superseded)",
+      "original_name": "canonical_expanded_target_level_binding.csv",
+      "sha256": "b3084e76615c2937a9a4214d9061d803fd735d3d717e3a8a199618f67d8ead28",
+      "rows": 531
     }
   ],
   "packaged_files": [
@@ -60,22 +72,31 @@
     },
     {
       "name": "manuscript_candidate_docking.csv",
-      "sha256": "6172ccc65f3ffddf07ce835ab5b5f45803f1b708f36499f5e5260971ed47530b",
-      "derivation": "Five scoring-required columns copied row-for-row from the canonical 10,620-row ledger; local path columns omitted."
+      "sha256": "775fcd6cc9d5b8936ae78c2e278327396c88db52ccad165a2b5139287d986556",
+      "derivation": "Five input columns preserved row-for-row, except 1,180 excluded 3V3N docking rows."
     },
     {
       "name": "manuscript_expected_panel_scores.csv",
-      "sha256": "cd94a21ed3bb9160220ef0d7c4897bba045c7c3eb6fd45ded717f209a073f8ca",
-      "derivation": "Key validation columns copied row-for-row from canonical 177-row panel scores."
+      "sha256": "35fec0da1c2aca775e3f4efe7c5ef0b4fc31fb0de7e75d7c3aa2cb0b743cc5c1",
+      "derivation": "Primary numeric scores/ranks preserved; Annomuricatin B BestNode identity updated to mTOR after 3V3N exclusion."
     },
     {
       "name": "manuscript_expected_target_level_binding.csv",
-      "sha256": "8148755f8085c0d17ca5abde608ef62fd2c8621545e9f03225ef994c29f00641",
-      "derivation": "Scoring-relevant validation columns copied row-for-row from canonical 531-row target-level table; local-path provenance field omitted."
+      "sha256": "8f3cbff9ddc177152115ab723b0ded305d4eb9708aa57d17513ba69bf65cebe2",
+      "derivation": "Original validation columns preserved for all 472 surviving compound/structure blocks; independently compared against corrected Table S17D."
     }
   ],
   "canonical_input_manifest_evidence": {
     "sha256": "f16fe4218a85fdf7443dd1b8ed7df2882577d642436c827a97b0458eb67b4fa4",
     "canonical_swissadme_sha256": "a1b6339695bba431239def8969d56244cecd978e195e5eaf2a3019ca21ec7ab1"
+  },
+  "revision_note": {
+    "excluded_structure": "3V3N",
+    "reason": "Structure is bacterial TetX2, not human SRD5A2.",
+    "no_replacement_receptor": true,
+    "expanded_docking_jobs": 9440,
+    "expanded_target_blocks": 472,
+    "expanded_panel_scores": 177,
+    "source_archive_sha256": "1904978856fa232f46f2c3fcbf45a9c17ff7db58507f188faab390ab5c3b547a"
   }
 }
