@@ -189,7 +189,7 @@ Key documentation and analysis packages include:
 
 ## Citation
 
-**Current software:** *SWAN-MPO v1.3.3*. See `CITATION.cff` for citation metadata. The version-specific archival DOI will be added after the v1.3.3 Zenodo record is available.
+**Current software:** Senthilkumar S. *SWAN-MPO v1.3.3* [Computer software]. DOI: https://doi.org/10.5281/zenodo.24260544
 
 **Previous archived version:** Senthilkumar S. *SWAN-MPO v1.3.2* [Computer software]. DOI: https://doi.org/10.5281/zenodo.21988306
 
