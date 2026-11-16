@@ -189,9 +189,9 @@ Key documentation and analysis packages include:
 
 ## Citation
 
-**Most recently archived software:** Senthilkumar S. *SWAN-MPO v1.3.3* [Computer software]. DOI: https://doi.org/10.5281/zenodo.24260544
+**Most recently archived software:** Senthilkumar S. *SWAN-MPO v1.3.4* [Computer software]. DOI: https://doi.org/10.5281/zenodo.24268048
 
-**Previous archived version:** Senthilkumar S. *SWAN-MPO v1.3.2* [Computer software]. DOI: https://doi.org/10.5281/zenodo.21988306
+**Previous archived version:** Senthilkumar S. *SWAN-MPO v1.3.3* [Computer software]. DOI: https://doi.org/10.5281/zenodo.24260544
 
 **Study data and reproducibility materials**
 Open Science Framework: `10.17605/OSF.IO/35QF2`
