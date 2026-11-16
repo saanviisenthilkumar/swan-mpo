@@ -1,14 +1,14 @@
 compound_name,target,pdb_id,grid_id,best_affinity_kcal_mol
-Annocatalin,EGFR,1IVO,1,0.005135
-Annocatalin,EGFR,1IVO,2,0.03491
-Annocatalin,EGFR,1IVO,3,0.01659
-Annocatalin,EGFR,1IVO,4,0.004717
-Annocatalin,EGFR,1IVO,5,0.02829
-Annocatalin,EGFR,1IVO,6,0.1143
+Annocatalin,EGFR,1IVO,1,0.0
+Annocatalin,EGFR,1IVO,2,0.0
+Annocatalin,EGFR,1IVO,3,0.0
+Annocatalin,EGFR,1IVO,4,0.0
+Annocatalin,EGFR,1IVO,5,0.0
+Annocatalin,EGFR,1IVO,6,0.0
 Annocatalin,EGFR,1IVO,7,-1.014
-Annocatalin,EGFR,1IVO,8,0.02953
+Annocatalin,EGFR,1IVO,8,0.0
 Annocatalin,EGFR,1IVO,9,-3.527
-Annocatalin,EGFR,1IVO,10,0.09086
+Annocatalin,EGFR,1IVO,10,0.0
 Annocatalin,EGFR,1IVO,11,-2.354
 Annocatalin,EGFR,1IVO,12,-3.262
 Annocatalin,EGFR,1IVO,13,-0.7211
@@ -27,16 +27,16 @@ Annocatalin,Caspase-3,1QX3,5,-0.749
 Annocatalin,Caspase-3,1QX3,6,-2.857
 Annocatalin,Caspase-3,1QX3,7,-3.622
 Annocatalin,Caspase-3,1QX3,8,-3.868
-Annocatalin,Caspase-3,1QX3,9,0.001561
-Annocatalin,Caspase-3,1QX3,10,0.01764
+Annocatalin,Caspase-3,1QX3,9,0.0
+Annocatalin,Caspase-3,1QX3,10,0.0
 Annocatalin,Caspase-3,1QX3,11,-2.961
 Annocatalin,Caspase-3,1QX3,12,-4.719
 Annocatalin,Caspase-3,1QX3,13,-4.2
-Annocatalin,Caspase-3,1QX3,14,0.02707
-Annocatalin,Caspase-3,1QX3,15,0.05473
+Annocatalin,Caspase-3,1QX3,14,0.0
+Annocatalin,Caspase-3,1QX3,15,0.0
 Annocatalin,Caspase-3,1QX3,16,-4.238
 Annocatalin,Caspase-3,1QX3,17,-4.237
-Annocatalin,Caspase-3,1QX3,18,0.004259
+Annocatalin,Caspase-3,1QX3,18,0.0
 Annocatalin,Caspase-3,1QX3,19,-2.045
 Annocatalin,Caspase-3,1QX3,20,-3.709
 Annocatalin,AR,2AMA,1,-1.421
@@ -159,17 +159,17 @@ Annocatalin,PI3Kα,6OAC,17,-5.847
 Annocatalin,PI3Kα,6OAC,18,-5.582
 Annocatalin,PI3Kα,6OAC,19,-5.941
 Annocatalin,PI3Kα,6OAC,20,-6.165
-Annomontacin,EGFR,1IVO,1,0.05154
-Annomontacin,EGFR,1IVO,2,0.02079
-Annomontacin,EGFR,1IVO,3,0.01262
-Annomontacin,EGFR,1IVO,4,0.01034
-Annomontacin,EGFR,1IVO,5,0.0007499
-Annomontacin,EGFR,1IVO,6,0.04071
+Annomontacin,EGFR,1IVO,1,0.0
+Annomontacin,EGFR,1IVO,2,0.0
+Annomontacin,EGFR,1IVO,3,0.0
+Annomontacin,EGFR,1IVO,4,0.0
+Annomontacin,EGFR,1IVO,5,0.0
+Annomontacin,EGFR,1IVO,6,0.0
 Annomontacin,EGFR,1IVO,7,-0.698
-Annomontacin,EGFR,1IVO,8,0.01107
+Annomontacin,EGFR,1IVO,8,0.0
 Annomontacin,EGFR,1IVO,9,-3.457
-Annomontacin,EGFR,1IVO,10,0.1037
-Annomontacin,EGFR,1IVO,11,-1.971
+Annomontacin,EGFR,1IVO,10,0.0
+Annomontacin,EGFR,1IVO,11,-2.0
 Annomontacin,EGFR,1IVO,12,-3.241
 Annomontacin,EGFR,1IVO,13,-0.4427
 Annomontacin,EGFR,1IVO,14,-5.669
@@ -183,20 +183,20 @@ Annomontacin,Caspase-3,1QX3,1,-0.6738
 Annomontacin,Caspase-3,1QX3,2,-0.7444
 Annomontacin,Caspase-3,1QX3,3,-2.956
 Annomontacin,Caspase-3,1QX3,4,-4.098
-Annomontacin,Caspase-3,1QX3,5,0.01
+Annomontacin,Caspase-3,1QX3,5,0.0
 Annomontacin,Caspase-3,1QX3,6,-2.894
 Annomontacin,Caspase-3,1QX3,7,-4.257
 Annomontacin,Caspase-3,1QX3,8,-3.991
-Annomontacin,Caspase-3,1QX3,9,0.0315
-Annomontacin,Caspase-3,1QX3,10,0.0424
+Annomontacin,Caspase-3,1QX3,9,0.0
+Annomontacin,Caspase-3,1QX3,10,0.0
 Annomontacin,Caspase-3,1QX3,11,-3.243
 Annomontacin,Caspase-3,1QX3,12,-4.401
 Annomontacin,Caspase-3,1QX3,13,-4.2
-Annomontacin,Caspase-3,1QX3,14,0.09398
-Annomontacin,Caspase-3,1QX3,15,0.05106
+Annomontacin,Caspase-3,1QX3,14,0.0
+Annomontacin,Caspase-3,1QX3,15,0.0
 Annomontacin,Caspase-3,1QX3,16,-3.673
 Annomontacin,Caspase-3,1QX3,17,-3.969
-Annomontacin,Caspase-3,1QX3,18,0.09616
+Annomontacin,Caspase-3,1QX3,18,0.0
 Annomontacin,Caspase-3,1QX3,19,-2.263
 Annomontacin,Caspase-3,1QX3,20,-3.454
 Annomontacin,AR,2AMA,1,-1.597
@@ -319,16 +319,16 @@ Annomontacin,PI3Kα,6OAC,17,-5.539
 Annomontacin,PI3Kα,6OAC,18,-6.364
 Annomontacin,PI3Kα,6OAC,19,-5.546
 Annomontacin,PI3Kα,6OAC,20,-6.255
-Annomuricatin A,EGFR,1IVO,1,0.0001539
-Annomuricatin A,EGFR,1IVO,2,0.0002329
-Annomuricatin A,EGFR,1IVO,3,0.0006379
+Annomuricatin A,EGFR,1IVO,1,0.0
+Annomuricatin A,EGFR,1IVO,2,0.0
+Annomuricatin A,EGFR,1IVO,3,0.0
 Annomuricatin A,EGFR,1IVO,4,-0.9256
-Annomuricatin A,EGFR,1IVO,5,0.0002493
-Annomuricatin A,EGFR,1IVO,6,0.0001752
+Annomuricatin A,EGFR,1IVO,5,0.0
+Annomuricatin A,EGFR,1IVO,6,0.0
 Annomuricatin A,EGFR,1IVO,7,-1.585
-Annomuricatin A,EGFR,1IVO,8,0.0001188
+Annomuricatin A,EGFR,1IVO,8,0.0
 Annomuricatin A,EGFR,1IVO,9,-5.835
-Annomuricatin A,EGFR,1IVO,10,0.0001078
+Annomuricatin A,EGFR,1IVO,10,0.0
 Annomuricatin A,EGFR,1IVO,11,-3.204
 Annomuricatin A,EGFR,1IVO,12,-5.338
 Annomuricatin A,EGFR,1IVO,13,-0.785
@@ -347,7 +347,7 @@ Annomuricatin A,Caspase-3,1QX3,5,-1.298
 Annomuricatin A,Caspase-3,1QX3,6,-4.773
 Annomuricatin A,Caspase-3,1QX3,7,-5.236
 Annomuricatin A,Caspase-3,1QX3,8,-7.583
-Annomuricatin A,Caspase-3,1QX3,9,0.0002675
+Annomuricatin A,Caspase-3,1QX3,9,0.0
 Annomuricatin A,Caspase-3,1QX3,10,-1.242
 Annomuricatin A,Caspase-3,1QX3,11,-4.771
 Annomuricatin A,Caspase-3,1QX3,12,-5.258
@@ -479,16 +479,16 @@ Annomuricatin A,PI3Kα,6OAC,17,-8.191
 Annomuricatin A,PI3Kα,6OAC,18,-8.215
 Annomuricatin A,PI3Kα,6OAC,19,-8.474
 Annomuricatin A,PI3Kα,6OAC,20,-8.162
-Annomuricatin B,EGFR,1IVO,1,0.0007482
-Annomuricatin B,EGFR,1IVO,2,0.0008805
-Annomuricatin B,EGFR,1IVO,3,0.0007521
+Annomuricatin B,EGFR,1IVO,1,0.0
+Annomuricatin B,EGFR,1IVO,2,0.0
+Annomuricatin B,EGFR,1IVO,3,0.0
 Annomuricatin B,EGFR,1IVO,4,-0.8535
-Annomuricatin B,EGFR,1IVO,5,0.000411
-Annomuricatin B,EGFR,1IVO,6,0.0008702
+Annomuricatin B,EGFR,1IVO,5,0.0
+Annomuricatin B,EGFR,1IVO,6,0.0
 Annomuricatin B,EGFR,1IVO,7,-1.67
-Annomuricatin B,EGFR,1IVO,8,0.0001005
+Annomuricatin B,EGFR,1IVO,8,0.0
 Annomuricatin B,EGFR,1IVO,9,-6.303
-Annomuricatin B,EGFR,1IVO,10,0.0006441
+Annomuricatin B,EGFR,1IVO,10,0.0
 Annomuricatin B,EGFR,1IVO,11,-3.595
 Annomuricatin B,EGFR,1IVO,12,-6.008
 Annomuricatin B,EGFR,1IVO,13,-1.021
@@ -507,7 +507,7 @@ Annomuricatin B,Caspase-3,1QX3,5,-1.25
 Annomuricatin B,Caspase-3,1QX3,6,-5.545
 Annomuricatin B,Caspase-3,1QX3,7,-6.436
 Annomuricatin B,Caspase-3,1QX3,8,-7.669
-Annomuricatin B,Caspase-3,1QX3,9,0.0009296
+Annomuricatin B,Caspase-3,1QX3,9,0.0
 Annomuricatin B,Caspase-3,1QX3,10,-1.041
 Annomuricatin B,Caspase-3,1QX3,11,-5.838
 Annomuricatin B,Caspase-3,1QX3,12,-6.45
@@ -623,7 +623,7 @@ Annomuricatin B,PI3Kα,6OAC,1,-9.527
 Annomuricatin B,PI3Kα,6OAC,2,-9.911
 Annomuricatin B,PI3Kα,6OAC,3,-10.06
 Annomuricatin B,PI3Kα,6OAC,4,-8.574
-Annomuricatin B,PI3Kα,6OAC,5,-9.887
+Annomuricatin B,PI3Kα,6OAC,5,-11.0
 Annomuricatin B,PI3Kα,6OAC,6,-10.09
 Annomuricatin B,PI3Kα,6OAC,7,-8.58
 Annomuricatin B,PI3Kα,6OAC,8,-9.471
@@ -639,16 +639,16 @@ Annomuricatin B,PI3Kα,6OAC,17,-9.862
 Annomuricatin B,PI3Kα,6OAC,18,-9.132
 Annomuricatin B,PI3Kα,6OAC,19,-8.916
 Annomuricatin B,PI3Kα,6OAC,20,-9.164
-Annomuricin A,EGFR,1IVO,1,0.06657
-Annomuricin A,EGFR,1IVO,2,0.06288
-Annomuricin A,EGFR,1IVO,3,0.04539
-Annomuricin A,EGFR,1IVO,4,0.007773
-Annomuricin A,EGFR,1IVO,5,0.08638
-Annomuricin A,EGFR,1IVO,6,0.06981
+Annomuricin A,EGFR,1IVO,1,0.0
+Annomuricin A,EGFR,1IVO,2,0.0
+Annomuricin A,EGFR,1IVO,3,0.0
+Annomuricin A,EGFR,1IVO,4,0.0
+Annomuricin A,EGFR,1IVO,5,0.0
+Annomuricin A,EGFR,1IVO,6,0.0
 Annomuricin A,EGFR,1IVO,7,-0.7017
-Annomuricin A,EGFR,1IVO,8,0.06787
+Annomuricin A,EGFR,1IVO,8,0.0
 Annomuricin A,EGFR,1IVO,9,-3.955
-Annomuricin A,EGFR,1IVO,10,0.1003
+Annomuricin A,EGFR,1IVO,10,0.0
 Annomuricin A,EGFR,1IVO,11,-2.247
 Annomuricin A,EGFR,1IVO,12,-3.597
 Annomuricin A,EGFR,1IVO,13,-0.6232
@@ -667,16 +667,16 @@ Annomuricin A,Caspase-3,1QX3,5,-0.6828
 Annomuricin A,Caspase-3,1QX3,6,-3.71
 Annomuricin A,Caspase-3,1QX3,7,-4.451
 Annomuricin A,Caspase-3,1QX3,8,-4.678
-Annomuricin A,Caspase-3,1QX3,9,0.04145
-Annomuricin A,Caspase-3,1QX3,10,0.03745
+Annomuricin A,Caspase-3,1QX3,9,0.0
+Annomuricin A,Caspase-3,1QX3,10,0.0
 Annomuricin A,Caspase-3,1QX3,11,-3.183
 Annomuricin A,Caspase-3,1QX3,12,-4.781
 Annomuricin A,Caspase-3,1QX3,13,-4.544
-Annomuricin A,Caspase-3,1QX3,14,0.05439
-Annomuricin A,Caspase-3,1QX3,15,0.03828
+Annomuricin A,Caspase-3,1QX3,14,0.0
+Annomuricin A,Caspase-3,1QX3,15,0.0
 Annomuricin A,Caspase-3,1QX3,16,-4.371
 Annomuricin A,Caspase-3,1QX3,17,-4.371
-Annomuricin A,Caspase-3,1QX3,18,0.07943
+Annomuricin A,Caspase-3,1QX3,18,0.0
 Annomuricin A,Caspase-3,1QX3,19,-1.497
 Annomuricin A,Caspase-3,1QX3,20,-4.16
 Annomuricin A,AR,2AMA,1,-1.171
@@ -799,16 +799,16 @@ Annomuricin A,PI3Kα,6OAC,17,-6.412
 Annomuricin A,PI3Kα,6OAC,18,-6.068
 Annomuricin A,PI3Kα,6OAC,19,-6.315
 Annomuricin A,PI3Kα,6OAC,20,-6.224
-Annomuricin B,EGFR,1IVO,1,0.0242
-Annomuricin B,EGFR,1IVO,2,0.03905
-Annomuricin B,EGFR,1IVO,3,0.05675
-Annomuricin B,EGFR,1IVO,4,0.08842
-Annomuricin B,EGFR,1IVO,5,0.04237
-Annomuricin B,EGFR,1IVO,6,0.1383
+Annomuricin B,EGFR,1IVO,1,0.0
+Annomuricin B,EGFR,1IVO,2,0.0
+Annomuricin B,EGFR,1IVO,3,0.0
+Annomuricin B,EGFR,1IVO,4,0.0
+Annomuricin B,EGFR,1IVO,5,0.0
+Annomuricin B,EGFR,1IVO,6,0.0
 Annomuricin B,EGFR,1IVO,7,-0.7559
-Annomuricin B,EGFR,1IVO,8,0.02666
+Annomuricin B,EGFR,1IVO,8,0.0
 Annomuricin B,EGFR,1IVO,9,-3.764
-Annomuricin B,EGFR,1IVO,10,0.01178
+Annomuricin B,EGFR,1IVO,10,0.0
 Annomuricin B,EGFR,1IVO,11,-2.784
 Annomuricin B,EGFR,1IVO,12,-3.484
 Annomuricin B,EGFR,1IVO,13,-0.4744
@@ -823,17 +823,17 @@ Annomuricin B,Caspase-3,1QX3,1,-0.7534
 Annomuricin B,Caspase-3,1QX3,2,-0.5458
 Annomuricin B,Caspase-3,1QX3,3,-3.576
 Annomuricin B,Caspase-3,1QX3,4,-4.093
-Annomuricin B,Caspase-3,1QX3,5,0.01801
+Annomuricin B,Caspase-3,1QX3,5,0.0
 Annomuricin B,Caspase-3,1QX3,6,-3.388
 Annomuricin B,Caspase-3,1QX3,7,-4.319
 Annomuricin B,Caspase-3,1QX3,8,-4.711
-Annomuricin B,Caspase-3,1QX3,9,0.04419
-Annomuricin B,Caspase-3,1QX3,10,0.04335
+Annomuricin B,Caspase-3,1QX3,9,0.0
+Annomuricin B,Caspase-3,1QX3,10,0.0
 Annomuricin B,Caspase-3,1QX3,11,-2.871
 Annomuricin B,Caspase-3,1QX3,12,-4.245
 Annomuricin B,Caspase-3,1QX3,13,-4.268
-Annomuricin B,Caspase-3,1QX3,14,0.07312
-Annomuricin B,Caspase-3,1QX3,15,0.01313
+Annomuricin B,Caspase-3,1QX3,14,0.0
+Annomuricin B,Caspase-3,1QX3,15,0.0
 Annomuricin B,Caspase-3,1QX3,16,-4.141
 Annomuricin B,Caspase-3,1QX3,17,-3.806
 Annomuricin B,Caspase-3,1QX3,18,-0.1426
@@ -959,19 +959,19 @@ Annomuricin B,PI3Kα,6OAC,17,-6.379
 Annomuricin B,PI3Kα,6OAC,18,-5.646
 Annomuricin B,PI3Kα,6OAC,19,-6.303
 Annomuricin B,PI3Kα,6OAC,20,-5.899
-Annomuricin C,EGFR,1IVO,1,0.002703
-Annomuricin C,EGFR,1IVO,2,0.06655
-Annomuricin C,EGFR,1IVO,3,0.1811
-Annomuricin C,EGFR,1IVO,4,0.07732
-Annomuricin C,EGFR,1IVO,5,0.1519
-Annomuricin C,EGFR,1IVO,6,0.05968
+Annomuricin C,EGFR,1IVO,1,0.0
+Annomuricin C,EGFR,1IVO,2,0.0
+Annomuricin C,EGFR,1IVO,3,0.0
+Annomuricin C,EGFR,1IVO,4,0.0
+Annomuricin C,EGFR,1IVO,5,0.0
+Annomuricin C,EGFR,1IVO,6,0.0
 Annomuricin C,EGFR,1IVO,7,-0.9205
-Annomuricin C,EGFR,1IVO,8,0.022
+Annomuricin C,EGFR,1IVO,8,0.0
 Annomuricin C,EGFR,1IVO,9,-4.051
-Annomuricin C,EGFR,1IVO,10,0.02769
+Annomuricin C,EGFR,1IVO,10,0.0
 Annomuricin C,EGFR,1IVO,11,-2.438
 Annomuricin C,EGFR,1IVO,12,-3.078
-Annomuricin C,EGFR,1IVO,13,0.03676
+Annomuricin C,EGFR,1IVO,13,0.0
 Annomuricin C,EGFR,1IVO,14,-4.651
 Annomuricin C,EGFR,1IVO,15,-5.621
 Annomuricin C,EGFR,1IVO,16,-3.553
@@ -983,20 +983,20 @@ Annomuricin C,Caspase-3,1QX3,1,-0.5393
 Annomuricin C,Caspase-3,1QX3,2,-0.5512
 Annomuricin C,Caspase-3,1QX3,3,-2.579
 Annomuricin C,Caspase-3,1QX3,4,-3.922
-Annomuricin C,Caspase-3,1QX3,5,0.02563
+Annomuricin C,Caspase-3,1QX3,5,0.0
 Annomuricin C,Caspase-3,1QX3,6,-3.042
 Annomuricin C,Caspase-3,1QX3,7,-4.618
 Annomuricin C,Caspase-3,1QX3,8,-3.856
-Annomuricin C,Caspase-3,1QX3,9,0.03188
-Annomuricin C,Caspase-3,1QX3,10,0.0226
+Annomuricin C,Caspase-3,1QX3,9,0.0
+Annomuricin C,Caspase-3,1QX3,10,0.0
 Annomuricin C,Caspase-3,1QX3,11,-2.883
 Annomuricin C,Caspase-3,1QX3,12,-4.859
 Annomuricin C,Caspase-3,1QX3,13,-4.498
-Annomuricin C,Caspase-3,1QX3,14,0.04672
-Annomuricin C,Caspase-3,1QX3,15,0.01402
+Annomuricin C,Caspase-3,1QX3,14,0.0
+Annomuricin C,Caspase-3,1QX3,15,0.0
 Annomuricin C,Caspase-3,1QX3,16,-4.494
 Annomuricin C,Caspase-3,1QX3,17,-3.939
-Annomuricin C,Caspase-3,1QX3,18,0.01791
+Annomuricin C,Caspase-3,1QX3,18,0.0
 Annomuricin C,Caspase-3,1QX3,19,-1.624
 Annomuricin C,Caspase-3,1QX3,20,-3.963
 Annomuricin C,AR,2AMA,1,-1.498
@@ -1117,21 +1117,21 @@ Annomuricin C,PI3Kα,6OAC,15,-6.528
 Annomuricin C,PI3Kα,6OAC,16,-5.884
 Annomuricin C,PI3Kα,6OAC,17,-6.31
 Annomuricin C,PI3Kα,6OAC,18,-6.433
-Annomuricin C,PI3Kα,6OAC,19,-5.794
+Annomuricin C,PI3Kα,6OAC,19,-6.0
 Annomuricin C,PI3Kα,6OAC,20,-6.687
-Annomuricin D,EGFR,1IVO,1,0.02935
-Annomuricin D,EGFR,1IVO,2,0.01873
-Annomuricin D,EGFR,1IVO,3,0.03429
-Annomuricin D,EGFR,1IVO,4,0.068
-Annomuricin D,EGFR,1IVO,5,0.1392
-Annomuricin D,EGFR,1IVO,6,0.01645
+Annomuricin D,EGFR,1IVO,1,0.0
+Annomuricin D,EGFR,1IVO,2,0.0
+Annomuricin D,EGFR,1IVO,3,0.0
+Annomuricin D,EGFR,1IVO,4,0.0
+Annomuricin D,EGFR,1IVO,5,0.0
+Annomuricin D,EGFR,1IVO,6,0.0
 Annomuricin D,EGFR,1IVO,7,-0.4663
-Annomuricin D,EGFR,1IVO,8,0.01723
+Annomuricin D,EGFR,1IVO,8,0.0
 Annomuricin D,EGFR,1IVO,9,-4.329
-Annomuricin D,EGFR,1IVO,10,0.04754
+Annomuricin D,EGFR,1IVO,10,0.0
 Annomuricin D,EGFR,1IVO,11,-2.456
 Annomuricin D,EGFR,1IVO,12,-3.025
-Annomuricin D,EGFR,1IVO,13,0.03922
+Annomuricin D,EGFR,1IVO,13,0.0
 Annomuricin D,EGFR,1IVO,14,-5.257
 Annomuricin D,EGFR,1IVO,15,-5.888
 Annomuricin D,EGFR,1IVO,16,-3.665
@@ -1147,16 +1147,16 @@ Annomuricin D,Caspase-3,1QX3,5,-0.5434
 Annomuricin D,Caspase-3,1QX3,6,-3.614
 Annomuricin D,Caspase-3,1QX3,7,-4.169
 Annomuricin D,Caspase-3,1QX3,8,-4.707
-Annomuricin D,Caspase-3,1QX3,9,0.009853
-Annomuricin D,Caspase-3,1QX3,10,0.006317
+Annomuricin D,Caspase-3,1QX3,9,0.0
+Annomuricin D,Caspase-3,1QX3,10,0.0
 Annomuricin D,Caspase-3,1QX3,11,-2.946
 Annomuricin D,Caspase-3,1QX3,12,-4.561
 Annomuricin D,Caspase-3,1QX3,13,-4.319
-Annomuricin D,Caspase-3,1QX3,14,0.1845
-Annomuricin D,Caspase-3,1QX3,15,0.0125
+Annomuricin D,Caspase-3,1QX3,14,0.0
+Annomuricin D,Caspase-3,1QX3,15,0.0
 Annomuricin D,Caspase-3,1QX3,16,-3.851
 Annomuricin D,Caspase-3,1QX3,17,-4.358
-Annomuricin D,Caspase-3,1QX3,18,0.1958
+Annomuricin D,Caspase-3,1QX3,18,0.0
 Annomuricin D,Caspase-3,1QX3,19,-1.588
 Annomuricin D,Caspase-3,1QX3,20,-4.006
 Annomuricin D,AR,2AMA,1,-1.336
@@ -1279,16 +1279,16 @@ Annomuricin D,PI3Kα,6OAC,17,-6.462
 Annomuricin D,PI3Kα,6OAC,18,-5.921
 Annomuricin D,PI3Kα,6OAC,19,-5.896
 Annomuricin D,PI3Kα,6OAC,20,-6.056
-Annomuricin E,EGFR,1IVO,1,0.06788
-Annomuricin E,EGFR,1IVO,2,0.02991
-Annomuricin E,EGFR,1IVO,3,0.001573
-Annomuricin E,EGFR,1IVO,4,0.02406
-Annomuricin E,EGFR,1IVO,5,0.002424
-Annomuricin E,EGFR,1IVO,6,0.04514
+Annomuricin E,EGFR,1IVO,1,0.0
+Annomuricin E,EGFR,1IVO,2,0.0
+Annomuricin E,EGFR,1IVO,3,0.0
+Annomuricin E,EGFR,1IVO,4,0.0
+Annomuricin E,EGFR,1IVO,5,0.0
+Annomuricin E,EGFR,1IVO,6,0.0
 Annomuricin E,EGFR,1IVO,7,-0.9543
-Annomuricin E,EGFR,1IVO,8,0.0006637
+Annomuricin E,EGFR,1IVO,8,0.0
 Annomuricin E,EGFR,1IVO,9,-3.342
-Annomuricin E,EGFR,1IVO,10,0.01599
+Annomuricin E,EGFR,1IVO,10,0.0
 Annomuricin E,EGFR,1IVO,11,-2.57
 Annomuricin E,EGFR,1IVO,12,-2.952
 Annomuricin E,EGFR,1IVO,13,-0.3961
@@ -1303,20 +1303,20 @@ Annomuricin E,Caspase-3,1QX3,1,-0.7187
 Annomuricin E,Caspase-3,1QX3,2,-0.8592
 Annomuricin E,Caspase-3,1QX3,3,-3.418
 Annomuricin E,Caspase-3,1QX3,4,-4.208
-Annomuricin E,Caspase-3,1QX3,5,0.06258
+Annomuricin E,Caspase-3,1QX3,5,0.0
 Annomuricin E,Caspase-3,1QX3,6,-3.471
 Annomuricin E,Caspase-3,1QX3,7,-4.417
 Annomuricin E,Caspase-3,1QX3,8,-4.086
-Annomuricin E,Caspase-3,1QX3,9,0.1651
-Annomuricin E,Caspase-3,1QX3,10,0.1224
+Annomuricin E,Caspase-3,1QX3,9,0.0
+Annomuricin E,Caspase-3,1QX3,10,0.0
 Annomuricin E,Caspase-3,1QX3,11,-3.717
 Annomuricin E,Caspase-3,1QX3,12,-4.452
 Annomuricin E,Caspase-3,1QX3,13,-4.347
-Annomuricin E,Caspase-3,1QX3,14,0.02805
-Annomuricin E,Caspase-3,1QX3,15,0.0304
+Annomuricin E,Caspase-3,1QX3,14,0.0
+Annomuricin E,Caspase-3,1QX3,15,0.0
 Annomuricin E,Caspase-3,1QX3,16,-4.476
 Annomuricin E,Caspase-3,1QX3,17,-3.923
-Annomuricin E,Caspase-3,1QX3,18,0.01298
+Annomuricin E,Caspase-3,1QX3,18,0.0
 Annomuricin E,Caspase-3,1QX3,19,-2.065
 Annomuricin E,Caspase-3,1QX3,20,-3.028
 Annomuricin E,AR,2AMA,1,-1.562
@@ -1439,19 +1439,19 @@ Annomuricin E,PI3Kα,6OAC,17,-5.425
 Annomuricin E,PI3Kα,6OAC,18,-6.4
 Annomuricin E,PI3Kα,6OAC,19,-5.98
 Annomuricin E,PI3Kα,6OAC,20,-5.557
-Annomutacin,EGFR,1IVO,1,0.003028
-Annomutacin,EGFR,1IVO,2,0.02381
-Annomutacin,EGFR,1IVO,3,0.05651
-Annomutacin,EGFR,1IVO,4,0.0818
-Annomutacin,EGFR,1IVO,5,0.004754
-Annomutacin,EGFR,1IVO,6,0.03143
+Annomutacin,EGFR,1IVO,1,0.0
+Annomutacin,EGFR,1IVO,2,0.0
+Annomutacin,EGFR,1IVO,3,0.0
+Annomutacin,EGFR,1IVO,4,0.0
+Annomutacin,EGFR,1IVO,5,0.0
+Annomutacin,EGFR,1IVO,6,0.0
 Annomutacin,EGFR,1IVO,7,-0.6897
-Annomutacin,EGFR,1IVO,8,0.005592
+Annomutacin,EGFR,1IVO,8,0.0
 Annomutacin,EGFR,1IVO,9,-3.599
-Annomutacin,EGFR,1IVO,10,0.06521
+Annomutacin,EGFR,1IVO,10,0.0
 Annomutacin,EGFR,1IVO,11,-2.209
 Annomutacin,EGFR,1IVO,12,-3.977
-Annomutacin,EGFR,1IVO,13,0.009726
+Annomutacin,EGFR,1IVO,13,0.0
 Annomutacin,EGFR,1IVO,14,-5.258
 Annomutacin,EGFR,1IVO,15,-5.4
 Annomutacin,EGFR,1IVO,16,-3.25
@@ -1467,16 +1467,16 @@ Annomutacin,Caspase-3,1QX3,5,-0.5776
 Annomutacin,Caspase-3,1QX3,6,-3.267
 Annomutacin,Caspase-3,1QX3,7,-4.608
 Annomutacin,Caspase-3,1QX3,8,-4.303
-Annomutacin,Caspase-3,1QX3,9,0.007429
-Annomutacin,Caspase-3,1QX3,10,0.008042
+Annomutacin,Caspase-3,1QX3,9,0.0
+Annomutacin,Caspase-3,1QX3,10,0.0
 Annomutacin,Caspase-3,1QX3,11,-3.165
 Annomutacin,Caspase-3,1QX3,12,-4.345
 Annomutacin,Caspase-3,1QX3,13,-3.812
-Annomutacin,Caspase-3,1QX3,14,0.002619
-Annomutacin,Caspase-3,1QX3,15,0.01876
+Annomutacin,Caspase-3,1QX3,14,0.0
+Annomutacin,Caspase-3,1QX3,15,0.0
 Annomutacin,Caspase-3,1QX3,16,-4.4
 Annomutacin,Caspase-3,1QX3,17,-3.982
-Annomutacin,Caspase-3,1QX3,18,0.05203
+Annomutacin,Caspase-3,1QX3,18,0.0
 Annomutacin,Caspase-3,1QX3,19,-1.545
 Annomutacin,Caspase-3,1QX3,20,-4.021
 Annomutacin,AR,2AMA,1,-1.43
@@ -1599,16 +1599,16 @@ Annomutacin,PI3Kα,6OAC,17,-5.59
 Annomutacin,PI3Kα,6OAC,18,-5.643
 Annomutacin,PI3Kα,6OAC,19,-5.644
 Annomutacin,PI3Kα,6OAC,20,-5.831
-Annonacin,EGFR,1IVO,1,0.065
-Annonacin,EGFR,1IVO,2,0.07198
-Annonacin,EGFR,1IVO,3,0.03327
+Annonacin,EGFR,1IVO,1,0.0
+Annonacin,EGFR,1IVO,2,0.0
+Annonacin,EGFR,1IVO,3,0.0
 Annonacin,EGFR,1IVO,4,-0.5086
-Annonacin,EGFR,1IVO,5,0.008673
-Annonacin,EGFR,1IVO,6,0.02019
+Annonacin,EGFR,1IVO,5,0.0
+Annonacin,EGFR,1IVO,6,0.0
 Annonacin,EGFR,1IVO,7,-1.038
-Annonacin,EGFR,1IVO,8,0.03115
+Annonacin,EGFR,1IVO,8,0.0
 Annonacin,EGFR,1IVO,9,-4.209
-Annonacin,EGFR,1IVO,10,0.1163
+Annonacin,EGFR,1IVO,10,0.0
 Annonacin,EGFR,1IVO,11,-2.172
 Annonacin,EGFR,1IVO,12,-3.349
 Annonacin,EGFR,1IVO,13,-0.343
@@ -1623,20 +1623,20 @@ Annonacin,Caspase-3,1QX3,1,-0.4176
 Annonacin,Caspase-3,1QX3,2,-0.4273
 Annonacin,Caspase-3,1QX3,3,-3.751
 Annonacin,Caspase-3,1QX3,4,-4.379
-Annonacin,Caspase-3,1QX3,5,0.03297
+Annonacin,Caspase-3,1QX3,5,0.0
 Annonacin,Caspase-3,1QX3,6,-2.835
 Annonacin,Caspase-3,1QX3,7,-4.328
 Annonacin,Caspase-3,1QX3,8,-4.114
-Annonacin,Caspase-3,1QX3,9,0.005328
-Annonacin,Caspase-3,1QX3,10,0.007309
+Annonacin,Caspase-3,1QX3,9,0.0
+Annonacin,Caspase-3,1QX3,10,0.0
 Annonacin,Caspase-3,1QX3,11,-3.518
 Annonacin,Caspase-3,1QX3,12,-4.339
 Annonacin,Caspase-3,1QX3,13,-4.779
-Annonacin,Caspase-3,1QX3,14,0.04141
-Annonacin,Caspase-3,1QX3,15,0.01959
+Annonacin,Caspase-3,1QX3,14,0.0
+Annonacin,Caspase-3,1QX3,15,0.0
 Annonacin,Caspase-3,1QX3,16,-4.145
 Annonacin,Caspase-3,1QX3,17,-4.358
-Annonacin,Caspase-3,1QX3,18,0.01189
+Annonacin,Caspase-3,1QX3,18,0.0
 Annonacin,Caspase-3,1QX3,19,-1.816
 Annonacin,Caspase-3,1QX3,20,-2.93
 Annonacin,AR,2AMA,1,-1.528
@@ -1759,19 +1759,19 @@ Annonacin,PI3Kα,6OAC,17,-6.249
 Annonacin,PI3Kα,6OAC,18,-5.873
 Annonacin,PI3Kα,6OAC,19,-5.635
 Annonacin,PI3Kα,6OAC,20,-5.246
-Annonacin A,EGFR,1IVO,1,0.1004
-Annonacin A,EGFR,1IVO,2,0.006473
-Annonacin A,EGFR,1IVO,3,0.03933
-Annonacin A,EGFR,1IVO,4,0.02865
-Annonacin A,EGFR,1IVO,5,0.01188
-Annonacin A,EGFR,1IVO,6,0.0101
+Annonacin A,EGFR,1IVO,1,0.0
+Annonacin A,EGFR,1IVO,2,0.0
+Annonacin A,EGFR,1IVO,3,0.0
+Annonacin A,EGFR,1IVO,4,0.0
+Annonacin A,EGFR,1IVO,5,0.0
+Annonacin A,EGFR,1IVO,6,0.0
 Annonacin A,EGFR,1IVO,7,-0.6664
-Annonacin A,EGFR,1IVO,8,0.1962
+Annonacin A,EGFR,1IVO,8,0.0
 Annonacin A,EGFR,1IVO,9,-3.797
-Annonacin A,EGFR,1IVO,10,0.073
+Annonacin A,EGFR,1IVO,10,0.0
 Annonacin A,EGFR,1IVO,11,-2.316
 Annonacin A,EGFR,1IVO,12,-3.224
-Annonacin A,EGFR,1IVO,13,0.01555
+Annonacin A,EGFR,1IVO,13,0.0
 Annonacin A,EGFR,1IVO,14,-5.332
 Annonacin A,EGFR,1IVO,15,-5.642
 Annonacin A,EGFR,1IVO,16,-3.407
@@ -1783,20 +1783,20 @@ Annonacin A,Caspase-3,1QX3,1,-0.8552
 Annonacin A,Caspase-3,1QX3,2,-0.7401
 Annonacin A,Caspase-3,1QX3,3,-3.093
 Annonacin A,Caspase-3,1QX3,4,-4.815
-Annonacin A,Caspase-3,1QX3,5,0.05725
+Annonacin A,Caspase-3,1QX3,5,0.0
 Annonacin A,Caspase-3,1QX3,6,-3.622
 Annonacin A,Caspase-3,1QX3,7,-4.388
 Annonacin A,Caspase-3,1QX3,8,-4.477
-Annonacin A,Caspase-3,1QX3,9,0.02896
-Annonacin A,Caspase-3,1QX3,10,0.02788
+Annonacin A,Caspase-3,1QX3,9,0.0
+Annonacin A,Caspase-3,1QX3,10,0.0
 Annonacin A,Caspase-3,1QX3,11,-3.041
 Annonacin A,Caspase-3,1QX3,12,-3.918
 Annonacin A,Caspase-3,1QX3,13,-3.784
-Annonacin A,Caspase-3,1QX3,14,0.007804
+Annonacin A,Caspase-3,1QX3,14,0.0
 Annonacin A,Caspase-3,1QX3,15,-0.3299
 Annonacin A,Caspase-3,1QX3,16,-3.98
 Annonacin A,Caspase-3,1QX3,17,-4.372
-Annonacin A,Caspase-3,1QX3,18,0.05905
+Annonacin A,Caspase-3,1QX3,18,0.0
 Annonacin A,Caspase-3,1QX3,19,-1.026
 Annonacin A,Caspase-3,1QX3,20,-3.635
 Annonacin A,AR,2AMA,1,-1.29
@@ -1919,16 +1919,16 @@ Annonacin A,PI3Kα,6OAC,17,-5.77
 Annonacin A,PI3Kα,6OAC,18,-6.391
 Annonacin A,PI3Kα,6OAC,19,-5.97
 Annonacin A,PI3Kα,6OAC,20,-5.528
-Annonacinone,EGFR,1IVO,1,0.03689
-Annonacinone,EGFR,1IVO,2,0.02147
-Annonacinone,EGFR,1IVO,3,0.04726
-Annonacinone,EGFR,1IVO,4,0.03861
-Annonacinone,EGFR,1IVO,5,0.05862
-Annonacinone,EGFR,1IVO,6,0.07321
+Annonacinone,EGFR,1IVO,1,0.0
+Annonacinone,EGFR,1IVO,2,0.0
+Annonacinone,EGFR,1IVO,3,0.0
+Annonacinone,EGFR,1IVO,4,0.0
+Annonacinone,EGFR,1IVO,5,0.0
+Annonacinone,EGFR,1IVO,6,0.0
 Annonacinone,EGFR,1IVO,7,-0.6148
-Annonacinone,EGFR,1IVO,8,0.05665
+Annonacinone,EGFR,1IVO,8,0.0
 Annonacinone,EGFR,1IVO,9,-3.128
-Annonacinone,EGFR,1IVO,10,0.02406
+Annonacinone,EGFR,1IVO,10,0.0
 Annonacinone,EGFR,1IVO,11,-2.122
 Annonacinone,EGFR,1IVO,12,-2.51
 Annonacinone,EGFR,1IVO,13,-0.3545
@@ -1947,16 +1947,16 @@ Annonacinone,Caspase-3,1QX3,5,-0.6136
 Annonacinone,Caspase-3,1QX3,6,-3.569
 Annonacinone,Caspase-3,1QX3,7,-3.832
 Annonacinone,Caspase-3,1QX3,8,-3.897
-Annonacinone,Caspase-3,1QX3,9,0.03479
-Annonacinone,Caspase-3,1QX3,10,0.06981
+Annonacinone,Caspase-3,1QX3,9,0.0
+Annonacinone,Caspase-3,1QX3,10,0.0
 Annonacinone,Caspase-3,1QX3,11,-2.564
 Annonacinone,Caspase-3,1QX3,12,-4.028
 Annonacinone,Caspase-3,1QX3,13,-3.853
-Annonacinone,Caspase-3,1QX3,14,0.03479
-Annonacinone,Caspase-3,1QX3,15,0.002085
+Annonacinone,Caspase-3,1QX3,14,0.0
+Annonacinone,Caspase-3,1QX3,15,0.0
 Annonacinone,Caspase-3,1QX3,16,-4.169
 Annonacinone,Caspase-3,1QX3,17,-4.067
-Annonacinone,Caspase-3,1QX3,18,0.005398
+Annonacinone,Caspase-3,1QX3,18,0.0
 Annonacinone,Caspase-3,1QX3,19,-1.569
 Annonacinone,Caspase-3,1QX3,20,-3.742
 Annonacinone,AR,2AMA,1,-1.316
@@ -2079,19 +2079,19 @@ Annonacinone,PI3Kα,6OAC,17,-6.433
 Annonacinone,PI3Kα,6OAC,18,-5.849
 Annonacinone,PI3Kα,6OAC,19,-5.387
 Annonacinone,PI3Kα,6OAC,20,-5.599
-Annopentocin A,EGFR,1IVO,1,0.06538
-Annopentocin A,EGFR,1IVO,2,0.09064
-Annopentocin A,EGFR,1IVO,3,0.03525
-Annopentocin A,EGFR,1IVO,4,0.05584
-Annopentocin A,EGFR,1IVO,5,0.016
-Annopentocin A,EGFR,1IVO,6,0.003253
+Annopentocin A,EGFR,1IVO,1,0.0
+Annopentocin A,EGFR,1IVO,2,0.0
+Annopentocin A,EGFR,1IVO,3,0.0
+Annopentocin A,EGFR,1IVO,4,0.0
+Annopentocin A,EGFR,1IVO,5,0.0
+Annopentocin A,EGFR,1IVO,6,0.0
 Annopentocin A,EGFR,1IVO,7,-1.005
-Annopentocin A,EGFR,1IVO,8,0.04664
+Annopentocin A,EGFR,1IVO,8,0.0
 Annopentocin A,EGFR,1IVO,9,-3.916
-Annopentocin A,EGFR,1IVO,10,0.0569
+Annopentocin A,EGFR,1IVO,10,0.0
 Annopentocin A,EGFR,1IVO,11,-2.175
 Annopentocin A,EGFR,1IVO,12,-4.001
-Annopentocin A,EGFR,1IVO,13,0.0181
+Annopentocin A,EGFR,1IVO,13,0.0
 Annopentocin A,EGFR,1IVO,14,-6.014
 Annopentocin A,EGFR,1IVO,15,-5.416
 Annopentocin A,EGFR,1IVO,16,-3.743
@@ -2103,20 +2103,20 @@ Annopentocin A,Caspase-3,1QX3,1,-0.6393
 Annopentocin A,Caspase-3,1QX3,2,-0.7403
 Annopentocin A,Caspase-3,1QX3,3,-3.509
 Annopentocin A,Caspase-3,1QX3,4,-4.356
-Annopentocin A,Caspase-3,1QX3,5,0.0007873
+Annopentocin A,Caspase-3,1QX3,5,0.0
 Annopentocin A,Caspase-3,1QX3,6,-2.903
 Annopentocin A,Caspase-3,1QX3,7,-4.536
 Annopentocin A,Caspase-3,1QX3,8,-4.327
-Annopentocin A,Caspase-3,1QX3,9,0.01169
-Annopentocin A,Caspase-3,1QX3,10,0.05521
+Annopentocin A,Caspase-3,1QX3,9,0.0
+Annopentocin A,Caspase-3,1QX3,10,0.0
 Annopentocin A,Caspase-3,1QX3,11,-2.956
 Annopentocin A,Caspase-3,1QX3,12,-4.247
 Annopentocin A,Caspase-3,1QX3,13,-4.046
-Annopentocin A,Caspase-3,1QX3,14,0.0511
-Annopentocin A,Caspase-3,1QX3,15,0.03454
+Annopentocin A,Caspase-3,1QX3,14,0.0
+Annopentocin A,Caspase-3,1QX3,15,0.0
 Annopentocin A,Caspase-3,1QX3,16,-4.622
 Annopentocin A,Caspase-3,1QX3,17,-4.469
-Annopentocin A,Caspase-3,1QX3,18,0.0009054
+Annopentocin A,Caspase-3,1QX3,18,0.0
 Annopentocin A,Caspase-3,1QX3,19,-2.286
 Annopentocin A,Caspase-3,1QX3,20,-4.138
 Annopentocin A,AR,2AMA,1,-1.759
@@ -2239,16 +2239,16 @@ Annopentocin A,PI3Kα,6OAC,17,-6.195
 Annopentocin A,PI3Kα,6OAC,18,-6.025
 Annopentocin A,PI3Kα,6OAC,19,-5.908
 Annopentocin A,PI3Kα,6OAC,20,-6.203
-Annopentocin B,EGFR,1IVO,1,0.02454
-Annopentocin B,EGFR,1IVO,2,0.01753
-Annopentocin B,EGFR,1IVO,3,0.004371
-Annopentocin B,EGFR,1IVO,4,0.04216
-Annopentocin B,EGFR,1IVO,5,0.003161
-Annopentocin B,EGFR,1IVO,6,0.1633
+Annopentocin B,EGFR,1IVO,1,0.0
+Annopentocin B,EGFR,1IVO,2,0.0
+Annopentocin B,EGFR,1IVO,3,0.0
+Annopentocin B,EGFR,1IVO,4,0.0
+Annopentocin B,EGFR,1IVO,5,0.0
+Annopentocin B,EGFR,1IVO,6,0.0
 Annopentocin B,EGFR,1IVO,7,-0.9464
-Annopentocin B,EGFR,1IVO,8,0.06187
+Annopentocin B,EGFR,1IVO,8,0.0
 Annopentocin B,EGFR,1IVO,9,-3.671
-Annopentocin B,EGFR,1IVO,10,0.04434
+Annopentocin B,EGFR,1IVO,10,0.0
 Annopentocin B,EGFR,1IVO,11,-2.303
 Annopentocin B,EGFR,1IVO,12,-3.079
 Annopentocin B,EGFR,1IVO,13,-0.5405
@@ -2267,16 +2267,16 @@ Annopentocin B,Caspase-3,1QX3,5,-0.6312
 Annopentocin B,Caspase-3,1QX3,6,-3.258
 Annopentocin B,Caspase-3,1QX3,7,-4.307
 Annopentocin B,Caspase-3,1QX3,8,-4.964
-Annopentocin B,Caspase-3,1QX3,9,0.003783
-Annopentocin B,Caspase-3,1QX3,10,0.1182
+Annopentocin B,Caspase-3,1QX3,9,0.0
+Annopentocin B,Caspase-3,1QX3,10,0.0
 Annopentocin B,Caspase-3,1QX3,11,-3.203
 Annopentocin B,Caspase-3,1QX3,12,-4.894
 Annopentocin B,Caspase-3,1QX3,13,-4.679
-Annopentocin B,Caspase-3,1QX3,14,0.07875
-Annopentocin B,Caspase-3,1QX3,15,0.08367
+Annopentocin B,Caspase-3,1QX3,14,0.0
+Annopentocin B,Caspase-3,1QX3,15,0.0
 Annopentocin B,Caspase-3,1QX3,16,-4.762
 Annopentocin B,Caspase-3,1QX3,17,-4.528
-Annopentocin B,Caspase-3,1QX3,18,0.028
+Annopentocin B,Caspase-3,1QX3,18,0.0
 Annopentocin B,Caspase-3,1QX3,19,-1.734
 Annopentocin B,Caspase-3,1QX3,20,-4.033
 Annopentocin B,AR,2AMA,1,-1.509
@@ -2399,19 +2399,19 @@ Annopentocin B,PI3Kα,6OAC,17,-5.739
 Annopentocin B,PI3Kα,6OAC,18,-6.491
 Annopentocin B,PI3Kα,6OAC,19,-6.233
 Annopentocin B,PI3Kα,6OAC,20,-5.838
-Annoreticuin-9-one,EGFR,1IVO,1,0.0378
-Annoreticuin-9-one,EGFR,1IVO,2,0.09803
-Annoreticuin-9-one,EGFR,1IVO,3,0.06224
-Annoreticuin-9-one,EGFR,1IVO,4,0.08555
-Annoreticuin-9-one,EGFR,1IVO,5,0.0412
-Annoreticuin-9-one,EGFR,1IVO,6,0.1492
+Annoreticuin-9-one,EGFR,1IVO,1,0.0
+Annoreticuin-9-one,EGFR,1IVO,2,0.0
+Annoreticuin-9-one,EGFR,1IVO,3,0.0
+Annoreticuin-9-one,EGFR,1IVO,4,0.0
+Annoreticuin-9-one,EGFR,1IVO,5,0.0
+Annoreticuin-9-one,EGFR,1IVO,6,0.0
 Annoreticuin-9-one,EGFR,1IVO,7,-0.7881
-Annoreticuin-9-one,EGFR,1IVO,8,0.002054
+Annoreticuin-9-one,EGFR,1IVO,8,0.0
 Annoreticuin-9-one,EGFR,1IVO,9,-3.935
-Annoreticuin-9-one,EGFR,1IVO,10,0.0234
+Annoreticuin-9-one,EGFR,1IVO,10,0.0
 Annoreticuin-9-one,EGFR,1IVO,11,-2.41
 Annoreticuin-9-one,EGFR,1IVO,12,-2.88
-Annoreticuin-9-one,EGFR,1IVO,13,0.03462
+Annoreticuin-9-one,EGFR,1IVO,13,0.0
 Annoreticuin-9-one,EGFR,1IVO,14,-5.395
 Annoreticuin-9-one,EGFR,1IVO,15,-5.843
 Annoreticuin-9-one,EGFR,1IVO,16,-3.344
@@ -2423,20 +2423,20 @@ Annoreticuin-9-one,Caspase-3,1QX3,1,-0.6554
 Annoreticuin-9-one,Caspase-3,1QX3,2,-0.7393
 Annoreticuin-9-one,Caspase-3,1QX3,3,-2.944
 Annoreticuin-9-one,Caspase-3,1QX3,4,-3.443
-Annoreticuin-9-one,Caspase-3,1QX3,5,0.01171
+Annoreticuin-9-one,Caspase-3,1QX3,5,0.0
 Annoreticuin-9-one,Caspase-3,1QX3,6,-3.805
 Annoreticuin-9-one,Caspase-3,1QX3,7,-3.909
 Annoreticuin-9-one,Caspase-3,1QX3,8,-4.677
-Annoreticuin-9-one,Caspase-3,1QX3,9,0.03356
-Annoreticuin-9-one,Caspase-3,1QX3,10,0.0577
+Annoreticuin-9-one,Caspase-3,1QX3,9,0.0
+Annoreticuin-9-one,Caspase-3,1QX3,10,0.0
 Annoreticuin-9-one,Caspase-3,1QX3,11,-3.47
 Annoreticuin-9-one,Caspase-3,1QX3,12,-4.101
 Annoreticuin-9-one,Caspase-3,1QX3,13,-4.269
-Annoreticuin-9-one,Caspase-3,1QX3,14,0.01133
-Annoreticuin-9-one,Caspase-3,1QX3,15,0.06126
+Annoreticuin-9-one,Caspase-3,1QX3,14,0.0
+Annoreticuin-9-one,Caspase-3,1QX3,15,0.0
 Annoreticuin-9-one,Caspase-3,1QX3,16,-3.477
 Annoreticuin-9-one,Caspase-3,1QX3,17,-4.318
-Annoreticuin-9-one,Caspase-3,1QX3,18,0.02989
+Annoreticuin-9-one,Caspase-3,1QX3,18,0.0
 Annoreticuin-9-one,Caspase-3,1QX3,19,-1.616
 Annoreticuin-9-one,Caspase-3,1QX3,20,-2.89
 Annoreticuin-9-one,AR,2AMA,1,-1.433
@@ -2559,16 +2559,16 @@ Annoreticuin-9-one,PI3Kα,6OAC,17,-5.793
 Annoreticuin-9-one,PI3Kα,6OAC,18,-6.112
 Annoreticuin-9-one,PI3Kα,6OAC,19,-5.668
 Annoreticuin-9-one,PI3Kα,6OAC,20,-6.414
-Cis-Corossolone,EGFR,1IVO,1,0.09178
-Cis-Corossolone,EGFR,1IVO,2,0.1591
-Cis-Corossolone,EGFR,1IVO,3,0.01457
-Cis-Corossolone,EGFR,1IVO,4,0.01755
-Cis-Corossolone,EGFR,1IVO,5,0.01577
-Cis-Corossolone,EGFR,1IVO,6,0.003463
+Cis-Corossolone,EGFR,1IVO,1,0.0
+Cis-Corossolone,EGFR,1IVO,2,0.0
+Cis-Corossolone,EGFR,1IVO,3,0.0
+Cis-Corossolone,EGFR,1IVO,4,0.0
+Cis-Corossolone,EGFR,1IVO,5,0.0
+Cis-Corossolone,EGFR,1IVO,6,0.0
 Cis-Corossolone,EGFR,1IVO,7,-0.8694
-Cis-Corossolone,EGFR,1IVO,8,0.01402
+Cis-Corossolone,EGFR,1IVO,8,0.0
 Cis-Corossolone,EGFR,1IVO,9,-3.651
-Cis-Corossolone,EGFR,1IVO,10,0.06746
+Cis-Corossolone,EGFR,1IVO,10,0.0
 Cis-Corossolone,EGFR,1IVO,11,-2.488
 Cis-Corossolone,EGFR,1IVO,12,-3.169
 Cis-Corossolone,EGFR,1IVO,13,-0.4829
@@ -2587,16 +2587,16 @@ Cis-Corossolone,Caspase-3,1QX3,5,-0.5314
 Cis-Corossolone,Caspase-3,1QX3,6,-2.99
 Cis-Corossolone,Caspase-3,1QX3,7,-4.444
 Cis-Corossolone,Caspase-3,1QX3,8,-3.853
-Cis-Corossolone,Caspase-3,1QX3,9,0.01795
-Cis-Corossolone,Caspase-3,1QX3,10,0.01744
+Cis-Corossolone,Caspase-3,1QX3,9,0.0
+Cis-Corossolone,Caspase-3,1QX3,10,0.0
 Cis-Corossolone,Caspase-3,1QX3,11,-2.642
 Cis-Corossolone,Caspase-3,1QX3,12,-3.571
 Cis-Corossolone,Caspase-3,1QX3,13,-3.751
-Cis-Corossolone,Caspase-3,1QX3,14,0.01192
-Cis-Corossolone,Caspase-3,1QX3,15,0.02907
+Cis-Corossolone,Caspase-3,1QX3,14,0.0
+Cis-Corossolone,Caspase-3,1QX3,15,0.0
 Cis-Corossolone,Caspase-3,1QX3,16,-4.03
 Cis-Corossolone,Caspase-3,1QX3,17,-3.81
-Cis-Corossolone,Caspase-3,1QX3,18,0.02755
+Cis-Corossolone,Caspase-3,1QX3,18,0.0
 Cis-Corossolone,Caspase-3,1QX3,19,-1.833
 Cis-Corossolone,Caspase-3,1QX3,20,-3.178
 Cis-Corossolone,AR,2AMA,1,-1.757
@@ -2719,16 +2719,16 @@ Cis-Corossolone,PI3Kα,6OAC,17,-5.457
 Cis-Corossolone,PI3Kα,6OAC,18,-5.939
 Cis-Corossolone,PI3Kα,6OAC,19,-5.866
 Cis-Corossolone,PI3Kα,6OAC,20,-6.002
-Cohibin A,EGFR,1IVO,1,0.01428
-Cohibin A,EGFR,1IVO,2,0.02559
-Cohibin A,EGFR,1IVO,3,0.01956
-Cohibin A,EGFR,1IVO,4,0.05667
-Cohibin A,EGFR,1IVO,5,0.04887
-Cohibin A,EGFR,1IVO,6,0.01842
+Cohibin A,EGFR,1IVO,1,0.0
+Cohibin A,EGFR,1IVO,2,0.0
+Cohibin A,EGFR,1IVO,3,0.0
+Cohibin A,EGFR,1IVO,4,0.0
+Cohibin A,EGFR,1IVO,5,0.0
+Cohibin A,EGFR,1IVO,6,0.0
 Cohibin A,EGFR,1IVO,7,-0.6251
-Cohibin A,EGFR,1IVO,8,0.04861
+Cohibin A,EGFR,1IVO,8,0.0
 Cohibin A,EGFR,1IVO,9,-3.148
-Cohibin A,EGFR,1IVO,10,0.02646
+Cohibin A,EGFR,1IVO,10,0.0
 Cohibin A,EGFR,1IVO,11,-2.143
 Cohibin A,EGFR,1IVO,12,-2.754
 Cohibin A,EGFR,1IVO,13,-0.4447
@@ -2747,16 +2747,16 @@ Cohibin A,Caspase-3,1QX3,5,-0.5775
 Cohibin A,Caspase-3,1QX3,6,-2.276
 Cohibin A,Caspase-3,1QX3,7,-4.05
 Cohibin A,Caspase-3,1QX3,8,-3.564
-Cohibin A,Caspase-3,1QX3,9,0.06236
-Cohibin A,Caspase-3,1QX3,10,0.05444
+Cohibin A,Caspase-3,1QX3,9,0.0
+Cohibin A,Caspase-3,1QX3,10,0.0
 Cohibin A,Caspase-3,1QX3,11,-2.764
 Cohibin A,Caspase-3,1QX3,12,-3.834
 Cohibin A,Caspase-3,1QX3,13,-4.237
-Cohibin A,Caspase-3,1QX3,14,0.04782
-Cohibin A,Caspase-3,1QX3,15,0.03923
+Cohibin A,Caspase-3,1QX3,14,0.0
+Cohibin A,Caspase-3,1QX3,15,0.0
 Cohibin A,Caspase-3,1QX3,16,-4.368
 Cohibin A,Caspase-3,1QX3,17,-3.887
-Cohibin A,Caspase-3,1QX3,18,0.03022
+Cohibin A,Caspase-3,1QX3,18,0.0
 Cohibin A,Caspase-3,1QX3,19,-1.452
 Cohibin A,Caspase-3,1QX3,20,-3.145
 Cohibin A,AR,2AMA,1,-1.271
@@ -2879,19 +2879,19 @@ Cohibin A,PI3Kα,6OAC,17,-5.421
 Cohibin A,PI3Kα,6OAC,18,-5.622
 Cohibin A,PI3Kα,6OAC,19,-5.537
 Cohibin A,PI3Kα,6OAC,20,-5.784
-Cohibin B,EGFR,1IVO,1,0.008962
-Cohibin B,EGFR,1IVO,2,0.07395
-Cohibin B,EGFR,1IVO,3,0.03247
-Cohibin B,EGFR,1IVO,4,0.06064
-Cohibin B,EGFR,1IVO,5,0.03593
-Cohibin B,EGFR,1IVO,6,0.02659
+Cohibin B,EGFR,1IVO,1,0.0
+Cohibin B,EGFR,1IVO,2,0.0
+Cohibin B,EGFR,1IVO,3,0.0
+Cohibin B,EGFR,1IVO,4,0.0
+Cohibin B,EGFR,1IVO,5,0.0
+Cohibin B,EGFR,1IVO,6,0.0
 Cohibin B,EGFR,1IVO,7,-0.6735
-Cohibin B,EGFR,1IVO,8,0.03567
+Cohibin B,EGFR,1IVO,8,0.0
 Cohibin B,EGFR,1IVO,9,-3.517
-Cohibin B,EGFR,1IVO,10,0.02849
+Cohibin B,EGFR,1IVO,10,0.0
 Cohibin B,EGFR,1IVO,11,-2.46
 Cohibin B,EGFR,1IVO,12,-3.223
-Cohibin B,EGFR,1IVO,13,0.04711
+Cohibin B,EGFR,1IVO,13,0.0
 Cohibin B,EGFR,1IVO,14,-4.902
 Cohibin B,EGFR,1IVO,15,-5.361
 Cohibin B,EGFR,1IVO,16,-3.426
@@ -2907,16 +2907,16 @@ Cohibin B,Caspase-3,1QX3,5,-0.5232
 Cohibin B,Caspase-3,1QX3,6,-3.182
 Cohibin B,Caspase-3,1QX3,7,-3.773
 Cohibin B,Caspase-3,1QX3,8,-4.346
-Cohibin B,Caspase-3,1QX3,9,0.0177
+Cohibin B,Caspase-3,1QX3,9,0.0
 Cohibin B,Caspase-3,1QX3,10,-0.2789
 Cohibin B,Caspase-3,1QX3,11,-3.045
 Cohibin B,Caspase-3,1QX3,12,-3.675
 Cohibin B,Caspase-3,1QX3,13,-4.297
-Cohibin B,Caspase-3,1QX3,14,0.01864
+Cohibin B,Caspase-3,1QX3,14,0.0
 Cohibin B,Caspase-3,1QX3,15,-0.1487
 Cohibin B,Caspase-3,1QX3,16,-4.356
 Cohibin B,Caspase-3,1QX3,17,-3.503
-Cohibin B,Caspase-3,1QX3,18,0.01136
+Cohibin B,Caspase-3,1QX3,18,0.0
 Cohibin B,Caspase-3,1QX3,19,-1.507
 Cohibin B,Caspase-3,1QX3,20,-3.708
 Cohibin B,AR,2AMA,1,-1.52
@@ -3022,7 +3022,7 @@ Cohibin B,Complex I,5LNK,20,-6.2
 Cohibin B,PI3Kα,6OAC,1,-5.605
 Cohibin B,PI3Kα,6OAC,2,-6.411
 Cohibin B,PI3Kα,6OAC,3,-5.721
-Cohibin B,PI3Kα,6OAC,4,-5.618
+Cohibin B,PI3Kα,6OAC,4,-6.0
 Cohibin B,PI3Kα,6OAC,5,-5.516
 Cohibin B,PI3Kα,6OAC,6,-5.604
 Cohibin B,PI3Kα,6OAC,7,-5.622
@@ -3039,19 +3039,19 @@ Cohibin B,PI3Kα,6OAC,17,-5.556
 Cohibin B,PI3Kα,6OAC,18,-5.019
 Cohibin B,PI3Kα,6OAC,19,-5.189
 Cohibin B,PI3Kα,6OAC,20,-6.009
-Cohibin C,EGFR,1IVO,1,0.006799
-Cohibin C,EGFR,1IVO,2,0.008253
-Cohibin C,EGFR,1IVO,3,0.01791
-Cohibin C,EGFR,1IVO,4,0.008272
-Cohibin C,EGFR,1IVO,5,0.03121
-Cohibin C,EGFR,1IVO,6,0.003222
+Cohibin C,EGFR,1IVO,1,0.0
+Cohibin C,EGFR,1IVO,2,0.0
+Cohibin C,EGFR,1IVO,3,0.0
+Cohibin C,EGFR,1IVO,4,0.0
+Cohibin C,EGFR,1IVO,5,0.0
+Cohibin C,EGFR,1IVO,6,0.0
 Cohibin C,EGFR,1IVO,7,-0.8216
-Cohibin C,EGFR,1IVO,8,0.09732
+Cohibin C,EGFR,1IVO,8,0.0
 Cohibin C,EGFR,1IVO,9,-3.518
-Cohibin C,EGFR,1IVO,10,0.1401
+Cohibin C,EGFR,1IVO,10,0.0
 Cohibin C,EGFR,1IVO,11,-1.836
 Cohibin C,EGFR,1IVO,12,-2.29
-Cohibin C,EGFR,1IVO,13,0.02106
+Cohibin C,EGFR,1IVO,13,0.0
 Cohibin C,EGFR,1IVO,14,-4.597
 Cohibin C,EGFR,1IVO,15,-4.515
 Cohibin C,EGFR,1IVO,16,-2.757
@@ -3067,16 +3067,16 @@ Cohibin C,Caspase-3,1QX3,5,-0.5174
 Cohibin C,Caspase-3,1QX3,6,-3.09
 Cohibin C,Caspase-3,1QX3,7,-4.14
 Cohibin C,Caspase-3,1QX3,8,-3.9
-Cohibin C,Caspase-3,1QX3,9,0.004781
-Cohibin C,Caspase-3,1QX3,10,0.1016
+Cohibin C,Caspase-3,1QX3,9,0.0
+Cohibin C,Caspase-3,1QX3,10,0.0
 Cohibin C,Caspase-3,1QX3,11,-2.905
 Cohibin C,Caspase-3,1QX3,12,-4.011
 Cohibin C,Caspase-3,1QX3,13,-4.33
-Cohibin C,Caspase-3,1QX3,14,0.01669
-Cohibin C,Caspase-3,1QX3,15,0.08069
+Cohibin C,Caspase-3,1QX3,14,0.0
+Cohibin C,Caspase-3,1QX3,15,0.0
 Cohibin C,Caspase-3,1QX3,16,-3.783
 Cohibin C,Caspase-3,1QX3,17,-3.679
-Cohibin C,Caspase-3,1QX3,18,0.004206
+Cohibin C,Caspase-3,1QX3,18,0.0
 Cohibin C,Caspase-3,1QX3,19,-1.4
 Cohibin C,Caspase-3,1QX3,20,-3.343
 Cohibin C,AR,2AMA,1,-1.417
@@ -3199,19 +3199,19 @@ Cohibin C,PI3Kα,6OAC,17,-5.082
 Cohibin C,PI3Kα,6OAC,18,-5.626
 Cohibin C,PI3Kα,6OAC,19,-5.41
 Cohibin C,PI3Kα,6OAC,20,-5.775
-Cohibin D,EGFR,1IVO,1,0.1405
-Cohibin D,EGFR,1IVO,2,0.009876
-Cohibin D,EGFR,1IVO,3,0.08891
-Cohibin D,EGFR,1IVO,4,0.08023
-Cohibin D,EGFR,1IVO,5,0.004818
-Cohibin D,EGFR,1IVO,6,0.02077
+Cohibin D,EGFR,1IVO,1,0.0
+Cohibin D,EGFR,1IVO,2,0.0
+Cohibin D,EGFR,1IVO,3,0.0
+Cohibin D,EGFR,1IVO,4,0.0
+Cohibin D,EGFR,1IVO,5,0.0
+Cohibin D,EGFR,1IVO,6,0.0
 Cohibin D,EGFR,1IVO,7,-0.8988
-Cohibin D,EGFR,1IVO,8,0.06159
+Cohibin D,EGFR,1IVO,8,0.0
 Cohibin D,EGFR,1IVO,9,-3.243
-Cohibin D,EGFR,1IVO,10,0.03462
+Cohibin D,EGFR,1IVO,10,0.0
 Cohibin D,EGFR,1IVO,11,-1.757
 Cohibin D,EGFR,1IVO,12,-2.625
-Cohibin D,EGFR,1IVO,13,0.009206
+Cohibin D,EGFR,1IVO,13,0.0
 Cohibin D,EGFR,1IVO,14,-4.778
 Cohibin D,EGFR,1IVO,15,-4.759
 Cohibin D,EGFR,1IVO,16,-3.086
@@ -3227,16 +3227,16 @@ Cohibin D,Caspase-3,1QX3,5,-0.7266
 Cohibin D,Caspase-3,1QX3,6,-2.36
 Cohibin D,Caspase-3,1QX3,7,-3.688
 Cohibin D,Caspase-3,1QX3,8,-4.049
-Cohibin D,Caspase-3,1QX3,9,0.1215
-Cohibin D,Caspase-3,1QX3,10,0.08948
+Cohibin D,Caspase-3,1QX3,9,0.0
+Cohibin D,Caspase-3,1QX3,10,0.0
 Cohibin D,Caspase-3,1QX3,11,-2.212
 Cohibin D,Caspase-3,1QX3,12,-4.135
 Cohibin D,Caspase-3,1QX3,13,-3.842
-Cohibin D,Caspase-3,1QX3,14,0.07076
-Cohibin D,Caspase-3,1QX3,15,0.00777
+Cohibin D,Caspase-3,1QX3,14,0.0
+Cohibin D,Caspase-3,1QX3,15,0.0
 Cohibin D,Caspase-3,1QX3,16,-4.136
 Cohibin D,Caspase-3,1QX3,17,-3.717
-Cohibin D,Caspase-3,1QX3,18,0.01679
+Cohibin D,Caspase-3,1QX3,18,0.0
 Cohibin D,Caspase-3,1QX3,19,-0.9243
 Cohibin D,Caspase-3,1QX3,20,-3.251
 Cohibin D,AR,2AMA,1,-1.376
@@ -3359,19 +3359,19 @@ Cohibin D,PI3Kα,6OAC,17,-4.938
 Cohibin D,PI3Kα,6OAC,18,-6.021
 Cohibin D,PI3Kα,6OAC,19,-5.427
 Cohibin D,PI3Kα,6OAC,20,-5.785
-Corossoline,EGFR,1IVO,1,0.05166
-Corossoline,EGFR,1IVO,2,0.06771
-Corossoline,EGFR,1IVO,3,0.04504
-Corossoline,EGFR,1IVO,4,0.0136
-Corossoline,EGFR,1IVO,5,0.005834
-Corossoline,EGFR,1IVO,6,0.007849
+Corossoline,EGFR,1IVO,1,0.0
+Corossoline,EGFR,1IVO,2,0.0
+Corossoline,EGFR,1IVO,3,0.0
+Corossoline,EGFR,1IVO,4,0.0
+Corossoline,EGFR,1IVO,5,0.0
+Corossoline,EGFR,1IVO,6,0.0
 Corossoline,EGFR,1IVO,7,-1.007
-Corossoline,EGFR,1IVO,8,0.01581
+Corossoline,EGFR,1IVO,8,0.0
 Corossoline,EGFR,1IVO,9,-3.422
-Corossoline,EGFR,1IVO,10,0.06728
+Corossoline,EGFR,1IVO,10,0.0
 Corossoline,EGFR,1IVO,11,-2.016
 Corossoline,EGFR,1IVO,12,-3.679
-Corossoline,EGFR,1IVO,13,0.08891
+Corossoline,EGFR,1IVO,13,0.0
 Corossoline,EGFR,1IVO,14,-4.634
 Corossoline,EGFR,1IVO,15,-5.152
 Corossoline,EGFR,1IVO,16,-3.168
@@ -3387,16 +3387,16 @@ Corossoline,Caspase-3,1QX3,5,-0.6289
 Corossoline,Caspase-3,1QX3,6,-2.887
 Corossoline,Caspase-3,1QX3,7,-4.25
 Corossoline,Caspase-3,1QX3,8,-4.113
-Corossoline,Caspase-3,1QX3,9,0.01762
-Corossoline,Caspase-3,1QX3,10,0.02957
+Corossoline,Caspase-3,1QX3,9,0.0
+Corossoline,Caspase-3,1QX3,10,0.0
 Corossoline,Caspase-3,1QX3,11,-2.867
 Corossoline,Caspase-3,1QX3,12,-4.133
 Corossoline,Caspase-3,1QX3,13,-3.979
-Corossoline,Caspase-3,1QX3,14,0.1174
-Corossoline,Caspase-3,1QX3,15,0.01606
+Corossoline,Caspase-3,1QX3,14,0.0
+Corossoline,Caspase-3,1QX3,15,0.0
 Corossoline,Caspase-3,1QX3,16,-4.352
 Corossoline,Caspase-3,1QX3,17,-3.998
-Corossoline,Caspase-3,1QX3,18,0.00172
+Corossoline,Caspase-3,1QX3,18,0.0
 Corossoline,Caspase-3,1QX3,19,-1.647
 Corossoline,Caspase-3,1QX3,20,-3.168
 Corossoline,AR,2AMA,1,-1.772
@@ -3519,19 +3519,19 @@ Corossoline,PI3Kα,6OAC,17,-5.88
 Corossoline,PI3Kα,6OAC,18,-5.832
 Corossoline,PI3Kα,6OAC,19,-6.222
 Corossoline,PI3Kα,6OAC,20,-5.389
-Corossolone,EGFR,1IVO,1,0.02005
-Corossolone,EGFR,1IVO,2,0.1001
-Corossolone,EGFR,1IVO,3,0.03827
-Corossolone,EGFR,1IVO,4,0.005047
-Corossolone,EGFR,1IVO,5,0.0205
-Corossolone,EGFR,1IVO,6,0.03689
+Corossolone,EGFR,1IVO,1,0.0
+Corossolone,EGFR,1IVO,2,0.0
+Corossolone,EGFR,1IVO,3,0.0
+Corossolone,EGFR,1IVO,4,0.0
+Corossolone,EGFR,1IVO,5,0.0
+Corossolone,EGFR,1IVO,6,0.0
 Corossolone,EGFR,1IVO,7,-0.669
-Corossolone,EGFR,1IVO,8,0.03747
+Corossolone,EGFR,1IVO,8,0.0
 Corossolone,EGFR,1IVO,9,-3.479
-Corossolone,EGFR,1IVO,10,0.02616
+Corossolone,EGFR,1IVO,10,0.0
 Corossolone,EGFR,1IVO,11,-2.212
 Corossolone,EGFR,1IVO,12,-3.03
-Corossolone,EGFR,1IVO,13,0.05518
+Corossolone,EGFR,1IVO,13,0.0
 Corossolone,EGFR,1IVO,14,-5.176
 Corossolone,EGFR,1IVO,15,-5.362
 Corossolone,EGFR,1IVO,16,-3.013
@@ -3547,16 +3547,16 @@ Corossolone,Caspase-3,1QX3,5,-0.7087
 Corossolone,Caspase-3,1QX3,6,-3.457
 Corossolone,Caspase-3,1QX3,7,-4.323
 Corossolone,Caspase-3,1QX3,8,-4.307
-Corossolone,Caspase-3,1QX3,9,0.008634
-Corossolone,Caspase-3,1QX3,10,0.0126
+Corossolone,Caspase-3,1QX3,9,0.0
+Corossolone,Caspase-3,1QX3,10,0.0
 Corossolone,Caspase-3,1QX3,11,-2.838
 Corossolone,Caspase-3,1QX3,12,-3.878
 Corossolone,Caspase-3,1QX3,13,-3.563
-Corossolone,Caspase-3,1QX3,14,0.009699
-Corossolone,Caspase-3,1QX3,15,0.000522
+Corossolone,Caspase-3,1QX3,14,0.0
+Corossolone,Caspase-3,1QX3,15,0.0
 Corossolone,Caspase-3,1QX3,16,-4.253
 Corossolone,Caspase-3,1QX3,17,-3.741
-Corossolone,Caspase-3,1QX3,18,0.01499
+Corossolone,Caspase-3,1QX3,18,0.0
 Corossolone,Caspase-3,1QX3,19,-2.021
 Corossolone,Caspase-3,1QX3,20,-3.637
 Corossolone,AR,2AMA,1,-1.604
@@ -3679,19 +3679,19 @@ Corossolone,PI3Kα,6OAC,17,-5.552
 Corossolone,PI3Kα,6OAC,18,-6.041
 Corossolone,PI3Kα,6OAC,19,-5.741
 Corossolone,PI3Kα,6OAC,20,-5.423
-Epomuricenin A,EGFR,1IVO,1,0.0654
-Epomuricenin A,EGFR,1IVO,2,0.003533
-Epomuricenin A,EGFR,1IVO,3,0.03673
-Epomuricenin A,EGFR,1IVO,4,0.01174
-Epomuricenin A,EGFR,1IVO,5,0.02334
-Epomuricenin A,EGFR,1IVO,6,0.01798
+Epomuricenin A,EGFR,1IVO,1,0.0
+Epomuricenin A,EGFR,1IVO,2,0.0
+Epomuricenin A,EGFR,1IVO,3,0.0
+Epomuricenin A,EGFR,1IVO,4,0.0
+Epomuricenin A,EGFR,1IVO,5,0.0
+Epomuricenin A,EGFR,1IVO,6,0.0
 Epomuricenin A,EGFR,1IVO,7,-0.7837
-Epomuricenin A,EGFR,1IVO,8,0.09516
+Epomuricenin A,EGFR,1IVO,8,0.0
 Epomuricenin A,EGFR,1IVO,9,-3.192
-Epomuricenin A,EGFR,1IVO,10,0.0623
+Epomuricenin A,EGFR,1IVO,10,0.0
 Epomuricenin A,EGFR,1IVO,11,-1.675
 Epomuricenin A,EGFR,1IVO,12,-2.222
-Epomuricenin A,EGFR,1IVO,13,0.003501
+Epomuricenin A,EGFR,1IVO,13,0.0
 Epomuricenin A,EGFR,1IVO,14,-5.096
 Epomuricenin A,EGFR,1IVO,15,-4.912
 Epomuricenin A,EGFR,1IVO,16,-2.869
@@ -3707,16 +3707,16 @@ Epomuricenin A,Caspase-3,1QX3,5,-0.7476
 Epomuricenin A,Caspase-3,1QX3,6,-3.273
 Epomuricenin A,Caspase-3,1QX3,7,-3.308
 Epomuricenin A,Caspase-3,1QX3,8,-3.184
-Epomuricenin A,Caspase-3,1QX3,9,0.05939
+Epomuricenin A,Caspase-3,1QX3,9,0.0
 Epomuricenin A,Caspase-3,1QX3,10,-0.6451
 Epomuricenin A,Caspase-3,1QX3,11,-2.633
 Epomuricenin A,Caspase-3,1QX3,12,-4.029
 Epomuricenin A,Caspase-3,1QX3,13,-3.547
-Epomuricenin A,Caspase-3,1QX3,14,0.06919
-Epomuricenin A,Caspase-3,1QX3,15,0.03104
+Epomuricenin A,Caspase-3,1QX3,14,0.0
+Epomuricenin A,Caspase-3,1QX3,15,0.0
 Epomuricenin A,Caspase-3,1QX3,16,-2.757
 Epomuricenin A,Caspase-3,1QX3,17,-3.599
-Epomuricenin A,Caspase-3,1QX3,18,0.04023
+Epomuricenin A,Caspase-3,1QX3,18,0.0
 Epomuricenin A,Caspase-3,1QX3,19,-1.259
 Epomuricenin A,Caspase-3,1QX3,20,-3.545
 Epomuricenin A,AR,2AMA,1,-1.167
@@ -3839,19 +3839,19 @@ Epomuricenin A,PI3Kα,6OAC,17,-5.165
 Epomuricenin A,PI3Kα,6OAC,18,-5.282
 Epomuricenin A,PI3Kα,6OAC,19,-5.279
 Epomuricenin A,PI3Kα,6OAC,20,-5.47
-Epomuricenin B,EGFR,1IVO,1,0.06354
-Epomuricenin B,EGFR,1IVO,2,0.01741
-Epomuricenin B,EGFR,1IVO,3,0.007038
-Epomuricenin B,EGFR,1IVO,4,0.04459
-Epomuricenin B,EGFR,1IVO,5,0.007306
-Epomuricenin B,EGFR,1IVO,6,0.02201
+Epomuricenin B,EGFR,1IVO,1,0.0
+Epomuricenin B,EGFR,1IVO,2,0.0
+Epomuricenin B,EGFR,1IVO,3,0.0
+Epomuricenin B,EGFR,1IVO,4,0.0
+Epomuricenin B,EGFR,1IVO,5,0.0
+Epomuricenin B,EGFR,1IVO,6,0.0
 Epomuricenin B,EGFR,1IVO,7,-0.7503
-Epomuricenin B,EGFR,1IVO,8,0.01679
+Epomuricenin B,EGFR,1IVO,8,0.0
 Epomuricenin B,EGFR,1IVO,9,-3.228
-Epomuricenin B,EGFR,1IVO,10,0.005838
+Epomuricenin B,EGFR,1IVO,10,0.0
 Epomuricenin B,EGFR,1IVO,11,-2.166
 Epomuricenin B,EGFR,1IVO,12,-3.148
-Epomuricenin B,EGFR,1IVO,13,0.03483
+Epomuricenin B,EGFR,1IVO,13,0.0
 Epomuricenin B,EGFR,1IVO,14,-5.202
 Epomuricenin B,EGFR,1IVO,15,-4.487
 Epomuricenin B,EGFR,1IVO,16,-2.86
@@ -3867,16 +3867,16 @@ Epomuricenin B,Caspase-3,1QX3,5,-0.6226
 Epomuricenin B,Caspase-3,1QX3,6,-2.508
 Epomuricenin B,Caspase-3,1QX3,7,-3.852
 Epomuricenin B,Caspase-3,1QX3,8,-3.358
-Epomuricenin B,Caspase-3,1QX3,9,0.009154
+Epomuricenin B,Caspase-3,1QX3,9,0.0
 Epomuricenin B,Caspase-3,1QX3,10,-0.3631
 Epomuricenin B,Caspase-3,1QX3,11,-2.677
 Epomuricenin B,Caspase-3,1QX3,12,-4.059
 Epomuricenin B,Caspase-3,1QX3,13,-3.488
-Epomuricenin B,Caspase-3,1QX3,14,0.008535
-Epomuricenin B,Caspase-3,1QX3,15,0.04152
+Epomuricenin B,Caspase-3,1QX3,14,0.0
+Epomuricenin B,Caspase-3,1QX3,15,0.0
 Epomuricenin B,Caspase-3,1QX3,16,-3.243
 Epomuricenin B,Caspase-3,1QX3,17,-3.087
-Epomuricenin B,Caspase-3,1QX3,18,0.02919
+Epomuricenin B,Caspase-3,1QX3,18,0.0
 Epomuricenin B,Caspase-3,1QX3,19,-1.449
 Epomuricenin B,Caspase-3,1QX3,20,-2.946
 Epomuricenin B,AR,2AMA,1,-1.354
@@ -3999,19 +3999,19 @@ Epomuricenin B,PI3Kα,6OAC,17,-5.212
 Epomuricenin B,PI3Kα,6OAC,18,-4.697
 Epomuricenin B,PI3Kα,6OAC,19,-4.858
 Epomuricenin B,PI3Kα,6OAC,20,-5.706
-Epoxymurin A,EGFR,1IVO,1,0.008066
-Epoxymurin A,EGFR,1IVO,2,0.04345
-Epoxymurin A,EGFR,1IVO,3,0.01019
-Epoxymurin A,EGFR,1IVO,4,0.05981
-Epoxymurin A,EGFR,1IVO,5,0.005342
-Epoxymurin A,EGFR,1IVO,6,0.003588
+Epoxymurin A,EGFR,1IVO,1,0.0
+Epoxymurin A,EGFR,1IVO,2,0.0
+Epoxymurin A,EGFR,1IVO,3,0.0
+Epoxymurin A,EGFR,1IVO,4,0.0
+Epoxymurin A,EGFR,1IVO,5,0.0
+Epoxymurin A,EGFR,1IVO,6,0.0
 Epoxymurin A,EGFR,1IVO,7,-0.8487
-Epoxymurin A,EGFR,1IVO,8,0.0588
+Epoxymurin A,EGFR,1IVO,8,0.0
 Epoxymurin A,EGFR,1IVO,9,-2.98
-Epoxymurin A,EGFR,1IVO,10,0.02255
+Epoxymurin A,EGFR,1IVO,10,0.0
 Epoxymurin A,EGFR,1IVO,11,-2.06
 Epoxymurin A,EGFR,1IVO,12,-3.031
-Epoxymurin A,EGFR,1IVO,13,0.0404
+Epoxymurin A,EGFR,1IVO,13,0.0
 Epoxymurin A,EGFR,1IVO,14,-4.761
 Epoxymurin A,EGFR,1IVO,15,-4.974
 Epoxymurin A,EGFR,1IVO,16,-2.59
@@ -4027,16 +4027,16 @@ Epoxymurin A,Caspase-3,1QX3,5,-0.7616
 Epoxymurin A,Caspase-3,1QX3,6,-2.643
 Epoxymurin A,Caspase-3,1QX3,7,-3.265
 Epoxymurin A,Caspase-3,1QX3,8,-3.418
-Epoxymurin A,Caspase-3,1QX3,9,0.0132
-Epoxymurin A,Caspase-3,1QX3,10,0.05012
+Epoxymurin A,Caspase-3,1QX3,9,0.0
+Epoxymurin A,Caspase-3,1QX3,10,0.0
 Epoxymurin A,Caspase-3,1QX3,11,-3.06
 Epoxymurin A,Caspase-3,1QX3,12,-3.428
 Epoxymurin A,Caspase-3,1QX3,13,-3.599
-Epoxymurin A,Caspase-3,1QX3,14,0.05179
-Epoxymurin A,Caspase-3,1QX3,15,0.09297
+Epoxymurin A,Caspase-3,1QX3,14,0.0
+Epoxymurin A,Caspase-3,1QX3,15,0.0
 Epoxymurin A,Caspase-3,1QX3,16,-3.731
 Epoxymurin A,Caspase-3,1QX3,17,-3.745
-Epoxymurin A,Caspase-3,1QX3,18,0.01882
+Epoxymurin A,Caspase-3,1QX3,18,0.0
 Epoxymurin A,Caspase-3,1QX3,19,-1.647
 Epoxymurin A,Caspase-3,1QX3,20,-3.078
 Epoxymurin A,AR,2AMA,1,-1.415
@@ -4159,16 +4159,16 @@ Epoxymurin A,PI3Kα,6OAC,17,-5.189
 Epoxymurin A,PI3Kα,6OAC,18,-5.613
 Epoxymurin A,PI3Kα,6OAC,19,-5.423
 Epoxymurin A,PI3Kα,6OAC,20,-5.593
-Gigantetronenin,EGFR,1IVO,1,0.07449
-Gigantetronenin,EGFR,1IVO,2,0.06444
-Gigantetronenin,EGFR,1IVO,3,0.009291
-Gigantetronenin,EGFR,1IVO,4,0.003397
-Gigantetronenin,EGFR,1IVO,5,0.01919
-Gigantetronenin,EGFR,1IVO,6,0.0368
+Gigantetronenin,EGFR,1IVO,1,0.0
+Gigantetronenin,EGFR,1IVO,2,0.0
+Gigantetronenin,EGFR,1IVO,3,0.0
+Gigantetronenin,EGFR,1IVO,4,0.0
+Gigantetronenin,EGFR,1IVO,5,0.0
+Gigantetronenin,EGFR,1IVO,6,0.0
 Gigantetronenin,EGFR,1IVO,7,-0.8757
-Gigantetronenin,EGFR,1IVO,8,0.06586
+Gigantetronenin,EGFR,1IVO,8,0.0
 Gigantetronenin,EGFR,1IVO,9,-3.459
-Gigantetronenin,EGFR,1IVO,10,0.002558
+Gigantetronenin,EGFR,1IVO,10,0.0
 Gigantetronenin,EGFR,1IVO,11,-2.164
 Gigantetronenin,EGFR,1IVO,12,-3.692
 Gigantetronenin,EGFR,1IVO,13,-0.08687
@@ -4183,20 +4183,20 @@ Gigantetronenin,Caspase-3,1QX3,1,-0.6739
 Gigantetronenin,Caspase-3,1QX3,2,-0.6164
 Gigantetronenin,Caspase-3,1QX3,3,-3.181
 Gigantetronenin,Caspase-3,1QX3,4,-4.908
-Gigantetronenin,Caspase-3,1QX3,5,0.0101
+Gigantetronenin,Caspase-3,1QX3,5,0.0
 Gigantetronenin,Caspase-3,1QX3,6,-2.807
 Gigantetronenin,Caspase-3,1QX3,7,-4.325
 Gigantetronenin,Caspase-3,1QX3,8,-3.88
-Gigantetronenin,Caspase-3,1QX3,9,0.0292
-Gigantetronenin,Caspase-3,1QX3,10,0.09299
+Gigantetronenin,Caspase-3,1QX3,9,0.0
+Gigantetronenin,Caspase-3,1QX3,10,0.0
 Gigantetronenin,Caspase-3,1QX3,11,-3.455
 Gigantetronenin,Caspase-3,1QX3,12,-4.524
 Gigantetronenin,Caspase-3,1QX3,13,-4.159
-Gigantetronenin,Caspase-3,1QX3,14,0.04147
-Gigantetronenin,Caspase-3,1QX3,15,0.1656
+Gigantetronenin,Caspase-3,1QX3,14,0.0
+Gigantetronenin,Caspase-3,1QX3,15,0.0
 Gigantetronenin,Caspase-3,1QX3,16,-4.423
 Gigantetronenin,Caspase-3,1QX3,17,-3.811
-Gigantetronenin,Caspase-3,1QX3,18,0.02046
+Gigantetronenin,Caspase-3,1QX3,18,0.0
 Gigantetronenin,Caspase-3,1QX3,19,-2.045
 Gigantetronenin,Caspase-3,1QX3,20,-4.121
 Gigantetronenin,AR,2AMA,1,-1.324
@@ -4319,19 +4319,19 @@ Gigantetronenin,PI3Kα,6OAC,17,-5.463
 Gigantetronenin,PI3Kα,6OAC,18,-5.737
 Gigantetronenin,PI3Kα,6OAC,19,-5.639
 Gigantetronenin,PI3Kα,6OAC,20,-5.536
-Isoannonacin,EGFR,1IVO,1,0.008033
-Isoannonacin,EGFR,1IVO,2,0.03098
-Isoannonacin,EGFR,1IVO,3,0.0008506
-Isoannonacin,EGFR,1IVO,4,0.02843
-Isoannonacin,EGFR,1IVO,5,0.004715
-Isoannonacin,EGFR,1IVO,6,0.02139
+Isoannonacin,EGFR,1IVO,1,0.0
+Isoannonacin,EGFR,1IVO,2,0.0
+Isoannonacin,EGFR,1IVO,3,0.0
+Isoannonacin,EGFR,1IVO,4,0.0
+Isoannonacin,EGFR,1IVO,5,0.0
+Isoannonacin,EGFR,1IVO,6,0.0
 Isoannonacin,EGFR,1IVO,7,-0.9914
-Isoannonacin,EGFR,1IVO,8,0.06749
+Isoannonacin,EGFR,1IVO,8,0.0
 Isoannonacin,EGFR,1IVO,9,-4.032
-Isoannonacin,EGFR,1IVO,10,0.01703
+Isoannonacin,EGFR,1IVO,10,0.0
 Isoannonacin,EGFR,1IVO,11,-1.885
 Isoannonacin,EGFR,1IVO,12,-3.436
-Isoannonacin,EGFR,1IVO,13,0.05859
+Isoannonacin,EGFR,1IVO,13,0.0
 Isoannonacin,EGFR,1IVO,14,-4.492
 Isoannonacin,EGFR,1IVO,15,-6.143
 Isoannonacin,EGFR,1IVO,16,-3.36
@@ -4347,16 +4347,16 @@ Isoannonacin,Caspase-3,1QX3,5,-0.5449
 Isoannonacin,Caspase-3,1QX3,6,-2.72
 Isoannonacin,Caspase-3,1QX3,7,-4.113
 Isoannonacin,Caspase-3,1QX3,8,-4.245
-Isoannonacin,Caspase-3,1QX3,9,0.03114
-Isoannonacin,Caspase-3,1QX3,10,0.007647
+Isoannonacin,Caspase-3,1QX3,9,0.0
+Isoannonacin,Caspase-3,1QX3,10,0.0
 Isoannonacin,Caspase-3,1QX3,11,-2.782
 Isoannonacin,Caspase-3,1QX3,12,-3.855
 Isoannonacin,Caspase-3,1QX3,13,-4.39
-Isoannonacin,Caspase-3,1QX3,14,0.01759
-Isoannonacin,Caspase-3,1QX3,15,0.006424
+Isoannonacin,Caspase-3,1QX3,14,0.0
+Isoannonacin,Caspase-3,1QX3,15,0.0
 Isoannonacin,Caspase-3,1QX3,16,-4.003
 Isoannonacin,Caspase-3,1QX3,17,-3.955
-Isoannonacin,Caspase-3,1QX3,18,0.0134
+Isoannonacin,Caspase-3,1QX3,18,0.0
 Isoannonacin,Caspase-3,1QX3,19,-1.924
 Isoannonacin,Caspase-3,1QX3,20,-4.187
 Isoannonacin,AR,2AMA,1,-0.9483
@@ -4479,16 +4479,16 @@ Isoannonacin,PI3Kα,6OAC,17,-5.64
 Isoannonacin,PI3Kα,6OAC,18,-5.92
 Isoannonacin,PI3Kα,6OAC,19,-5.997
 Isoannonacin,PI3Kα,6OAC,20,-5.819
-Isoannonacinone,EGFR,1IVO,1,0.01845
-Isoannonacinone,EGFR,1IVO,2,0.0974
-Isoannonacinone,EGFR,1IVO,3,0.05123
-Isoannonacinone,EGFR,1IVO,4,0.05283
-Isoannonacinone,EGFR,1IVO,5,0.07884
-Isoannonacinone,EGFR,1IVO,6,0.0007125
+Isoannonacinone,EGFR,1IVO,1,0.0
+Isoannonacinone,EGFR,1IVO,2,0.0
+Isoannonacinone,EGFR,1IVO,3,0.0
+Isoannonacinone,EGFR,1IVO,4,0.0
+Isoannonacinone,EGFR,1IVO,5,0.0
+Isoannonacinone,EGFR,1IVO,6,0.0
 Isoannonacinone,EGFR,1IVO,7,-0.5115
-Isoannonacinone,EGFR,1IVO,8,0.02862
+Isoannonacinone,EGFR,1IVO,8,0.0
 Isoannonacinone,EGFR,1IVO,9,-3.344
-Isoannonacinone,EGFR,1IVO,10,0.005084
+Isoannonacinone,EGFR,1IVO,10,0.0
 Isoannonacinone,EGFR,1IVO,11,-2.199
 Isoannonacinone,EGFR,1IVO,12,-2.881
 Isoannonacinone,EGFR,1IVO,13,-0.4462
@@ -4507,16 +4507,16 @@ Isoannonacinone,Caspase-3,1QX3,5,-0.7664
 Isoannonacinone,Caspase-3,1QX3,6,-3.562
 Isoannonacinone,Caspase-3,1QX3,7,-4.159
 Isoannonacinone,Caspase-3,1QX3,8,-3.723
-Isoannonacinone,Caspase-3,1QX3,9,0.01487
+Isoannonacinone,Caspase-3,1QX3,9,0.0
 Isoannonacinone,Caspase-3,1QX3,10,-0.7232
 Isoannonacinone,Caspase-3,1QX3,11,-2.823
 Isoannonacinone,Caspase-3,1QX3,12,-4.086
 Isoannonacinone,Caspase-3,1QX3,13,-4.041
-Isoannonacinone,Caspase-3,1QX3,14,0.0303
-Isoannonacinone,Caspase-3,1QX3,15,0.05024
+Isoannonacinone,Caspase-3,1QX3,14,0.0
+Isoannonacinone,Caspase-3,1QX3,15,0.0
 Isoannonacinone,Caspase-3,1QX3,16,-3.705
 Isoannonacinone,Caspase-3,1QX3,17,-4.039
-Isoannonacinone,Caspase-3,1QX3,18,0.00446
+Isoannonacinone,Caspase-3,1QX3,18,0.0
 Isoannonacinone,Caspase-3,1QX3,19,-1.64
 Isoannonacinone,Caspase-3,1QX3,20,-3.238
 Isoannonacinone,AR,2AMA,1,-1.551
@@ -4639,19 +4639,19 @@ Isoannonacinone,PI3Kα,6OAC,17,-6.101
 Isoannonacinone,PI3Kα,6OAC,18,-6.242
 Isoannonacinone,PI3Kα,6OAC,19,-6.063
 Isoannonacinone,PI3Kα,6OAC,20,-5.918
-Javoricin,EGFR,1IVO,1,0.08972
-Javoricin,EGFR,1IVO,2,0.0009481
-Javoricin,EGFR,1IVO,3,0.0281
-Javoricin,EGFR,1IVO,4,0.01815
-Javoricin,EGFR,1IVO,5,0.009083
-Javoricin,EGFR,1IVO,6,0.01596
+Javoricin,EGFR,1IVO,1,0.0
+Javoricin,EGFR,1IVO,2,0.0
+Javoricin,EGFR,1IVO,3,0.0
+Javoricin,EGFR,1IVO,4,0.0
+Javoricin,EGFR,1IVO,5,0.0
+Javoricin,EGFR,1IVO,6,0.0
 Javoricin,EGFR,1IVO,7,-0.7724
-Javoricin,EGFR,1IVO,8,0.0496
+Javoricin,EGFR,1IVO,8,0.0
 Javoricin,EGFR,1IVO,9,-4.131
-Javoricin,EGFR,1IVO,10,0.06615
+Javoricin,EGFR,1IVO,10,0.0
 Javoricin,EGFR,1IVO,11,-2.121
 Javoricin,EGFR,1IVO,12,-3.581
-Javoricin,EGFR,1IVO,13,0.03959
+Javoricin,EGFR,1IVO,13,0.0
 Javoricin,EGFR,1IVO,14,-5.342
 Javoricin,EGFR,1IVO,15,-5.214
 Javoricin,EGFR,1IVO,16,-3.288
@@ -4667,16 +4667,16 @@ Javoricin,Caspase-3,1QX3,5,-0.6951
 Javoricin,Caspase-3,1QX3,6,-3.274
 Javoricin,Caspase-3,1QX3,7,-4.114
 Javoricin,Caspase-3,1QX3,8,-4.365
-Javoricin,Caspase-3,1QX3,9,0.01657
-Javoricin,Caspase-3,1QX3,10,0.01335
+Javoricin,Caspase-3,1QX3,9,0.0
+Javoricin,Caspase-3,1QX3,10,0.0
 Javoricin,Caspase-3,1QX3,11,-3.26
 Javoricin,Caspase-3,1QX3,12,-4.188
 Javoricin,Caspase-3,1QX3,13,-4.415
-Javoricin,Caspase-3,1QX3,14,0.02492
-Javoricin,Caspase-3,1QX3,15,0.02065
+Javoricin,Caspase-3,1QX3,14,0.0
+Javoricin,Caspase-3,1QX3,15,0.0
 Javoricin,Caspase-3,1QX3,16,-4.003
 Javoricin,Caspase-3,1QX3,17,-4.324
-Javoricin,Caspase-3,1QX3,18,0.009654
+Javoricin,Caspase-3,1QX3,18,0.0
 Javoricin,Caspase-3,1QX3,19,-1.402
 Javoricin,Caspase-3,1QX3,20,-3.606
 Javoricin,AR,2AMA,1,-1.573
@@ -4696,7 +4696,7 @@ Javoricin,AR,2AMA,14,-5.615
 Javoricin,AR,2AMA,15,-5.81
 Javoricin,AR,2AMA,16,-4.472
 Javoricin,AR,2AMA,17,-5.149
-Javoricin,AR,2AMA,18,-5.939
+Javoricin,AR,2AMA,18,-6.0
 Javoricin,AR,2AMA,19,-7.408
 Javoricin,AR,2AMA,20,-4.721
 Javoricin,AKT1,3MVH,1,-5.44
@@ -4799,16 +4799,16 @@ Javoricin,PI3Kα,6OAC,17,-5.887
 Javoricin,PI3Kα,6OAC,18,-5.814
 Javoricin,PI3Kα,6OAC,19,-5.599
 Javoricin,PI3Kα,6OAC,20,-5.912
-Longifolicin,EGFR,1IVO,1,0.04475
-Longifolicin,EGFR,1IVO,2,0.0907
-Longifolicin,EGFR,1IVO,3,0.1151
-Longifolicin,EGFR,1IVO,4,0.01175
-Longifolicin,EGFR,1IVO,5,0.05498
-Longifolicin,EGFR,1IVO,6,0.005255
+Longifolicin,EGFR,1IVO,1,0.0
+Longifolicin,EGFR,1IVO,2,0.0
+Longifolicin,EGFR,1IVO,3,0.0
+Longifolicin,EGFR,1IVO,4,0.0
+Longifolicin,EGFR,1IVO,5,0.0
+Longifolicin,EGFR,1IVO,6,0.0
 Longifolicin,EGFR,1IVO,7,-0.9943
-Longifolicin,EGFR,1IVO,8,0.02152
+Longifolicin,EGFR,1IVO,8,0.0
 Longifolicin,EGFR,1IVO,9,-3.761
-Longifolicin,EGFR,1IVO,10,0.006557
+Longifolicin,EGFR,1IVO,10,0.0
 Longifolicin,EGFR,1IVO,11,-2.57
 Longifolicin,EGFR,1IVO,12,-3.212
 Longifolicin,EGFR,1IVO,13,-0.5451
@@ -4827,16 +4827,16 @@ Longifolicin,Caspase-3,1QX3,5,-0.682
 Longifolicin,Caspase-3,1QX3,6,-3.49
 Longifolicin,Caspase-3,1QX3,7,-4.025
 Longifolicin,Caspase-3,1QX3,8,-4.184
-Longifolicin,Caspase-3,1QX3,9,0.05079
-Longifolicin,Caspase-3,1QX3,10,0.04048
+Longifolicin,Caspase-3,1QX3,9,0.0
+Longifolicin,Caspase-3,1QX3,10,0.0
 Longifolicin,Caspase-3,1QX3,11,-3.504
 Longifolicin,Caspase-3,1QX3,12,-4.344
 Longifolicin,Caspase-3,1QX3,13,-3.94
-Longifolicin,Caspase-3,1QX3,14,0.01851
-Longifolicin,Caspase-3,1QX3,15,0.003268
+Longifolicin,Caspase-3,1QX3,14,0.0
+Longifolicin,Caspase-3,1QX3,15,0.0
 Longifolicin,Caspase-3,1QX3,16,-4.175
 Longifolicin,Caspase-3,1QX3,17,-4.275
-Longifolicin,Caspase-3,1QX3,18,0.03913
+Longifolicin,Caspase-3,1QX3,18,0.0
 Longifolicin,Caspase-3,1QX3,19,-1.866
 Longifolicin,Caspase-3,1QX3,20,-3.119
 Longifolicin,AR,2AMA,1,-1.6
@@ -4959,16 +4959,16 @@ Longifolicin,PI3Kα,6OAC,17,-5.916
 Longifolicin,PI3Kα,6OAC,18,-5.857
 Longifolicin,PI3Kα,6OAC,19,-6.076
 Longifolicin,PI3Kα,6OAC,20,-6.26
-Montecristin,EGFR,1IVO,1,0.01287
-Montecristin,EGFR,1IVO,2,0.02468
-Montecristin,EGFR,1IVO,3,0.0572
-Montecristin,EGFR,1IVO,4,0.1007
-Montecristin,EGFR,1IVO,5,0.01766
-Montecristin,EGFR,1IVO,6,0.0186
+Montecristin,EGFR,1IVO,1,0.0
+Montecristin,EGFR,1IVO,2,0.0
+Montecristin,EGFR,1IVO,3,0.0
+Montecristin,EGFR,1IVO,4,0.0
+Montecristin,EGFR,1IVO,5,0.0
+Montecristin,EGFR,1IVO,6,0.0
 Montecristin,EGFR,1IVO,7,-0.8774
-Montecristin,EGFR,1IVO,8,0.005914
+Montecristin,EGFR,1IVO,8,0.0
 Montecristin,EGFR,1IVO,9,-3.441
-Montecristin,EGFR,1IVO,10,0.07193
+Montecristin,EGFR,1IVO,10,0.0
 Montecristin,EGFR,1IVO,11,-1.998
 Montecristin,EGFR,1IVO,12,-2.963
 Montecristin,EGFR,1IVO,13,-0.3641
@@ -4987,16 +4987,16 @@ Montecristin,Caspase-3,1QX3,5,-0.5151
 Montecristin,Caspase-3,1QX3,6,-2.855
 Montecristin,Caspase-3,1QX3,7,-3.575
 Montecristin,Caspase-3,1QX3,8,-4.502
-Montecristin,Caspase-3,1QX3,9,0.007853
-Montecristin,Caspase-3,1QX3,10,0.01581
+Montecristin,Caspase-3,1QX3,9,0.0
+Montecristin,Caspase-3,1QX3,10,0.0
 Montecristin,Caspase-3,1QX3,11,-2.823
 Montecristin,Caspase-3,1QX3,12,-4.073
 Montecristin,Caspase-3,1QX3,13,-4.191
-Montecristin,Caspase-3,1QX3,14,0.02981
-Montecristin,Caspase-3,1QX3,15,0.139
+Montecristin,Caspase-3,1QX3,14,0.0
+Montecristin,Caspase-3,1QX3,15,0.0
 Montecristin,Caspase-3,1QX3,16,-3.489
 Montecristin,Caspase-3,1QX3,17,-3.629
-Montecristin,Caspase-3,1QX3,18,0.02472
+Montecristin,Caspase-3,1QX3,18,0.0
 Montecristin,Caspase-3,1QX3,19,-1.527
 Montecristin,Caspase-3,1QX3,20,-3.587
 Montecristin,AR,2AMA,1,-1.262
@@ -5119,19 +5119,19 @@ Montecristin,PI3Kα,6OAC,17,-5.242
 Montecristin,PI3Kα,6OAC,18,-5.374
 Montecristin,PI3Kα,6OAC,19,-5.371
 Montecristin,PI3Kα,6OAC,20,-5.397
-Muricadienin,EGFR,1IVO,1,0.001409
-Muricadienin,EGFR,1IVO,2,0.01313
-Muricadienin,EGFR,1IVO,3,0.02043
-Muricadienin,EGFR,1IVO,4,0.06344
-Muricadienin,EGFR,1IVO,5,0.01498
-Muricadienin,EGFR,1IVO,6,0.001818
+Muricadienin,EGFR,1IVO,1,0.0
+Muricadienin,EGFR,1IVO,2,0.0
+Muricadienin,EGFR,1IVO,3,0.0
+Muricadienin,EGFR,1IVO,4,0.0
+Muricadienin,EGFR,1IVO,5,0.0
+Muricadienin,EGFR,1IVO,6,0.0
 Muricadienin,EGFR,1IVO,7,-0.912
-Muricadienin,EGFR,1IVO,8,0.03348
+Muricadienin,EGFR,1IVO,8,0.0
 Muricadienin,EGFR,1IVO,9,-2.397
-Muricadienin,EGFR,1IVO,10,0.08406
+Muricadienin,EGFR,1IVO,10,0.0
 Muricadienin,EGFR,1IVO,11,-1.564
 Muricadienin,EGFR,1IVO,12,-2.576
-Muricadienin,EGFR,1IVO,13,0.000485
+Muricadienin,EGFR,1IVO,13,0.0
 Muricadienin,EGFR,1IVO,14,-4.5
 Muricadienin,EGFR,1IVO,15,-4.808
 Muricadienin,EGFR,1IVO,16,-2.764
@@ -5147,16 +5147,16 @@ Muricadienin,Caspase-3,1QX3,5,-0.7673
 Muricadienin,Caspase-3,1QX3,6,-2.797
 Muricadienin,Caspase-3,1QX3,7,-3.41
 Muricadienin,Caspase-3,1QX3,8,-3.369
-Muricadienin,Caspase-3,1QX3,9,0.03203
+Muricadienin,Caspase-3,1QX3,9,0.0
 Muricadienin,Caspase-3,1QX3,10,-0.5413
 Muricadienin,Caspase-3,1QX3,11,-2.389
 Muricadienin,Caspase-3,1QX3,12,-3.505
 Muricadienin,Caspase-3,1QX3,13,-2.984
-Muricadienin,Caspase-3,1QX3,14,0.03459
-Muricadienin,Caspase-3,1QX3,15,0.021
+Muricadienin,Caspase-3,1QX3,14,0.0
+Muricadienin,Caspase-3,1QX3,15,0.0
 Muricadienin,Caspase-3,1QX3,16,-3.696
 Muricadienin,Caspase-3,1QX3,17,-2.733
-Muricadienin,Caspase-3,1QX3,18,0.008238
+Muricadienin,Caspase-3,1QX3,18,0.0
 Muricadienin,Caspase-3,1QX3,19,-1.452
 Muricadienin,Caspase-3,1QX3,20,-3.227
 Muricadienin,AR,2AMA,1,-1.486
@@ -5279,19 +5279,19 @@ Muricadienin,PI3Kα,6OAC,17,-5.428
 Muricadienin,PI3Kα,6OAC,18,-5.33
 Muricadienin,PI3Kα,6OAC,19,-5.545
 Muricadienin,PI3Kα,6OAC,20,-5.207
-Muricapentocin,EGFR,1IVO,1,0.01833
-Muricapentocin,EGFR,1IVO,2,0.06776
-Muricapentocin,EGFR,1IVO,3,0.02506
-Muricapentocin,EGFR,1IVO,4,0.01129
-Muricapentocin,EGFR,1IVO,5,0.09352
-Muricapentocin,EGFR,1IVO,6,0.007336
+Muricapentocin,EGFR,1IVO,1,0.0
+Muricapentocin,EGFR,1IVO,2,0.0
+Muricapentocin,EGFR,1IVO,3,0.0
+Muricapentocin,EGFR,1IVO,4,0.0
+Muricapentocin,EGFR,1IVO,5,0.0
+Muricapentocin,EGFR,1IVO,6,0.0
 Muricapentocin,EGFR,1IVO,7,-0.8698
-Muricapentocin,EGFR,1IVO,8,0.01937
+Muricapentocin,EGFR,1IVO,8,0.0
 Muricapentocin,EGFR,1IVO,9,-3.903
-Muricapentocin,EGFR,1IVO,10,0.002529
+Muricapentocin,EGFR,1IVO,10,0.0
 Muricapentocin,EGFR,1IVO,11,-2.461
 Muricapentocin,EGFR,1IVO,12,-3.305
-Muricapentocin,EGFR,1IVO,13,0.0704
+Muricapentocin,EGFR,1IVO,13,0.0
 Muricapentocin,EGFR,1IVO,14,-5.265
 Muricapentocin,EGFR,1IVO,15,-5.457
 Muricapentocin,EGFR,1IVO,16,-3.628
@@ -5303,20 +5303,20 @@ Muricapentocin,Caspase-3,1QX3,1,-0.7
 Muricapentocin,Caspase-3,1QX3,2,-0.4626
 Muricapentocin,Caspase-3,1QX3,3,-2.746
 Muricapentocin,Caspase-3,1QX3,4,-4.676
-Muricapentocin,Caspase-3,1QX3,5,0.007189
+Muricapentocin,Caspase-3,1QX3,5,0.0
 Muricapentocin,Caspase-3,1QX3,6,-3.604
 Muricapentocin,Caspase-3,1QX3,7,-3.793
 Muricapentocin,Caspase-3,1QX3,8,-3.978
-Muricapentocin,Caspase-3,1QX3,9,0.01025
-Muricapentocin,Caspase-3,1QX3,10,0.08282
+Muricapentocin,Caspase-3,1QX3,9,0.0
+Muricapentocin,Caspase-3,1QX3,10,0.0
 Muricapentocin,Caspase-3,1QX3,11,-3.046
 Muricapentocin,Caspase-3,1QX3,12,-3.988
 Muricapentocin,Caspase-3,1QX3,13,-4.104
-Muricapentocin,Caspase-3,1QX3,14,0.0152
-Muricapentocin,Caspase-3,1QX3,15,0.08988
+Muricapentocin,Caspase-3,1QX3,14,0.0
+Muricapentocin,Caspase-3,1QX3,15,0.0
 Muricapentocin,Caspase-3,1QX3,16,-3.977
 Muricapentocin,Caspase-3,1QX3,17,-3.868
-Muricapentocin,Caspase-3,1QX3,18,0.02139
+Muricapentocin,Caspase-3,1QX3,18,0.0
 Muricapentocin,Caspase-3,1QX3,19,-1.752
 Muricapentocin,Caspase-3,1QX3,20,-3.894
 Muricapentocin,AR,2AMA,1,-1.513
@@ -5373,7 +5373,7 @@ Muricapentocin,mTOR,4JSP,11,-5.582
 Muricapentocin,mTOR,4JSP,12,-5.345
 Muricapentocin,mTOR,4JSP,13,-6.834
 Muricapentocin,mTOR,4JSP,14,-6.018
-Muricapentocin,mTOR,4JSP,15,-5.777
+Muricapentocin,mTOR,4JSP,15,-6.0
 Muricapentocin,mTOR,4JSP,16,-6.064
 Muricapentocin,mTOR,4JSP,17,-6.218
 Muricapentocin,mTOR,4JSP,18,-5.957
@@ -5439,16 +5439,16 @@ Muricapentocin,PI3Kα,6OAC,17,-6.031
 Muricapentocin,PI3Kα,6OAC,18,-6.42
 Muricapentocin,PI3Kα,6OAC,19,-6.245
 Muricapentocin,PI3Kα,6OAC,20,-5.644
-Muricatacin,EGFR,1IVO,1,0.02703
-Muricatacin,EGFR,1IVO,2,0.001582
-Muricatacin,EGFR,1IVO,3,0.0002314
+Muricatacin,EGFR,1IVO,1,0.0
+Muricatacin,EGFR,1IVO,2,0.0
+Muricatacin,EGFR,1IVO,3,0.0
 Muricatacin,EGFR,1IVO,4,-0.7
-Muricatacin,EGFR,1IVO,5,0.001486
-Muricatacin,EGFR,1IVO,6,0.0006545
+Muricatacin,EGFR,1IVO,5,0.0
+Muricatacin,EGFR,1IVO,6,0.0
 Muricatacin,EGFR,1IVO,7,-0.975
-Muricatacin,EGFR,1IVO,8,0.008931
+Muricatacin,EGFR,1IVO,8,0.0
 Muricatacin,EGFR,1IVO,9,-3.962
-Muricatacin,EGFR,1IVO,10,0.003006
+Muricatacin,EGFR,1IVO,10,0.0
 Muricatacin,EGFR,1IVO,11,-2.098
 Muricatacin,EGFR,1IVO,12,-3.25
 Muricatacin,EGFR,1IVO,13,-0.3986
@@ -5467,16 +5467,16 @@ Muricatacin,Caspase-3,1QX3,5,-0.6926
 Muricatacin,Caspase-3,1QX3,6,-3.536
 Muricatacin,Caspase-3,1QX3,7,-3.344
 Muricatacin,Caspase-3,1QX3,8,-4.339
-Muricatacin,Caspase-3,1QX3,9,0.0156
+Muricatacin,Caspase-3,1QX3,9,0.0
 Muricatacin,Caspase-3,1QX3,10,-0.2989
 Muricatacin,Caspase-3,1QX3,11,-3.325
 Muricatacin,Caspase-3,1QX3,12,-4.07
 Muricatacin,Caspase-3,1QX3,13,-3.937
-Muricatacin,Caspase-3,1QX3,14,0.002286
-Muricatacin,Caspase-3,1QX3,15,0.004073
+Muricatacin,Caspase-3,1QX3,14,0.0
+Muricatacin,Caspase-3,1QX3,15,0.0
 Muricatacin,Caspase-3,1QX3,16,-3.273
 Muricatacin,Caspase-3,1QX3,17,-3.894
-Muricatacin,Caspase-3,1QX3,18,0.003958
+Muricatacin,Caspase-3,1QX3,18,0.0
 Muricatacin,Caspase-3,1QX3,19,-1.669
 Muricatacin,Caspase-3,1QX3,20,-3.091
 Muricatacin,AR,2AMA,1,-2.003
@@ -5599,16 +5599,16 @@ Muricatacin,PI3Kα,6OAC,17,-5.675
 Muricatacin,PI3Kα,6OAC,18,-5.174
 Muricatacin,PI3Kα,6OAC,19,-6.025
 Muricatacin,PI3Kα,6OAC,20,-5.21
-Muricatenol,EGFR,1IVO,1,0.04896
-Muricatenol,EGFR,1IVO,2,0.04318
-Muricatenol,EGFR,1IVO,3,0.01877
-Muricatenol,EGFR,1IVO,4,0.09319
-Muricatenol,EGFR,1IVO,5,0.00481
-Muricatenol,EGFR,1IVO,6,0.05138
+Muricatenol,EGFR,1IVO,1,0.0
+Muricatenol,EGFR,1IVO,2,0.0
+Muricatenol,EGFR,1IVO,3,0.0
+Muricatenol,EGFR,1IVO,4,0.0
+Muricatenol,EGFR,1IVO,5,0.0
+Muricatenol,EGFR,1IVO,6,0.0
 Muricatenol,EGFR,1IVO,7,-0.8843
-Muricatenol,EGFR,1IVO,8,0.02303
+Muricatenol,EGFR,1IVO,8,0.0
 Muricatenol,EGFR,1IVO,9,-3.421
-Muricatenol,EGFR,1IVO,10,0.08341
+Muricatenol,EGFR,1IVO,10,0.0
 Muricatenol,EGFR,1IVO,11,-2.228
 Muricatenol,EGFR,1IVO,12,-2.904
 Muricatenol,EGFR,1IVO,13,-0.5264
@@ -5627,16 +5627,16 @@ Muricatenol,Caspase-3,1QX3,5,-0.7329
 Muricatenol,Caspase-3,1QX3,6,-3.299
 Muricatenol,Caspase-3,1QX3,7,-4.222
 Muricatenol,Caspase-3,1QX3,8,-3.92
-Muricatenol,Caspase-3,1QX3,9,0.001082
+Muricatenol,Caspase-3,1QX3,9,0.0
 Muricatenol,Caspase-3,1QX3,10,-0.624
 Muricatenol,Caspase-3,1QX3,11,-3.143
 Muricatenol,Caspase-3,1QX3,12,-4.297
 Muricatenol,Caspase-3,1QX3,13,-4.062
-Muricatenol,Caspase-3,1QX3,14,0.03757
-Muricatenol,Caspase-3,1QX3,15,0.1338
+Muricatenol,Caspase-3,1QX3,14,0.0
+Muricatenol,Caspase-3,1QX3,15,0.0
 Muricatenol,Caspase-3,1QX3,16,-4.156
 Muricatenol,Caspase-3,1QX3,17,-3.898
-Muricatenol,Caspase-3,1QX3,18,0.05025
+Muricatenol,Caspase-3,1QX3,18,0.0
 Muricatenol,Caspase-3,1QX3,19,-1.551
 Muricatenol,Caspase-3,1QX3,20,-3.514
 Muricatenol,AR,2AMA,1,-0.9262
@@ -5759,16 +5759,16 @@ Muricatenol,PI3Kα,6OAC,17,-5.691
 Muricatenol,PI3Kα,6OAC,18,-5.773
 Muricatenol,PI3Kα,6OAC,19,-5.622
 Muricatenol,PI3Kα,6OAC,20,-5.475
-Muricatocin A,EGFR,1IVO,1,0.0419
-Muricatocin A,EGFR,1IVO,2,0.07746
-Muricatocin A,EGFR,1IVO,3,0.006498
-Muricatocin A,EGFR,1IVO,4,0.1242
-Muricatocin A,EGFR,1IVO,5,0.007483
-Muricatocin A,EGFR,1IVO,6,0.1405
+Muricatocin A,EGFR,1IVO,1,0.0
+Muricatocin A,EGFR,1IVO,2,0.0
+Muricatocin A,EGFR,1IVO,3,0.0
+Muricatocin A,EGFR,1IVO,4,0.0
+Muricatocin A,EGFR,1IVO,5,0.0
+Muricatocin A,EGFR,1IVO,6,0.0
 Muricatocin A,EGFR,1IVO,7,-0.6733
-Muricatocin A,EGFR,1IVO,8,0.1768
+Muricatocin A,EGFR,1IVO,8,0.0
 Muricatocin A,EGFR,1IVO,9,-3.894
-Muricatocin A,EGFR,1IVO,10,0.04091
+Muricatocin A,EGFR,1IVO,10,0.0
 Muricatocin A,EGFR,1IVO,11,-2.399
 Muricatocin A,EGFR,1IVO,12,-3.267
 Muricatocin A,EGFR,1IVO,13,-0.2431
@@ -5787,16 +5787,16 @@ Muricatocin A,Caspase-3,1QX3,5,-0.3639
 Muricatocin A,Caspase-3,1QX3,6,-3.834
 Muricatocin A,Caspase-3,1QX3,7,-3.987
 Muricatocin A,Caspase-3,1QX3,8,-4.119
-Muricatocin A,Caspase-3,1QX3,9,0.01941
-Muricatocin A,Caspase-3,1QX3,10,0.01687
+Muricatocin A,Caspase-3,1QX3,9,0.0
+Muricatocin A,Caspase-3,1QX3,10,0.0
 Muricatocin A,Caspase-3,1QX3,11,-3.109
 Muricatocin A,Caspase-3,1QX3,12,-4.484
 Muricatocin A,Caspase-3,1QX3,13,-4.666
-Muricatocin A,Caspase-3,1QX3,14,0.04882
-Muricatocin A,Caspase-3,1QX3,15,0.009786
+Muricatocin A,Caspase-3,1QX3,14,0.0
+Muricatocin A,Caspase-3,1QX3,15,0.0
 Muricatocin A,Caspase-3,1QX3,16,-4.397
 Muricatocin A,Caspase-3,1QX3,17,-3.817
-Muricatocin A,Caspase-3,1QX3,18,0.01834
+Muricatocin A,Caspase-3,1QX3,18,0.0
 Muricatocin A,Caspase-3,1QX3,19,-2.468
 Muricatocin A,Caspase-3,1QX3,20,-4.13
 Muricatocin A,AR,2AMA,1,-1.537
@@ -5919,16 +5919,16 @@ Muricatocin A,PI3Kα,6OAC,17,-5.542
 Muricatocin A,PI3Kα,6OAC,18,-6.072
 Muricatocin A,PI3Kα,6OAC,19,-6.244
 Muricatocin A,PI3Kα,6OAC,20,-5.902
-Muricatocin B,EGFR,1IVO,1,0.01479
-Muricatocin B,EGFR,1IVO,2,0.0849
-Muricatocin B,EGFR,1IVO,3,0.03233
-Muricatocin B,EGFR,1IVO,4,0.02127
-Muricatocin B,EGFR,1IVO,5,0.165
-Muricatocin B,EGFR,1IVO,6,0.08953
+Muricatocin B,EGFR,1IVO,1,0.0
+Muricatocin B,EGFR,1IVO,2,0.0
+Muricatocin B,EGFR,1IVO,3,0.0
+Muricatocin B,EGFR,1IVO,4,0.0
+Muricatocin B,EGFR,1IVO,5,0.0
+Muricatocin B,EGFR,1IVO,6,0.0
 Muricatocin B,EGFR,1IVO,7,-0.7786
-Muricatocin B,EGFR,1IVO,8,0.106
+Muricatocin B,EGFR,1IVO,8,0.0
 Muricatocin B,EGFR,1IVO,9,-3.599
-Muricatocin B,EGFR,1IVO,10,0.03922
+Muricatocin B,EGFR,1IVO,10,0.0
 Muricatocin B,EGFR,1IVO,11,-2.285
 Muricatocin B,EGFR,1IVO,12,-3.567
 Muricatocin B,EGFR,1IVO,13,-0.4598
@@ -5947,16 +5947,16 @@ Muricatocin B,Caspase-3,1QX3,5,-0.7578
 Muricatocin B,Caspase-3,1QX3,6,-2.961
 Muricatocin B,Caspase-3,1QX3,7,-4.26
 Muricatocin B,Caspase-3,1QX3,8,-5.229
-Muricatocin B,Caspase-3,1QX3,9,0.03945
+Muricatocin B,Caspase-3,1QX3,9,0.0
 Muricatocin B,Caspase-3,1QX3,10,-0.00127
 Muricatocin B,Caspase-3,1QX3,11,-3.275
 Muricatocin B,Caspase-3,1QX3,12,-4.187
 Muricatocin B,Caspase-3,1QX3,13,-4.74
-Muricatocin B,Caspase-3,1QX3,14,0.00529
-Muricatocin B,Caspase-3,1QX3,15,0.01602
+Muricatocin B,Caspase-3,1QX3,14,0.0
+Muricatocin B,Caspase-3,1QX3,15,0.0
 Muricatocin B,Caspase-3,1QX3,16,-4.159
 Muricatocin B,Caspase-3,1QX3,17,-4.103
-Muricatocin B,Caspase-3,1QX3,18,0.05381
+Muricatocin B,Caspase-3,1QX3,18,0.0
 Muricatocin B,Caspase-3,1QX3,19,-1.457
 Muricatocin B,Caspase-3,1QX3,20,-3.035
 Muricatocin B,AR,2AMA,1,-1.539
@@ -6079,16 +6079,16 @@ Muricatocin B,PI3Kα,6OAC,17,-5.941
 Muricatocin B,PI3Kα,6OAC,18,-6.296
 Muricatocin B,PI3Kα,6OAC,19,-6.218
 Muricatocin B,PI3Kα,6OAC,20,-6.813
-Muricatocin C,EGFR,1IVO,1,0.07276
-Muricatocin C,EGFR,1IVO,2,0.003351
-Muricatocin C,EGFR,1IVO,3,0.0256
-Muricatocin C,EGFR,1IVO,4,0.01659
-Muricatocin C,EGFR,1IVO,5,0.01887
-Muricatocin C,EGFR,1IVO,6,0.01152
+Muricatocin C,EGFR,1IVO,1,0.0
+Muricatocin C,EGFR,1IVO,2,0.0
+Muricatocin C,EGFR,1IVO,3,0.0
+Muricatocin C,EGFR,1IVO,4,0.0
+Muricatocin C,EGFR,1IVO,5,0.0
+Muricatocin C,EGFR,1IVO,6,0.0
 Muricatocin C,EGFR,1IVO,7,-1.037
-Muricatocin C,EGFR,1IVO,8,0.06482
+Muricatocin C,EGFR,1IVO,8,0.0
 Muricatocin C,EGFR,1IVO,9,-3.764
-Muricatocin C,EGFR,1IVO,10,0.1265
+Muricatocin C,EGFR,1IVO,10,0.0
 Muricatocin C,EGFR,1IVO,11,-2.788
 Muricatocin C,EGFR,1IVO,12,-3.722
 Muricatocin C,EGFR,1IVO,13,-0.3496
@@ -6103,20 +6103,20 @@ Muricatocin C,Caspase-3,1QX3,1,-0.4812
 Muricatocin C,Caspase-3,1QX3,2,-0.6843
 Muricatocin C,Caspase-3,1QX3,3,-3.434
 Muricatocin C,Caspase-3,1QX3,4,-4.023
-Muricatocin C,Caspase-3,1QX3,5,0.1173
+Muricatocin C,Caspase-3,1QX3,5,0.0
 Muricatocin C,Caspase-3,1QX3,6,-3.148
 Muricatocin C,Caspase-3,1QX3,7,-4.114
 Muricatocin C,Caspase-3,1QX3,8,-4.191
-Muricatocin C,Caspase-3,1QX3,9,0.008891
+Muricatocin C,Caspase-3,1QX3,9,0.0
 Muricatocin C,Caspase-3,1QX3,10,-0.6109
 Muricatocin C,Caspase-3,1QX3,11,-2.811
 Muricatocin C,Caspase-3,1QX3,12,-4.055
 Muricatocin C,Caspase-3,1QX3,13,-4.75
-Muricatocin C,Caspase-3,1QX3,14,0.01223
-Muricatocin C,Caspase-3,1QX3,15,0.002311
+Muricatocin C,Caspase-3,1QX3,14,0.0
+Muricatocin C,Caspase-3,1QX3,15,0.0
 Muricatocin C,Caspase-3,1QX3,16,-4.14
 Muricatocin C,Caspase-3,1QX3,17,-4.205
-Muricatocin C,Caspase-3,1QX3,18,0.0225
+Muricatocin C,Caspase-3,1QX3,18,0.0
 Muricatocin C,Caspase-3,1QX3,19,-1.286
 Muricatocin C,Caspase-3,1QX3,20,-3.581
 Muricatocin C,AR,2AMA,1,-1.603
@@ -6239,16 +6239,16 @@ Muricatocin C,PI3Kα,6OAC,17,-5.814
 Muricatocin C,PI3Kα,6OAC,18,-6.088
 Muricatocin C,PI3Kα,6OAC,19,-5.979
 Muricatocin C,PI3Kα,6OAC,20,-5.984
-Muricin A,EGFR,1IVO,1,0.06938
-Muricin A,EGFR,1IVO,2,0.06035
-Muricin A,EGFR,1IVO,3,0.005842
-Muricin A,EGFR,1IVO,4,0.07541
-Muricin A,EGFR,1IVO,5,0.03778
-Muricin A,EGFR,1IVO,6,0.04186
+Muricin A,EGFR,1IVO,1,0.0
+Muricin A,EGFR,1IVO,2,0.0
+Muricin A,EGFR,1IVO,3,0.0
+Muricin A,EGFR,1IVO,4,0.0
+Muricin A,EGFR,1IVO,5,0.0
+Muricin A,EGFR,1IVO,6,0.0
 Muricin A,EGFR,1IVO,7,-0.8127
-Muricin A,EGFR,1IVO,8,0.09835
+Muricin A,EGFR,1IVO,8,0.0
 Muricin A,EGFR,1IVO,9,-3.645
-Muricin A,EGFR,1IVO,10,0.03302
+Muricin A,EGFR,1IVO,10,0.0
 Muricin A,EGFR,1IVO,11,-2.366
 Muricin A,EGFR,1IVO,12,-3.438
 Muricin A,EGFR,1IVO,13,-0.5201
@@ -6263,20 +6263,20 @@ Muricin A,Caspase-3,1QX3,1,-0.6788
 Muricin A,Caspase-3,1QX3,2,-0.7916
 Muricin A,Caspase-3,1QX3,3,-3.737
 Muricin A,Caspase-3,1QX3,4,-4.329
-Muricin A,Caspase-3,1QX3,5,0.01618
+Muricin A,Caspase-3,1QX3,5,0.0
 Muricin A,Caspase-3,1QX3,6,-2.583
 Muricin A,Caspase-3,1QX3,7,-4.808
 Muricin A,Caspase-3,1QX3,8,-4.779
-Muricin A,Caspase-3,1QX3,9,0.05009
-Muricin A,Caspase-3,1QX3,10,0.01021
+Muricin A,Caspase-3,1QX3,9,0.0
+Muricin A,Caspase-3,1QX3,10,0.0
 Muricin A,Caspase-3,1QX3,11,-3.113
 Muricin A,Caspase-3,1QX3,12,-3.944
 Muricin A,Caspase-3,1QX3,13,-4.118
-Muricin A,Caspase-3,1QX3,14,0.005831
-Muricin A,Caspase-3,1QX3,15,0.009848
+Muricin A,Caspase-3,1QX3,14,0.0
+Muricin A,Caspase-3,1QX3,15,0.0
 Muricin A,Caspase-3,1QX3,16,-4.158
 Muricin A,Caspase-3,1QX3,17,-4.481
-Muricin A,Caspase-3,1QX3,18,0.05705
+Muricin A,Caspase-3,1QX3,18,0.0
 Muricin A,Caspase-3,1QX3,19,-1.735
 Muricin A,Caspase-3,1QX3,20,-3.96
 Muricin A,AR,2AMA,1,-1.586
@@ -6399,19 +6399,19 @@ Muricin A,PI3Kα,6OAC,17,-6.048
 Muricin A,PI3Kα,6OAC,18,-6.344
 Muricin A,PI3Kα,6OAC,19,-6.158
 Muricin A,PI3Kα,6OAC,20,-5.552
-Muricin B,EGFR,1IVO,1,0.03891
-Muricin B,EGFR,1IVO,2,0.07249
-Muricin B,EGFR,1IVO,3,0.1016
-Muricin B,EGFR,1IVO,4,0.01987
-Muricin B,EGFR,1IVO,5,0.01346
-Muricin B,EGFR,1IVO,6,0.2643
+Muricin B,EGFR,1IVO,1,0.0
+Muricin B,EGFR,1IVO,2,0.0
+Muricin B,EGFR,1IVO,3,0.0
+Muricin B,EGFR,1IVO,4,0.0
+Muricin B,EGFR,1IVO,5,0.0
+Muricin B,EGFR,1IVO,6,0.0
 Muricin B,EGFR,1IVO,7,-0.7745
-Muricin B,EGFR,1IVO,8,0.05012
+Muricin B,EGFR,1IVO,8,0.0
 Muricin B,EGFR,1IVO,9,-3.457
-Muricin B,EGFR,1IVO,10,0.03543
+Muricin B,EGFR,1IVO,10,0.0
 Muricin B,EGFR,1IVO,11,-2.204
 Muricin B,EGFR,1IVO,12,-3.424
-Muricin B,EGFR,1IVO,13,0.004437
+Muricin B,EGFR,1IVO,13,0.0
 Muricin B,EGFR,1IVO,14,-5.338
 Muricin B,EGFR,1IVO,15,-5.702
 Muricin B,EGFR,1IVO,16,-3.788
@@ -6423,20 +6423,20 @@ Muricin B,Caspase-3,1QX3,1,-0.7824
 Muricin B,Caspase-3,1QX3,2,-0.2574
 Muricin B,Caspase-3,1QX3,3,-3.84
 Muricin B,Caspase-3,1QX3,4,-4.326
-Muricin B,Caspase-3,1QX3,5,0.08368
+Muricin B,Caspase-3,1QX3,5,0.0
 Muricin B,Caspase-3,1QX3,6,-2.524
 Muricin B,Caspase-3,1QX3,7,-4.217
 Muricin B,Caspase-3,1QX3,8,-4.655
-Muricin B,Caspase-3,1QX3,9,0.04684
-Muricin B,Caspase-3,1QX3,10,0.1004
+Muricin B,Caspase-3,1QX3,9,0.0
+Muricin B,Caspase-3,1QX3,10,0.0
 Muricin B,Caspase-3,1QX3,11,-3.21
 Muricin B,Caspase-3,1QX3,12,-3.85
 Muricin B,Caspase-3,1QX3,13,-3.605
-Muricin B,Caspase-3,1QX3,14,0.005697
-Muricin B,Caspase-3,1QX3,15,0.1081
+Muricin B,Caspase-3,1QX3,14,0.0
+Muricin B,Caspase-3,1QX3,15,0.0
 Muricin B,Caspase-3,1QX3,16,-4.228
 Muricin B,Caspase-3,1QX3,17,-3.704
-Muricin B,Caspase-3,1QX3,18,0.05376
+Muricin B,Caspase-3,1QX3,18,0.0
 Muricin B,Caspase-3,1QX3,19,-2.016
 Muricin B,Caspase-3,1QX3,20,-3.892
 Muricin B,AR,2AMA,1,-1.475
@@ -6559,19 +6559,19 @@ Muricin B,PI3Kα,6OAC,17,-6.055
 Muricin B,PI3Kα,6OAC,18,-5.718
 Muricin B,PI3Kα,6OAC,19,-5.532
 Muricin B,PI3Kα,6OAC,20,-5.654
-Muricin C,EGFR,1IVO,1,0.008648
-Muricin C,EGFR,1IVO,2,0.05327
-Muricin C,EGFR,1IVO,3,0.02646
-Muricin C,EGFR,1IVO,4,0.0625
-Muricin C,EGFR,1IVO,5,0.1028
-Muricin C,EGFR,1IVO,6,0.1065
+Muricin C,EGFR,1IVO,1,0.0
+Muricin C,EGFR,1IVO,2,0.0
+Muricin C,EGFR,1IVO,3,0.0
+Muricin C,EGFR,1IVO,4,0.0
+Muricin C,EGFR,1IVO,5,0.0
+Muricin C,EGFR,1IVO,6,0.0
 Muricin C,EGFR,1IVO,7,-0.752
-Muricin C,EGFR,1IVO,8,0.091
+Muricin C,EGFR,1IVO,8,0.0
 Muricin C,EGFR,1IVO,9,-3.646
-Muricin C,EGFR,1IVO,10,0.1557
+Muricin C,EGFR,1IVO,10,0.0
 Muricin C,EGFR,1IVO,11,-2.26
 Muricin C,EGFR,1IVO,12,-3.283
-Muricin C,EGFR,1IVO,13,0.06184
+Muricin C,EGFR,1IVO,13,0.0
 Muricin C,EGFR,1IVO,14,-5.149
 Muricin C,EGFR,1IVO,15,-5.207
 Muricin C,EGFR,1IVO,16,-3.207
@@ -6583,20 +6583,20 @@ Muricin C,Caspase-3,1QX3,1,-0.6604
 Muricin C,Caspase-3,1QX3,2,-0.7294
 Muricin C,Caspase-3,1QX3,3,-3.287
 Muricin C,Caspase-3,1QX3,4,-4.423
-Muricin C,Caspase-3,1QX3,5,0.05594
+Muricin C,Caspase-3,1QX3,5,0.0
 Muricin C,Caspase-3,1QX3,6,-3.627
 Muricin C,Caspase-3,1QX3,7,-4.691
 Muricin C,Caspase-3,1QX3,8,-4.628
-Muricin C,Caspase-3,1QX3,9,0.1437
-Muricin C,Caspase-3,1QX3,10,0.0426
+Muricin C,Caspase-3,1QX3,9,0.0
+Muricin C,Caspase-3,1QX3,10,0.0
 Muricin C,Caspase-3,1QX3,11,-3.7
 Muricin C,Caspase-3,1QX3,12,-4.376
 Muricin C,Caspase-3,1QX3,13,-4.296
-Muricin C,Caspase-3,1QX3,14,0.01415
-Muricin C,Caspase-3,1QX3,15,0.03139
+Muricin C,Caspase-3,1QX3,14,0.0
+Muricin C,Caspase-3,1QX3,15,0.0
 Muricin C,Caspase-3,1QX3,16,-3.85
 Muricin C,Caspase-3,1QX3,17,-4.146
-Muricin C,Caspase-3,1QX3,18,0.02564
+Muricin C,Caspase-3,1QX3,18,0.0
 Muricin C,Caspase-3,1QX3,19,-2.525
 Muricin C,Caspase-3,1QX3,20,-3.574
 Muricin C,AR,2AMA,1,-1.722
@@ -6719,16 +6719,16 @@ Muricin C,PI3Kα,6OAC,17,-5.195
 Muricin C,PI3Kα,6OAC,18,-6.042
 Muricin C,PI3Kα,6OAC,19,-5.999
 Muricin C,PI3Kα,6OAC,20,-6.197
-Muricin E,EGFR,1IVO,1,0.09217
-Muricin E,EGFR,1IVO,2,0.00583
-Muricin E,EGFR,1IVO,3,0.09219
-Muricin E,EGFR,1IVO,4,0.1199
-Muricin E,EGFR,1IVO,5,0.09459
-Muricin E,EGFR,1IVO,6,0.08642
+Muricin E,EGFR,1IVO,1,0.0
+Muricin E,EGFR,1IVO,2,0.0
+Muricin E,EGFR,1IVO,3,0.0
+Muricin E,EGFR,1IVO,4,0.0
+Muricin E,EGFR,1IVO,5,0.0
+Muricin E,EGFR,1IVO,6,0.0
 Muricin E,EGFR,1IVO,7,-0.7975
-Muricin E,EGFR,1IVO,8,0.01161
+Muricin E,EGFR,1IVO,8,0.0
 Muricin E,EGFR,1IVO,9,-3.542
-Muricin E,EGFR,1IVO,10,0.08111
+Muricin E,EGFR,1IVO,10,0.0
 Muricin E,EGFR,1IVO,11,-2.155
 Muricin E,EGFR,1IVO,12,-2.892
 Muricin E,EGFR,1IVO,13,-0.433
@@ -6747,16 +6747,16 @@ Muricin E,Caspase-3,1QX3,5,-0.8937
 Muricin E,Caspase-3,1QX3,6,-3.501
 Muricin E,Caspase-3,1QX3,7,-4.327
 Muricin E,Caspase-3,1QX3,8,-4.136
-Muricin E,Caspase-3,1QX3,9,0.008385
-Muricin E,Caspase-3,1QX3,10,0.03035
+Muricin E,Caspase-3,1QX3,9,0.0
+Muricin E,Caspase-3,1QX3,10,0.0
 Muricin E,Caspase-3,1QX3,11,-3.86
 Muricin E,Caspase-3,1QX3,12,-4.8
 Muricin E,Caspase-3,1QX3,13,-4.496
-Muricin E,Caspase-3,1QX3,14,0.02247
-Muricin E,Caspase-3,1QX3,15,0.1466
+Muricin E,Caspase-3,1QX3,14,0.0
+Muricin E,Caspase-3,1QX3,15,0.0
 Muricin E,Caspase-3,1QX3,16,-4.536
 Muricin E,Caspase-3,1QX3,17,-4.219
-Muricin E,Caspase-3,1QX3,18,0.003004
+Muricin E,Caspase-3,1QX3,18,0.0
 Muricin E,Caspase-3,1QX3,19,-2.183
 Muricin E,Caspase-3,1QX3,20,-3.648
 Muricin E,AR,2AMA,1,-1.634
@@ -6879,19 +6879,19 @@ Muricin E,PI3Kα,6OAC,17,-5.905
 Muricin E,PI3Kα,6OAC,18,-5.591
 Muricin E,PI3Kα,6OAC,19,-6.537
 Muricin E,PI3Kα,6OAC,20,-6.404
-Muricin F,EGFR,1IVO,1,0.01235
-Muricin F,EGFR,1IVO,2,0.08054
-Muricin F,EGFR,1IVO,3,0.02962
-Muricin F,EGFR,1IVO,4,0.08298
-Muricin F,EGFR,1IVO,5,0.02652
-Muricin F,EGFR,1IVO,6,0.0791
+Muricin F,EGFR,1IVO,1,0.0
+Muricin F,EGFR,1IVO,2,0.0
+Muricin F,EGFR,1IVO,3,0.0
+Muricin F,EGFR,1IVO,4,0.0
+Muricin F,EGFR,1IVO,5,0.0
+Muricin F,EGFR,1IVO,6,0.0
 Muricin F,EGFR,1IVO,7,-0.5941
-Muricin F,EGFR,1IVO,8,0.0009191
+Muricin F,EGFR,1IVO,8,0.0
 Muricin F,EGFR,1IVO,9,-4.076
-Muricin F,EGFR,1IVO,10,0.03322
+Muricin F,EGFR,1IVO,10,0.0
 Muricin F,EGFR,1IVO,11,-2.66
 Muricin F,EGFR,1IVO,12,-3.481
-Muricin F,EGFR,1IVO,13,0.03728
+Muricin F,EGFR,1IVO,13,0.0
 Muricin F,EGFR,1IVO,14,-5.516
 Muricin F,EGFR,1IVO,15,-5.647
 Muricin F,EGFR,1IVO,16,-3.056
@@ -6907,16 +6907,16 @@ Muricin F,Caspase-3,1QX3,5,-0.4103
 Muricin F,Caspase-3,1QX3,6,-3.548
 Muricin F,Caspase-3,1QX3,7,-4.824
 Muricin F,Caspase-3,1QX3,8,-4.399
-Muricin F,Caspase-3,1QX3,9,0.03929
-Muricin F,Caspase-3,1QX3,10,0.004236
+Muricin F,Caspase-3,1QX3,9,0.0
+Muricin F,Caspase-3,1QX3,10,0.0
 Muricin F,Caspase-3,1QX3,11,-3.146
 Muricin F,Caspase-3,1QX3,12,-4.447
 Muricin F,Caspase-3,1QX3,13,-4.214
-Muricin F,Caspase-3,1QX3,14,0.06666
-Muricin F,Caspase-3,1QX3,15,0.009304
+Muricin F,Caspase-3,1QX3,14,0.0
+Muricin F,Caspase-3,1QX3,15,0.0
 Muricin F,Caspase-3,1QX3,16,-4.526
 Muricin F,Caspase-3,1QX3,17,-3.956
-Muricin F,Caspase-3,1QX3,18,0.08087
+Muricin F,Caspase-3,1QX3,18,0.0
 Muricin F,Caspase-3,1QX3,19,-2.132
 Muricin F,Caspase-3,1QX3,20,-3.742
 Muricin F,AR,2AMA,1,-1.502
@@ -7039,19 +7039,19 @@ Muricin F,PI3Kα,6OAC,17,-5.527
 Muricin F,PI3Kα,6OAC,18,-6.454
 Muricin F,PI3Kα,6OAC,19,-5.853
 Muricin F,PI3Kα,6OAC,20,-6.126
-Muricin G,EGFR,1IVO,1,0.06452
-Muricin G,EGFR,1IVO,2,0.08948
-Muricin G,EGFR,1IVO,3,0.05007
-Muricin G,EGFR,1IVO,4,0.01943
-Muricin G,EGFR,1IVO,5,0.0418
-Muricin G,EGFR,1IVO,6,0.08755
+Muricin G,EGFR,1IVO,1,0.0
+Muricin G,EGFR,1IVO,2,0.0
+Muricin G,EGFR,1IVO,3,0.0
+Muricin G,EGFR,1IVO,4,0.0
+Muricin G,EGFR,1IVO,5,0.0
+Muricin G,EGFR,1IVO,6,0.0
 Muricin G,EGFR,1IVO,7,-0.8337
-Muricin G,EGFR,1IVO,8,0.01268
+Muricin G,EGFR,1IVO,8,0.0
 Muricin G,EGFR,1IVO,9,-3.844
-Muricin G,EGFR,1IVO,10,0.02868
+Muricin G,EGFR,1IVO,10,0.0
 Muricin G,EGFR,1IVO,11,-2.428
 Muricin G,EGFR,1IVO,12,-2.997
-Muricin G,EGFR,1IVO,13,0.01496
+Muricin G,EGFR,1IVO,13,0.0
 Muricin G,EGFR,1IVO,14,-5.596
 Muricin G,EGFR,1IVO,15,-5.569
 Muricin G,EGFR,1IVO,16,-3.768
@@ -7067,16 +7067,16 @@ Muricin G,Caspase-3,1QX3,5,-0.71
 Muricin G,Caspase-3,1QX3,6,-3.196
 Muricin G,Caspase-3,1QX3,7,-4.039
 Muricin G,Caspase-3,1QX3,8,-4.553
-Muricin G,Caspase-3,1QX3,9,0.007448
-Muricin G,Caspase-3,1QX3,10,0.1507
+Muricin G,Caspase-3,1QX3,9,0.0
+Muricin G,Caspase-3,1QX3,10,0.0
 Muricin G,Caspase-3,1QX3,11,-3.06
 Muricin G,Caspase-3,1QX3,12,-4.136
 Muricin G,Caspase-3,1QX3,13,-3.843
-Muricin G,Caspase-3,1QX3,14,0.09826
-Muricin G,Caspase-3,1QX3,15,0.02827
+Muricin G,Caspase-3,1QX3,14,0.0
+Muricin G,Caspase-3,1QX3,15,0.0
 Muricin G,Caspase-3,1QX3,16,-4.581
 Muricin G,Caspase-3,1QX3,17,-4.044
-Muricin G,Caspase-3,1QX3,18,0.01741
+Muricin G,Caspase-3,1QX3,18,0.0
 Muricin G,Caspase-3,1QX3,19,-2.208
 Muricin G,Caspase-3,1QX3,20,-4.705
 Muricin G,AR,2AMA,1,-1.297
@@ -7199,16 +7199,16 @@ Muricin G,PI3Kα,6OAC,17,-5.729
 Muricin G,PI3Kα,6OAC,18,-5.751
 Muricin G,PI3Kα,6OAC,19,-6.28
 Muricin G,PI3Kα,6OAC,20,-5.501
-Muricin H,EGFR,1IVO,1,0.03428
-Muricin H,EGFR,1IVO,2,0.02951
-Muricin H,EGFR,1IVO,3,0.01332
-Muricin H,EGFR,1IVO,4,0.01818
-Muricin H,EGFR,1IVO,5,0.03577
-Muricin H,EGFR,1IVO,6,0.007838
+Muricin H,EGFR,1IVO,1,0.0
+Muricin H,EGFR,1IVO,2,0.0
+Muricin H,EGFR,1IVO,3,0.0
+Muricin H,EGFR,1IVO,4,0.0
+Muricin H,EGFR,1IVO,5,0.0
+Muricin H,EGFR,1IVO,6,0.0
 Muricin H,EGFR,1IVO,7,-1.051
-Muricin H,EGFR,1IVO,8,0.01937
+Muricin H,EGFR,1IVO,8,0.0
 Muricin H,EGFR,1IVO,9,-3.619
-Muricin H,EGFR,1IVO,10,0.05018
+Muricin H,EGFR,1IVO,10,0.0
 Muricin H,EGFR,1IVO,11,-2.47
 Muricin H,EGFR,1IVO,12,-3.708
 Muricin H,EGFR,1IVO,13,-0.3381
@@ -7220,23 +7220,23 @@ Muricin H,EGFR,1IVO,18,-5.326
 Muricin H,EGFR,1IVO,19,-3.598
 Muricin H,EGFR,1IVO,20,-5.087
 Muricin H,Caspase-3,1QX3,1,-0.9077
-Muricin H,Caspase-3,1QX3,2,0.109
+Muricin H,Caspase-3,1QX3,2,0.0
 Muricin H,Caspase-3,1QX3,3,-2.614
 Muricin H,Caspase-3,1QX3,4,-4.112
 Muricin H,Caspase-3,1QX3,5,-0.9578
 Muricin H,Caspase-3,1QX3,6,-3.77
 Muricin H,Caspase-3,1QX3,7,-4.051
 Muricin H,Caspase-3,1QX3,8,-4.319
-Muricin H,Caspase-3,1QX3,9,0.004016
-Muricin H,Caspase-3,1QX3,10,0.03234
+Muricin H,Caspase-3,1QX3,9,0.0
+Muricin H,Caspase-3,1QX3,10,0.0
 Muricin H,Caspase-3,1QX3,11,-2.974
 Muricin H,Caspase-3,1QX3,12,-3.989
 Muricin H,Caspase-3,1QX3,13,-4.572
-Muricin H,Caspase-3,1QX3,14,0.08563
-Muricin H,Caspase-3,1QX3,15,0.04227
+Muricin H,Caspase-3,1QX3,14,0.0
+Muricin H,Caspase-3,1QX3,15,0.0
 Muricin H,Caspase-3,1QX3,16,-4.408
 Muricin H,Caspase-3,1QX3,17,-4.473
-Muricin H,Caspase-3,1QX3,18,0.0495
+Muricin H,Caspase-3,1QX3,18,0.0
 Muricin H,Caspase-3,1QX3,19,-1.975
 Muricin H,Caspase-3,1QX3,20,-4.207
 Muricin H,AR,2AMA,1,-1.613
@@ -7359,16 +7359,16 @@ Muricin H,PI3Kα,6OAC,17,-6.586
 Muricin H,PI3Kα,6OAC,18,-5.961
 Muricin H,PI3Kα,6OAC,19,-6.059
 Muricin H,PI3Kα,6OAC,20,-6.275
-Muricin I,EGFR,1IVO,1,0.03981
-Muricin I,EGFR,1IVO,2,0.02642
-Muricin I,EGFR,1IVO,3,0.04221
-Muricin I,EGFR,1IVO,4,0.1278
-Muricin I,EGFR,1IVO,5,0.07959
-Muricin I,EGFR,1IVO,6,0.01878
+Muricin I,EGFR,1IVO,1,0.0
+Muricin I,EGFR,1IVO,2,0.0
+Muricin I,EGFR,1IVO,3,0.0
+Muricin I,EGFR,1IVO,4,0.0
+Muricin I,EGFR,1IVO,5,0.0
+Muricin I,EGFR,1IVO,6,0.0
 Muricin I,EGFR,1IVO,7,-0.5922
-Muricin I,EGFR,1IVO,8,0.007336
+Muricin I,EGFR,1IVO,8,0.0
 Muricin I,EGFR,1IVO,9,-4.392
-Muricin I,EGFR,1IVO,10,0.006528
+Muricin I,EGFR,1IVO,10,0.0
 Muricin I,EGFR,1IVO,11,-2.144
 Muricin I,EGFR,1IVO,12,-3.091
 Muricin I,EGFR,1IVO,13,-0.5102
@@ -7387,16 +7387,16 @@ Muricin I,Caspase-3,1QX3,5,-0.9496
 Muricin I,Caspase-3,1QX3,6,-2.97
 Muricin I,Caspase-3,1QX3,7,-4.191
 Muricin I,Caspase-3,1QX3,8,-4.402
-Muricin I,Caspase-3,1QX3,9,0.02762
-Muricin I,Caspase-3,1QX3,10,0.005174
+Muricin I,Caspase-3,1QX3,9,0.0
+Muricin I,Caspase-3,1QX3,10,0.0
 Muricin I,Caspase-3,1QX3,11,-2.971
 Muricin I,Caspase-3,1QX3,12,-3.529
 Muricin I,Caspase-3,1QX3,13,-4.598
-Muricin I,Caspase-3,1QX3,14,0.02392
-Muricin I,Caspase-3,1QX3,15,0.05498
+Muricin I,Caspase-3,1QX3,14,0.0
+Muricin I,Caspase-3,1QX3,15,0.0
 Muricin I,Caspase-3,1QX3,16,-3.978
 Muricin I,Caspase-3,1QX3,17,-4.143
-Muricin I,Caspase-3,1QX3,18,0.01699
+Muricin I,Caspase-3,1QX3,18,0.0
 Muricin I,Caspase-3,1QX3,19,-1.674
 Muricin I,Caspase-3,1QX3,20,-3.663
 Muricin I,AR,2AMA,1,-1.77
@@ -7519,16 +7519,16 @@ Muricin I,PI3Kα,6OAC,17,-5.926
 Muricin I,PI3Kα,6OAC,18,-6.157
 Muricin I,PI3Kα,6OAC,19,-6.155
 Muricin I,PI3Kα,6OAC,20,-5.609
-Muricin J,EGFR,1IVO,1,0.08838
-Muricin J,EGFR,1IVO,2,0.007933
-Muricin J,EGFR,1IVO,3,0.0702
-Muricin J,EGFR,1IVO,4,0.08383
-Muricin J,EGFR,1IVO,5,0.1263
-Muricin J,EGFR,1IVO,6,0.01344
+Muricin J,EGFR,1IVO,1,0.0
+Muricin J,EGFR,1IVO,2,0.0
+Muricin J,EGFR,1IVO,3,0.0
+Muricin J,EGFR,1IVO,4,0.0
+Muricin J,EGFR,1IVO,5,0.0
+Muricin J,EGFR,1IVO,6,0.0
 Muricin J,EGFR,1IVO,7,-0.6862
-Muricin J,EGFR,1IVO,8,0.0431
+Muricin J,EGFR,1IVO,8,0.0
 Muricin J,EGFR,1IVO,9,-3.299
-Muricin J,EGFR,1IVO,10,0.1247
+Muricin J,EGFR,1IVO,10,0.0
 Muricin J,EGFR,1IVO,11,-2.515
 Muricin J,EGFR,1IVO,12,-3.225
 Muricin J,EGFR,1IVO,13,-0.7042
@@ -7543,20 +7543,20 @@ Muricin J,Caspase-3,1QX3,1,-0.4326
 Muricin J,Caspase-3,1QX3,2,-0.7134
 Muricin J,Caspase-3,1QX3,3,-3.05
 Muricin J,Caspase-3,1QX3,4,-4.063
-Muricin J,Caspase-3,1QX3,5,0.08952
+Muricin J,Caspase-3,1QX3,5,0.0
 Muricin J,Caspase-3,1QX3,6,-3.19
 Muricin J,Caspase-3,1QX3,7,-4.42
 Muricin J,Caspase-3,1QX3,8,-4.358
-Muricin J,Caspase-3,1QX3,9,0.01431
-Muricin J,Caspase-3,1QX3,10,0.01797
+Muricin J,Caspase-3,1QX3,9,0.0
+Muricin J,Caspase-3,1QX3,10,0.0
 Muricin J,Caspase-3,1QX3,11,-3.407
 Muricin J,Caspase-3,1QX3,12,-4.316
 Muricin J,Caspase-3,1QX3,13,-3.678
-Muricin J,Caspase-3,1QX3,14,0.01451
-Muricin J,Caspase-3,1QX3,15,0.06415
+Muricin J,Caspase-3,1QX3,14,0.0
+Muricin J,Caspase-3,1QX3,15,0.0
 Muricin J,Caspase-3,1QX3,16,-4.414
 Muricin J,Caspase-3,1QX3,17,-4.008
-Muricin J,Caspase-3,1QX3,18,0.02974
+Muricin J,Caspase-3,1QX3,18,0.0
 Muricin J,Caspase-3,1QX3,19,-1.344
 Muricin J,Caspase-3,1QX3,20,-3.457
 Muricin J,AR,2AMA,1,-1.637
@@ -7679,19 +7679,19 @@ Muricin J,PI3Kα,6OAC,17,-6.072
 Muricin J,PI3Kα,6OAC,18,-5.845
 Muricin J,PI3Kα,6OAC,19,-6.445
 Muricin J,PI3Kα,6OAC,20,-5.935
-Muricin K,EGFR,1IVO,1,0.04958
-Muricin K,EGFR,1IVO,2,0.05642
-Muricin K,EGFR,1IVO,3,0.01796
-Muricin K,EGFR,1IVO,4,0.02072
-Muricin K,EGFR,1IVO,5,0.01584
-Muricin K,EGFR,1IVO,6,0.04849
+Muricin K,EGFR,1IVO,1,0.0
+Muricin K,EGFR,1IVO,2,0.0
+Muricin K,EGFR,1IVO,3,0.0
+Muricin K,EGFR,1IVO,4,0.0
+Muricin K,EGFR,1IVO,5,0.0
+Muricin K,EGFR,1IVO,6,0.0
 Muricin K,EGFR,1IVO,7,-0.7583
-Muricin K,EGFR,1IVO,8,0.1066
+Muricin K,EGFR,1IVO,8,0.0
 Muricin K,EGFR,1IVO,9,-3.745
-Muricin K,EGFR,1IVO,10,0.01733
+Muricin K,EGFR,1IVO,10,0.0
 Muricin K,EGFR,1IVO,11,-2.143
 Muricin K,EGFR,1IVO,12,-3.618
-Muricin K,EGFR,1IVO,13,0.003693
+Muricin K,EGFR,1IVO,13,0.0
 Muricin K,EGFR,1IVO,14,-5.022
 Muricin K,EGFR,1IVO,15,-4.965
 Muricin K,EGFR,1IVO,16,-3.293
@@ -7703,20 +7703,20 @@ Muricin K,Caspase-3,1QX3,1,-0.8044
 Muricin K,Caspase-3,1QX3,2,-0.6758
 Muricin K,Caspase-3,1QX3,3,-3.391
 Muricin K,Caspase-3,1QX3,4,-4.797
-Muricin K,Caspase-3,1QX3,5,0.01279
+Muricin K,Caspase-3,1QX3,5,0.0
 Muricin K,Caspase-3,1QX3,6,-2.798
 Muricin K,Caspase-3,1QX3,7,-4.068
 Muricin K,Caspase-3,1QX3,8,-3.977
-Muricin K,Caspase-3,1QX3,9,0.02119
-Muricin K,Caspase-3,1QX3,10,0.002114
+Muricin K,Caspase-3,1QX3,9,0.0
+Muricin K,Caspase-3,1QX3,10,0.0
 Muricin K,Caspase-3,1QX3,11,-3.484
 Muricin K,Caspase-3,1QX3,12,-4.256
 Muricin K,Caspase-3,1QX3,13,-4.861
-Muricin K,Caspase-3,1QX3,14,0.1246
-Muricin K,Caspase-3,1QX3,15,0.02322
+Muricin K,Caspase-3,1QX3,14,0.0
+Muricin K,Caspase-3,1QX3,15,0.0
 Muricin K,Caspase-3,1QX3,16,-3.948
 Muricin K,Caspase-3,1QX3,17,-3.985
-Muricin K,Caspase-3,1QX3,18,0.09003
+Muricin K,Caspase-3,1QX3,18,0.0
 Muricin K,Caspase-3,1QX3,19,-1.202
 Muricin K,Caspase-3,1QX3,20,-4.086
 Muricin K,AR,2AMA,1,-1.846
@@ -7839,16 +7839,16 @@ Muricin K,PI3Kα,6OAC,17,-5.504
 Muricin K,PI3Kα,6OAC,18,-5.97
 Muricin K,PI3Kα,6OAC,19,-6.544
 Muricin K,PI3Kα,6OAC,20,-6.169
-Muricin L,EGFR,1IVO,1,0.08341
-Muricin L,EGFR,1IVO,2,0.01082
-Muricin L,EGFR,1IVO,3,0.01594
-Muricin L,EGFR,1IVO,4,0.006468
-Muricin L,EGFR,1IVO,5,0.01439
-Muricin L,EGFR,1IVO,6,0.0934
+Muricin L,EGFR,1IVO,1,0.0
+Muricin L,EGFR,1IVO,2,0.0
+Muricin L,EGFR,1IVO,3,0.0
+Muricin L,EGFR,1IVO,4,0.0
+Muricin L,EGFR,1IVO,5,0.0
+Muricin L,EGFR,1IVO,6,0.0
 Muricin L,EGFR,1IVO,7,-0.5227
-Muricin L,EGFR,1IVO,8,0.1072
+Muricin L,EGFR,1IVO,8,0.0
 Muricin L,EGFR,1IVO,9,-4.067
-Muricin L,EGFR,1IVO,10,0.04265
+Muricin L,EGFR,1IVO,10,0.0
 Muricin L,EGFR,1IVO,11,-2.106
 Muricin L,EGFR,1IVO,12,-3.376
 Muricin L,EGFR,1IVO,13,-0.5623
@@ -7867,16 +7867,16 @@ Muricin L,Caspase-3,1QX3,5,-0.7796
 Muricin L,Caspase-3,1QX3,6,-3.598
 Muricin L,Caspase-3,1QX3,7,-4.322
 Muricin L,Caspase-3,1QX3,8,-4.38
-Muricin L,Caspase-3,1QX3,9,0.02399
+Muricin L,Caspase-3,1QX3,9,0.0
 Muricin L,Caspase-3,1QX3,10,-0.629
 Muricin L,Caspase-3,1QX3,11,-3.739
 Muricin L,Caspase-3,1QX3,12,-4.836
 Muricin L,Caspase-3,1QX3,13,-4.655
-Muricin L,Caspase-3,1QX3,14,0.00914
-Muricin L,Caspase-3,1QX3,15,0.0008172
+Muricin L,Caspase-3,1QX3,14,0.0
+Muricin L,Caspase-3,1QX3,15,0.0
 Muricin L,Caspase-3,1QX3,16,-4.569
 Muricin L,Caspase-3,1QX3,17,-4.354
-Muricin L,Caspase-3,1QX3,18,0.03932
+Muricin L,Caspase-3,1QX3,18,0.0
 Muricin L,Caspase-3,1QX3,19,-1.965
 Muricin L,Caspase-3,1QX3,20,-3.798
 Muricin L,AR,2AMA,1,-1.442
@@ -7999,16 +7999,16 @@ Muricin L,PI3Kα,6OAC,17,-5.73
 Muricin L,PI3Kα,6OAC,18,-6.105
 Muricin L,PI3Kα,6OAC,19,-6.149
 Muricin L,PI3Kα,6OAC,20,-5.574
-Muridienin 3,EGFR,1IVO,1,0.06963
-Muridienin 3,EGFR,1IVO,2,0.05078
-Muridienin 3,EGFR,1IVO,3,0.005802
-Muridienin 3,EGFR,1IVO,4,0.03852
-Muridienin 3,EGFR,1IVO,5,0.07636
-Muridienin 3,EGFR,1IVO,6,0.01707
+Muridienin 3,EGFR,1IVO,1,0.0
+Muridienin 3,EGFR,1IVO,2,0.0
+Muridienin 3,EGFR,1IVO,3,0.0
+Muridienin 3,EGFR,1IVO,4,0.0
+Muridienin 3,EGFR,1IVO,5,0.0
+Muridienin 3,EGFR,1IVO,6,0.0
 Muridienin 3,EGFR,1IVO,7,-0.4221
-Muridienin 3,EGFR,1IVO,8,0.008311
+Muridienin 3,EGFR,1IVO,8,0.0
 Muridienin 3,EGFR,1IVO,9,-2.605
-Muridienin 3,EGFR,1IVO,10,0.02839
+Muridienin 3,EGFR,1IVO,10,0.0
 Muridienin 3,EGFR,1IVO,11,-1.833
 Muridienin 3,EGFR,1IVO,12,-2.738
 Muridienin 3,EGFR,1IVO,13,-0.445
@@ -8027,16 +8027,16 @@ Muridienin 3,Caspase-3,1QX3,5,-0.4291
 Muridienin 3,Caspase-3,1QX3,6,-2.242
 Muridienin 3,Caspase-3,1QX3,7,-3.201
 Muridienin 3,Caspase-3,1QX3,8,-3.27
-Muridienin 3,Caspase-3,1QX3,9,0.0433
+Muridienin 3,Caspase-3,1QX3,9,0.0
 Muridienin 3,Caspase-3,1QX3,10,-0.4107
 Muridienin 3,Caspase-3,1QX3,11,-2.507
 Muridienin 3,Caspase-3,1QX3,12,-3.766
 Muridienin 3,Caspase-3,1QX3,13,-2.91
-Muridienin 3,Caspase-3,1QX3,14,0.04983
+Muridienin 3,Caspase-3,1QX3,14,0.0
 Muridienin 3,Caspase-3,1QX3,15,-0.1057
 Muridienin 3,Caspase-3,1QX3,16,-3.973
 Muridienin 3,Caspase-3,1QX3,17,-3.547
-Muridienin 3,Caspase-3,1QX3,18,0.1022
+Muridienin 3,Caspase-3,1QX3,18,0.0
 Muridienin 3,Caspase-3,1QX3,19,-1.226
 Muridienin 3,Caspase-3,1QX3,20,-2.913
 Muridienin 3,AR,2AMA,1,-1.15
@@ -8159,16 +8159,16 @@ Muridienin 3,PI3Kα,6OAC,17,-5.115
 Muridienin 3,PI3Kα,6OAC,18,-4.945
 Muridienin 3,PI3Kα,6OAC,19,-5.109
 Muridienin 3,PI3Kα,6OAC,20,-5.791
-Muridienin 4,EGFR,1IVO,1,0.04774
-Muridienin 4,EGFR,1IVO,2,0.03601
-Muridienin 4,EGFR,1IVO,3,0.05013
-Muridienin 4,EGFR,1IVO,4,0.02337
-Muridienin 4,EGFR,1IVO,5,0.01226
-Muridienin 4,EGFR,1IVO,6,0.05732
+Muridienin 4,EGFR,1IVO,1,0.0
+Muridienin 4,EGFR,1IVO,2,0.0
+Muridienin 4,EGFR,1IVO,3,0.0
+Muridienin 4,EGFR,1IVO,4,0.0
+Muridienin 4,EGFR,1IVO,5,0.0
+Muridienin 4,EGFR,1IVO,6,0.0
 Muridienin 4,EGFR,1IVO,7,-0.5403
-Muridienin 4,EGFR,1IVO,8,0.02225
+Muridienin 4,EGFR,1IVO,8,0.0
 Muridienin 4,EGFR,1IVO,9,-2.461
-Muridienin 4,EGFR,1IVO,10,0.01148
+Muridienin 4,EGFR,1IVO,10,0.0
 Muridienin 4,EGFR,1IVO,11,-1.762
 Muridienin 4,EGFR,1IVO,12,-2.057
 Muridienin 4,EGFR,1IVO,13,-0.4883
@@ -8187,16 +8187,16 @@ Muridienin 4,Caspase-3,1QX3,5,-0.4155
 Muridienin 4,Caspase-3,1QX3,6,-2.718
 Muridienin 4,Caspase-3,1QX3,7,-2.965
 Muridienin 4,Caspase-3,1QX3,8,-3.543
-Muridienin 4,Caspase-3,1QX3,9,0.04191
+Muridienin 4,Caspase-3,1QX3,9,0.0
 Muridienin 4,Caspase-3,1QX3,10,-0.5396
 Muridienin 4,Caspase-3,1QX3,11,-2.432
 Muridienin 4,Caspase-3,1QX3,12,-3.364
 Muridienin 4,Caspase-3,1QX3,13,-3.168
-Muridienin 4,Caspase-3,1QX3,14,0.03717
-Muridienin 4,Caspase-3,1QX3,15,0.01868
+Muridienin 4,Caspase-3,1QX3,14,0.0
+Muridienin 4,Caspase-3,1QX3,15,0.0
 Muridienin 4,Caspase-3,1QX3,16,-3.358
 Muridienin 4,Caspase-3,1QX3,17,-3.639
-Muridienin 4,Caspase-3,1QX3,18,0.04494
+Muridienin 4,Caspase-3,1QX3,18,0.0
 Muridienin 4,Caspase-3,1QX3,19,-1.304
 Muridienin 4,Caspase-3,1QX3,20,-2.97
 Muridienin 4,AR,2AMA,1,-1.297
@@ -8319,16 +8319,16 @@ Muridienin 4,PI3Kα,6OAC,17,-4.714
 Muridienin 4,PI3Kα,6OAC,18,-4.972
 Muridienin 4,PI3Kα,6OAC,19,-5.111
 Muridienin 4,PI3Kα,6OAC,20,-4.833
-Murisolin,EGFR,1IVO,1,0.01329
-Murisolin,EGFR,1IVO,2,0.03916
-Murisolin,EGFR,1IVO,3,0.06649
-Murisolin,EGFR,1IVO,4,0.07357
-Murisolin,EGFR,1IVO,5,0.1223
-Murisolin,EGFR,1IVO,6,0.04557
+Murisolin,EGFR,1IVO,1,0.0
+Murisolin,EGFR,1IVO,2,0.0
+Murisolin,EGFR,1IVO,3,0.0
+Murisolin,EGFR,1IVO,4,0.0
+Murisolin,EGFR,1IVO,5,0.0
+Murisolin,EGFR,1IVO,6,0.0
 Murisolin,EGFR,1IVO,7,-0.646
-Murisolin,EGFR,1IVO,8,0.008394
+Murisolin,EGFR,1IVO,8,0.0
 Murisolin,EGFR,1IVO,9,-3.169
-Murisolin,EGFR,1IVO,10,0.073
+Murisolin,EGFR,1IVO,10,0.0
 Murisolin,EGFR,1IVO,11,-2.445
 Murisolin,EGFR,1IVO,12,-3.402
 Murisolin,EGFR,1IVO,13,-0.35
@@ -8347,16 +8347,16 @@ Murisolin,Caspase-3,1QX3,5,-0.8838
 Murisolin,Caspase-3,1QX3,6,-3.243
 Murisolin,Caspase-3,1QX3,7,-3.546
 Murisolin,Caspase-3,1QX3,8,-3.986
-Murisolin,Caspase-3,1QX3,9,0.009026
-Murisolin,Caspase-3,1QX3,10,0.05688
+Murisolin,Caspase-3,1QX3,9,0.0
+Murisolin,Caspase-3,1QX3,10,0.0
 Murisolin,Caspase-3,1QX3,11,-3.388
 Murisolin,Caspase-3,1QX3,12,-4.268
 Murisolin,Caspase-3,1QX3,13,-4.092
-Murisolin,Caspase-3,1QX3,14,0.04309
-Murisolin,Caspase-3,1QX3,15,0.06693
+Murisolin,Caspase-3,1QX3,14,0.0
+Murisolin,Caspase-3,1QX3,15,0.0
 Murisolin,Caspase-3,1QX3,16,-4.162
 Murisolin,Caspase-3,1QX3,17,-4.016
-Murisolin,Caspase-3,1QX3,18,0.09692
+Murisolin,Caspase-3,1QX3,18,0.0
 Murisolin,Caspase-3,1QX3,19,-1.371
 Murisolin,Caspase-3,1QX3,20,-3.717
 Murisolin,AR,2AMA,1,-1.554
@@ -8479,19 +8479,19 @@ Murisolin,PI3Kα,6OAC,17,-5.723
 Murisolin,PI3Kα,6OAC,18,-6.349
 Murisolin,PI3Kα,6OAC,19,-6.068
 Murisolin,PI3Kα,6OAC,20,-5.945
-Sabadelin,EGFR,1IVO,1,0.009106
-Sabadelin,EGFR,1IVO,2,0.07092
-Sabadelin,EGFR,1IVO,3,0.002952
-Sabadelin,EGFR,1IVO,4,0.02171
-Sabadelin,EGFR,1IVO,5,0.06267
-Sabadelin,EGFR,1IVO,6,0.02728
+Sabadelin,EGFR,1IVO,1,0.0
+Sabadelin,EGFR,1IVO,2,0.0
+Sabadelin,EGFR,1IVO,3,0.0
+Sabadelin,EGFR,1IVO,4,0.0
+Sabadelin,EGFR,1IVO,5,0.0
+Sabadelin,EGFR,1IVO,6,0.0
 Sabadelin,EGFR,1IVO,7,-0.693
-Sabadelin,EGFR,1IVO,8,0.03268
+Sabadelin,EGFR,1IVO,8,0.0
 Sabadelin,EGFR,1IVO,9,-2.841
-Sabadelin,EGFR,1IVO,10,0.02311
+Sabadelin,EGFR,1IVO,10,0.0
 Sabadelin,EGFR,1IVO,11,-1.909
 Sabadelin,EGFR,1IVO,12,-2.725
-Sabadelin,EGFR,1IVO,13,0.02928
+Sabadelin,EGFR,1IVO,13,0.0
 Sabadelin,EGFR,1IVO,14,-4.819
 Sabadelin,EGFR,1IVO,15,-5.111
 Sabadelin,EGFR,1IVO,16,-2.815
@@ -8507,16 +8507,16 @@ Sabadelin,Caspase-3,1QX3,5,-0.6729
 Sabadelin,Caspase-3,1QX3,6,-2.656
 Sabadelin,Caspase-3,1QX3,7,-3.431
 Sabadelin,Caspase-3,1QX3,8,-3.683
-Sabadelin,Caspase-3,1QX3,9,0.04683
-Sabadelin,Caspase-3,1QX3,10,0.02398
+Sabadelin,Caspase-3,1QX3,9,0.0
+Sabadelin,Caspase-3,1QX3,10,0.0
 Sabadelin,Caspase-3,1QX3,11,-2.63
 Sabadelin,Caspase-3,1QX3,12,-3.801
 Sabadelin,Caspase-3,1QX3,13,-3.079
 Sabadelin,Caspase-3,1QX3,14,-0.2169
-Sabadelin,Caspase-3,1QX3,15,0.006105
+Sabadelin,Caspase-3,1QX3,15,0.0
 Sabadelin,Caspase-3,1QX3,16,-3.674
 Sabadelin,Caspase-3,1QX3,17,-3.439
-Sabadelin,Caspase-3,1QX3,18,0.006297
+Sabadelin,Caspase-3,1QX3,18,0.0
 Sabadelin,Caspase-3,1QX3,19,-1.785
 Sabadelin,Caspase-3,1QX3,20,-3.6
 Sabadelin,AR,2AMA,1,-1.663
@@ -8639,19 +8639,19 @@ Sabadelin,PI3Kα,6OAC,17,-5.337
 Sabadelin,PI3Kα,6OAC,18,-5.891
 Sabadelin,PI3Kα,6OAC,19,-5.866
 Sabadelin,PI3Kα,6OAC,20,-5.362
-Xylomaticin,EGFR,1IVO,1,0.08036
-Xylomaticin,EGFR,1IVO,2,0.0597
-Xylomaticin,EGFR,1IVO,3,0.01596
-Xylomaticin,EGFR,1IVO,4,0.01016
-Xylomaticin,EGFR,1IVO,5,0.01608
-Xylomaticin,EGFR,1IVO,6,0.007044
+Xylomaticin,EGFR,1IVO,1,0.0
+Xylomaticin,EGFR,1IVO,2,0.0
+Xylomaticin,EGFR,1IVO,3,0.0
+Xylomaticin,EGFR,1IVO,4,0.0
+Xylomaticin,EGFR,1IVO,5,0.0
+Xylomaticin,EGFR,1IVO,6,0.0
 Xylomaticin,EGFR,1IVO,7,-0.5937
-Xylomaticin,EGFR,1IVO,8,0.1463
+Xylomaticin,EGFR,1IVO,8,0.0
 Xylomaticin,EGFR,1IVO,9,-3.859
-Xylomaticin,EGFR,1IVO,10,0.09267
+Xylomaticin,EGFR,1IVO,10,0.0
 Xylomaticin,EGFR,1IVO,11,-2.063
 Xylomaticin,EGFR,1IVO,12,-2.344
-Xylomaticin,EGFR,1IVO,13,0.01148
+Xylomaticin,EGFR,1IVO,13,0.0
 Xylomaticin,EGFR,1IVO,14,-5.401
 Xylomaticin,EGFR,1IVO,15,-5.198
 Xylomaticin,EGFR,1IVO,16,-3.168
@@ -8667,16 +8667,16 @@ Xylomaticin,Caspase-3,1QX3,5,-0.6599
 Xylomaticin,Caspase-3,1QX3,6,-3.784
 Xylomaticin,Caspase-3,1QX3,7,-3.723
 Xylomaticin,Caspase-3,1QX3,8,-3.757
-Xylomaticin,Caspase-3,1QX3,9,0.04665
+Xylomaticin,Caspase-3,1QX3,9,0.0
 Xylomaticin,Caspase-3,1QX3,10,-0.1759
 Xylomaticin,Caspase-3,1QX3,11,-3.023
 Xylomaticin,Caspase-3,1QX3,12,-4.488
 Xylomaticin,Caspase-3,1QX3,13,-3.396
-Xylomaticin,Caspase-3,1QX3,14,0.02186
-Xylomaticin,Caspase-3,1QX3,15,0.03052
+Xylomaticin,Caspase-3,1QX3,14,0.0
+Xylomaticin,Caspase-3,1QX3,15,0.0
 Xylomaticin,Caspase-3,1QX3,16,-4.209
 Xylomaticin,Caspase-3,1QX3,17,-4.143
-Xylomaticin,Caspase-3,1QX3,18,0.001464
+Xylomaticin,Caspase-3,1QX3,18,0.0
 Xylomaticin,Caspase-3,1QX3,19,-1.537
 Xylomaticin,Caspase-3,1QX3,20,-3.849
 Xylomaticin,AR,2AMA,1,-1.195
@@ -8799,16 +8799,16 @@ Xylomaticin,PI3Kα,6OAC,17,-6.304
 Xylomaticin,PI3Kα,6OAC,18,-6.269
 Xylomaticin,PI3Kα,6OAC,19,-5.656
 Xylomaticin,PI3Kα,6OAC,20,-6.229
-cis-Goniothalamicin,EGFR,1IVO,1,0.02736
-cis-Goniothalamicin,EGFR,1IVO,2,0.03404
-cis-Goniothalamicin,EGFR,1IVO,3,0.0459
-cis-Goniothalamicin,EGFR,1IVO,4,0.02545
-cis-Goniothalamicin,EGFR,1IVO,5,0.02267
-cis-Goniothalamicin,EGFR,1IVO,6,0.009001
+cis-Goniothalamicin,EGFR,1IVO,1,0.0
+cis-Goniothalamicin,EGFR,1IVO,2,0.0
+cis-Goniothalamicin,EGFR,1IVO,3,0.0
+cis-Goniothalamicin,EGFR,1IVO,4,0.0
+cis-Goniothalamicin,EGFR,1IVO,5,0.0
+cis-Goniothalamicin,EGFR,1IVO,6,0.0
 cis-Goniothalamicin,EGFR,1IVO,7,-0.5293
-cis-Goniothalamicin,EGFR,1IVO,8,0.03022
+cis-Goniothalamicin,EGFR,1IVO,8,0.0
 cis-Goniothalamicin,EGFR,1IVO,9,-3.573
-cis-Goniothalamicin,EGFR,1IVO,10,0.01586
+cis-Goniothalamicin,EGFR,1IVO,10,0.0
 cis-Goniothalamicin,EGFR,1IVO,11,-2.228
 cis-Goniothalamicin,EGFR,1IVO,12,-3.001
 cis-Goniothalamicin,EGFR,1IVO,13,-0.2669
@@ -8827,16 +8827,16 @@ cis-Goniothalamicin,Caspase-3,1QX3,5,-0.4668
 cis-Goniothalamicin,Caspase-3,1QX3,6,-3.11
 cis-Goniothalamicin,Caspase-3,1QX3,7,-4.529
 cis-Goniothalamicin,Caspase-3,1QX3,8,-4.119
-cis-Goniothalamicin,Caspase-3,1QX3,9,0.0525
-cis-Goniothalamicin,Caspase-3,1QX3,10,0.03331
+cis-Goniothalamicin,Caspase-3,1QX3,9,0.0
+cis-Goniothalamicin,Caspase-3,1QX3,10,0.0
 cis-Goniothalamicin,Caspase-3,1QX3,11,-3.434
 cis-Goniothalamicin,Caspase-3,1QX3,12,-3.9
 cis-Goniothalamicin,Caspase-3,1QX3,13,-3.979
-cis-Goniothalamicin,Caspase-3,1QX3,14,0.1169
-cis-Goniothalamicin,Caspase-3,1QX3,15,0.04039
+cis-Goniothalamicin,Caspase-3,1QX3,14,0.0
+cis-Goniothalamicin,Caspase-3,1QX3,15,0.0
 cis-Goniothalamicin,Caspase-3,1QX3,16,-3.806
 cis-Goniothalamicin,Caspase-3,1QX3,17,-4.206
-cis-Goniothalamicin,Caspase-3,1QX3,18,0.008975
+cis-Goniothalamicin,Caspase-3,1QX3,18,0.0
 cis-Goniothalamicin,Caspase-3,1QX3,19,-1.647
 cis-Goniothalamicin,Caspase-3,1QX3,20,-3.517
 cis-Goniothalamicin,AR,2AMA,1,-1.354
@@ -8959,16 +8959,16 @@ cis-Goniothalamicin,PI3Kα,6OAC,17,-5.345
 cis-Goniothalamicin,PI3Kα,6OAC,18,-5.909
 cis-Goniothalamicin,PI3Kα,6OAC,19,-5.881
 cis-Goniothalamicin,PI3Kα,6OAC,20,-5.951
-cis-Reticulatacin-10-one,EGFR,1IVO,1,0.02745
-cis-Reticulatacin-10-one,EGFR,1IVO,2,0.01464
-cis-Reticulatacin-10-one,EGFR,1IVO,3,0.008228
+cis-Reticulatacin-10-one,EGFR,1IVO,1,0.0
+cis-Reticulatacin-10-one,EGFR,1IVO,2,0.0
+cis-Reticulatacin-10-one,EGFR,1IVO,3,0.0
 cis-Reticulatacin-10-one,EGFR,1IVO,4,-0.4665
-cis-Reticulatacin-10-one,EGFR,1IVO,5,0.04976
-cis-Reticulatacin-10-one,EGFR,1IVO,6,0.008729
+cis-Reticulatacin-10-one,EGFR,1IVO,5,0.0
+cis-Reticulatacin-10-one,EGFR,1IVO,6,0.0
 cis-Reticulatacin-10-one,EGFR,1IVO,7,-0.6389
-cis-Reticulatacin-10-one,EGFR,1IVO,8,0.008103
+cis-Reticulatacin-10-one,EGFR,1IVO,8,0.0
 cis-Reticulatacin-10-one,EGFR,1IVO,9,-3.509
-cis-Reticulatacin-10-one,EGFR,1IVO,10,0.02064
+cis-Reticulatacin-10-one,EGFR,1IVO,10,0.0
 cis-Reticulatacin-10-one,EGFR,1IVO,11,-1.867
 cis-Reticulatacin-10-one,EGFR,1IVO,12,-3.751
 cis-Reticulatacin-10-one,EGFR,1IVO,13,-0.3267
@@ -8987,8 +8987,8 @@ cis-Reticulatacin-10-one,Caspase-3,1QX3,5,-0.8127
 cis-Reticulatacin-10-one,Caspase-3,1QX3,6,-3.057
 cis-Reticulatacin-10-one,Caspase-3,1QX3,7,-4.352
 cis-Reticulatacin-10-one,Caspase-3,1QX3,8,-3.753
-cis-Reticulatacin-10-one,Caspase-3,1QX3,9,0.002263
-cis-Reticulatacin-10-one,Caspase-3,1QX3,10,0.1509
+cis-Reticulatacin-10-one,Caspase-3,1QX3,9,0.0
+cis-Reticulatacin-10-one,Caspase-3,1QX3,10,0.0
 cis-Reticulatacin-10-one,Caspase-3,1QX3,11,-2.771
 cis-Reticulatacin-10-one,Caspase-3,1QX3,12,-3.715
 cis-Reticulatacin-10-one,Caspase-3,1QX3,13,-3.606
@@ -8996,7 +8996,7 @@ cis-Reticulatacin-10-one,Caspase-3,1QX3,14,-0.1352
 cis-Reticulatacin-10-one,Caspase-3,1QX3,15,-0.1445
 cis-Reticulatacin-10-one,Caspase-3,1QX3,16,-4.135
 cis-Reticulatacin-10-one,Caspase-3,1QX3,17,-3.874
-cis-Reticulatacin-10-one,Caspase-3,1QX3,18,0.02557
+cis-Reticulatacin-10-one,Caspase-3,1QX3,18,0.0
 cis-Reticulatacin-10-one,Caspase-3,1QX3,19,-1.027
 cis-Reticulatacin-10-one,Caspase-3,1QX3,20,-3.578
 cis-Reticulatacin-10-one,AR,2AMA,1,-1.334
@@ -9119,19 +9119,19 @@ cis-Reticulatacin-10-one,PI3Kα,6OAC,17,-5.501
 cis-Reticulatacin-10-one,PI3Kα,6OAC,18,-5.542
 cis-Reticulatacin-10-one,PI3Kα,6OAC,19,-5.597
 cis-Reticulatacin-10-one,PI3Kα,6OAC,20,-5.548
-cis-Solamin,EGFR,1IVO,1,0.06992
-cis-Solamin,EGFR,1IVO,2,0.03852
-cis-Solamin,EGFR,1IVO,3,0.02189
-cis-Solamin,EGFR,1IVO,4,0.05155
-cis-Solamin,EGFR,1IVO,5,0.01786
-cis-Solamin,EGFR,1IVO,6,0.02269
+cis-Solamin,EGFR,1IVO,1,0.0
+cis-Solamin,EGFR,1IVO,2,0.0
+cis-Solamin,EGFR,1IVO,3,0.0
+cis-Solamin,EGFR,1IVO,4,0.0
+cis-Solamin,EGFR,1IVO,5,0.0
+cis-Solamin,EGFR,1IVO,6,0.0
 cis-Solamin,EGFR,1IVO,7,-0.7031
-cis-Solamin,EGFR,1IVO,8,0.01919
+cis-Solamin,EGFR,1IVO,8,0.0
 cis-Solamin,EGFR,1IVO,9,-3.788
-cis-Solamin,EGFR,1IVO,10,0.01232
+cis-Solamin,EGFR,1IVO,10,0.0
 cis-Solamin,EGFR,1IVO,11,-2.338
 cis-Solamin,EGFR,1IVO,12,-2.798
-cis-Solamin,EGFR,1IVO,13,0.02497
+cis-Solamin,EGFR,1IVO,13,0.0
 cis-Solamin,EGFR,1IVO,14,-5.241
 cis-Solamin,EGFR,1IVO,15,-5.213
 cis-Solamin,EGFR,1IVO,16,-2.782
@@ -9147,16 +9147,16 @@ cis-Solamin,Caspase-3,1QX3,5,-0.6509
 cis-Solamin,Caspase-3,1QX3,6,-2.948
 cis-Solamin,Caspase-3,1QX3,7,-3.557
 cis-Solamin,Caspase-3,1QX3,8,-3.891
-cis-Solamin,Caspase-3,1QX3,9,0.06522
+cis-Solamin,Caspase-3,1QX3,9,0.0
 cis-Solamin,Caspase-3,1QX3,10,-0.8463
 cis-Solamin,Caspase-3,1QX3,11,-3.442
 cis-Solamin,Caspase-3,1QX3,12,-4.467
 cis-Solamin,Caspase-3,1QX3,13,-3.701
-cis-Solamin,Caspase-3,1QX3,14,0.01859
-cis-Solamin,Caspase-3,1QX3,15,0.002544
+cis-Solamin,Caspase-3,1QX3,14,0.0
+cis-Solamin,Caspase-3,1QX3,15,0.0
 cis-Solamin,Caspase-3,1QX3,16,-3.516
 cis-Solamin,Caspase-3,1QX3,17,-3.773
-cis-Solamin,Caspase-3,1QX3,18,0.01525
+cis-Solamin,Caspase-3,1QX3,18,0.0
 cis-Solamin,Caspase-3,1QX3,19,-1.956
 cis-Solamin,Caspase-3,1QX3,20,-3.94
 cis-Solamin,AR,2AMA,1,-1.288
@@ -9279,16 +9279,16 @@ cis-Solamin,PI3Kα,6OAC,17,-5.885
 cis-Solamin,PI3Kα,6OAC,18,-5.727
 cis-Solamin,PI3Kα,6OAC,19,-5.82
 cis-Solamin,PI3Kα,6OAC,20,-5.547
-cis-Uvariamicin IV,EGFR,1IVO,1,0.01474
-cis-Uvariamicin IV,EGFR,1IVO,2,0.05979
-cis-Uvariamicin IV,EGFR,1IVO,3,0.0005323
-cis-Uvariamicin IV,EGFR,1IVO,4,0.1148
-cis-Uvariamicin IV,EGFR,1IVO,5,0.05599
-cis-Uvariamicin IV,EGFR,1IVO,6,0.0792
+cis-Uvariamicin IV,EGFR,1IVO,1,0.0
+cis-Uvariamicin IV,EGFR,1IVO,2,0.0
+cis-Uvariamicin IV,EGFR,1IVO,3,0.0
+cis-Uvariamicin IV,EGFR,1IVO,4,0.0
+cis-Uvariamicin IV,EGFR,1IVO,5,0.0
+cis-Uvariamicin IV,EGFR,1IVO,6,0.0
 cis-Uvariamicin IV,EGFR,1IVO,7,-1.02
-cis-Uvariamicin IV,EGFR,1IVO,8,0.01807
+cis-Uvariamicin IV,EGFR,1IVO,8,0.0
 cis-Uvariamicin IV,EGFR,1IVO,9,-3.619
-cis-Uvariamicin IV,EGFR,1IVO,10,0.1357
+cis-Uvariamicin IV,EGFR,1IVO,10,0.0
 cis-Uvariamicin IV,EGFR,1IVO,11,-1.899
 cis-Uvariamicin IV,EGFR,1IVO,12,-3.231
 cis-Uvariamicin IV,EGFR,1IVO,13,-0.5533
@@ -9307,16 +9307,16 @@ cis-Uvariamicin IV,Caspase-3,1QX3,5,-0.6467
 cis-Uvariamicin IV,Caspase-3,1QX3,6,-2.766
 cis-Uvariamicin IV,Caspase-3,1QX3,7,-3.807
 cis-Uvariamicin IV,Caspase-3,1QX3,8,-3.881
-cis-Uvariamicin IV,Caspase-3,1QX3,9,0.07484
+cis-Uvariamicin IV,Caspase-3,1QX3,9,0.0
 cis-Uvariamicin IV,Caspase-3,1QX3,10,-0.588
 cis-Uvariamicin IV,Caspase-3,1QX3,11,-3.207
 cis-Uvariamicin IV,Caspase-3,1QX3,12,-4.322
 cis-Uvariamicin IV,Caspase-3,1QX3,13,-4.267
-cis-Uvariamicin IV,Caspase-3,1QX3,14,0.04352
-cis-Uvariamicin IV,Caspase-3,1QX3,15,0.06019
+cis-Uvariamicin IV,Caspase-3,1QX3,14,0.0
+cis-Uvariamicin IV,Caspase-3,1QX3,15,0.0
 cis-Uvariamicin IV,Caspase-3,1QX3,16,-3.765
 cis-Uvariamicin IV,Caspase-3,1QX3,17,-3.436
-cis-Uvariamicin IV,Caspase-3,1QX3,18,0.001106
+cis-Uvariamicin IV,Caspase-3,1QX3,18,0.0
 cis-Uvariamicin IV,Caspase-3,1QX3,19,-2.158
 cis-Uvariamicin IV,Caspase-3,1QX3,20,-3.527
 cis-Uvariamicin IV,AR,2AMA,1,-1.608

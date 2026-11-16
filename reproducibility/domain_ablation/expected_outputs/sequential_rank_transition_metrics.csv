@@ -1,0 +1,10 @@
+panel,earlier,later,top10_overlap,top10_replaced,mean_absolute_rank_change,max_absolute_rank_change,spearman_rho,new_top10_compounds
+Colon,1_binding_only,2_binding_adme,4,6,8.966101694915254,58,0.6977016029617213,"['Annomuricin D', 'Isoannonacinone', 'Muricatacin', 'Muricin E', 'Muricin F', 'Muricin G']"
+Colon,2_binding_adme,3_binding_adme_safety,6,4,7.288135593220339,49,0.7108123904149621,"['Annomuricin B', 'Annomuricin E', 'Isoannonacin', 'Muricapentocin']"
+Colon,3_binding_adme_safety,4_full_swan_mpo,7,3,4.067796610169491,15,0.9390999415546465,"['Muricatocin A', 'Muricatocin B', 'Muricin J']"
+Prostate,1_binding_only,2_binding_adme,4,6,8.966101694915254,58,0.6977016029617213,"['Annomuricin D', 'Isoannonacinone', 'Muricatacin', 'Muricin E', 'Muricin F', 'Muricin G']"
+Prostate,2_binding_adme,3_binding_adme_safety,6,4,7.288135593220339,49,0.7108123904149621,"['Annomuricin B', 'Annomuricin E', 'Isoannonacin', 'Muricapentocin']"
+Prostate,3_binding_adme_safety,4_full_swan_mpo,7,3,8.23728813559322,48,0.7822910578609003,"['Annocatalin', 'Annomuricatin B', 'Muricadienin']"
+RCC,1_binding_only,2_binding_adme,4,6,8.966101694915254,58,0.6977016029617213,"['Annomuricin D', 'Isoannonacinone', 'Muricatacin', 'Muricin E', 'Muricin F', 'Muricin G']"
+RCC,2_binding_adme,3_binding_adme_safety,6,4,7.288135593220339,49,0.7108123904149621,"['Annomuricin B', 'Annomuricin E', 'Isoannonacin', 'Muricapentocin']"
+RCC,3_binding_adme_safety,4_full_swan_mpo,7,3,8.23728813559322,48,0.7822910578609003,"['Annocatalin', 'Annomuricatin B', 'Muricadienin']"

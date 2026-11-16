@@ -52,13 +52,13 @@ def test_manuscript_packaged_resource_hashes_are_exact():
     import hashlib
     resources = files("swan_mpo.resources")
     expected = {
-        "manuscript_source_manifest.json": "10426308643c15cae692db29962834420641169f3f50ca0b8dcee7be5599c06d",
+        "manuscript_source_manifest.json": "f836c293171f10a284f529a3e2ca99048c0b871989216676cd535d59eb44621b",
         "manuscript_swissadme_canonical_full.csv": "a1b6339695bba431239def8969d56244cecd978e195e5eaf2a3019ca21ec7ab1",
         "manuscript_swissadme_original_incomplete.csv": "a90b7c3cdee1d9b10257ccdf368dab6bedbe31520031113f6b1255b79deba7ca",
         "manuscript_protox_raw.csv": "4ef8ea376f89533ad3bd3afb9d810aab9c8fccc3f216179414d6de776b3f08ee",
-        "manuscript_candidate_docking.csv": "775fcd6cc9d5b8936ae78c2e278327396c88db52ccad165a2b5139287d986556",
-        "manuscript_expected_panel_scores.csv": "35fec0da1c2aca775e3f4efe7c5ef0b4fc31fb0de7e75d7c3aa2cb0b743cc5c1",
-        "manuscript_expected_target_level_binding.csv": "8f3cbff9ddc177152115ab723b0ded305d4eb9708aa57d17513ba69bf65cebe2",
+        "manuscript_candidate_docking.csv": "dd0b2ffbdf2baa84a0cd48fbd2942e5916458f137eca71bdefe309a82ec0da3d",
+        "manuscript_expected_panel_scores.csv": "81ef3b6c2ca9cd77fc30f8e7e4b49d321353f59f22fe1ffd37aead4346cc89c2",
+        "manuscript_expected_target_level_binding.csv": "149620fdcad27bc1760c2966b5c67f428c390506305c506fc5405519ca9753d2",
     }
     for name, digest in expected.items():
         data = (resources / name).read_bytes()

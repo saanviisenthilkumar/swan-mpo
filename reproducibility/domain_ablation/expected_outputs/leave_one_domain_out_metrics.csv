@@ -1,0 +1,13 @@
+panel,ablated_domain,earlier,later,top10_overlap,top10_replaced,mean_absolute_rank_change,max_absolute_rank_change,spearman_rho,new_top10_compounds
+Colon,bestnode_binding,full_without_bestnode_binding,4_full_swan_mpo,10,0,1.7627118644067796,7,0.9904532547388151,[]
+Colon,adme_score,full_without_adme_score,4_full_swan_mpo,4,6,9.457627118644067,44,0.6957334891876097,"['Annomuricatin A', 'Isoannonacin', 'Muricatacin', 'Muricatocin B', 'Muricin E', 'Muricin J']"
+Colon,safety_score,full_without_safety_score,4_full_swan_mpo,7,3,7.491525423728813,44,0.6901811805961428,"['Annomuricin D', 'Isoannonacin', 'Isoannonacinone']"
+Colon,liability_score,full_without_liability_score,4_full_swan_mpo,7,3,4.067796610169491,15,0.9390999415546465,"['Muricatocin A', 'Muricatocin B', 'Muricin J']"
+Prostate,bestnode_binding,full_without_bestnode_binding,4_full_swan_mpo,8,2,2.4915254237288136,17,0.9700461762417535,"['Annomuricatin B', 'Muricin E']"
+Prostate,adme_score,full_without_adme_score,4_full_swan_mpo,6,4,12.677966101694915,29,0.5972530683810637,"['Annomuricin D', 'Isoannonacin', 'Isoannonacinone', 'Muricin E']"
+Prostate,safety_score,full_without_safety_score,4_full_swan_mpo,6,4,9.322033898305085,45,0.6484511981297488,"['Annomuricin D', 'Isoannonacin', 'Isoannonacinone', 'Muricadienin']"
+Prostate,liability_score,full_without_liability_score,4_full_swan_mpo,7,3,8.23728813559322,48,0.7822910578609003,"['Annocatalin', 'Annomuricatin B', 'Muricadienin']"
+RCC,bestnode_binding,full_without_bestnode_binding,4_full_swan_mpo,8,2,2.4915254237288136,17,0.9700461762417535,"['Annomuricatin B', 'Muricin E']"
+RCC,adme_score,full_without_adme_score,4_full_swan_mpo,6,4,12.677966101694915,29,0.5972530683810637,"['Annomuricin D', 'Isoannonacin', 'Isoannonacinone', 'Muricin E']"
+RCC,safety_score,full_without_safety_score,4_full_swan_mpo,6,4,9.322033898305085,45,0.6484511981297488,"['Annomuricin D', 'Isoannonacin', 'Isoannonacinone', 'Muricadienin']"
+RCC,liability_score,full_without_liability_score,4_full_swan_mpo,7,3,8.23728813559322,48,0.7822910578609003,"['Annocatalin', 'Annomuricatin B', 'Muricadienin']"

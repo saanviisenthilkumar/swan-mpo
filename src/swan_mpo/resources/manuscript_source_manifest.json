@@ -17,7 +17,7 @@
     {
       "role": "canonical complete docking ledger",
       "original_name": "Table_S3_expanded_annona_docking_deployment.csv",
-      "sha256": "987269cbcef84be063fa40aa9971e5219bcabc915122ec899139429d3ec0b256",
+      "sha256": "74f4cd4527d4d4a619b3eaec07288145333863339836f63c8967ab8793b44ec0",
       "rows": 9440
     }
   ],
@@ -25,13 +25,13 @@
     {
       "role": "canonical expanded panel scores",
       "original_name": "Table_S8B_expanded_library_final_SWAN_scores.csv",
-      "sha256": "28fbd6167c15a03f65e02deb46e53889658fc92992cb817bdcd7228767bb13b9",
+      "sha256": "3cf353658c5d576776189205d13373d4ddd31f5eca999521085ce14c47a73107",
       "rows": 177
     },
     {
       "role": "canonical expanded target-level binding",
       "original_name": "Table_S17D_expanded_target_level_ligand_efficiency.csv",
-      "sha256": "16707e45c6fc3851eae8203b43c8f5c7d060dee16442b8a1afc7379fe72b517b",
+      "sha256": "772a8e7845528fccd16851156cb0566c414f5ee686a9df98f72197fd700a7e34",
       "rows": 472
     }
   ],
@@ -72,18 +72,18 @@
     },
     {
       "name": "manuscript_candidate_docking.csv",
-      "sha256": "775fcd6cc9d5b8936ae78c2e278327396c88db52ccad165a2b5139287d986556",
-      "derivation": "Five input columns preserved row-for-row, except 1,180 excluded 3V3N docking rows."
+      "sha256": "dd0b2ffbdf2baa84a0cd48fbd2942e5916458f137eca71bdefe309a82ec0da3d",
+      "derivation": "Five scoring columns extracted row-for-row from Mac-log-verified 9,440-row S3; 770 corrected mode-1 energies; all 379 missing-provenance rows separately annotated in S3."
     },
     {
       "name": "manuscript_expected_panel_scores.csv",
-      "sha256": "35fec0da1c2aca775e3f4efe7c5ef0b4fc31fb0de7e75d7c3aa2cb0b743cc5c1",
-      "derivation": "Primary numeric scores/ranks preserved; Annomuricatin B BestNode identity updated to mTOR after 3V3N exclusion."
+      "sha256": "81ef3b6c2ca9cd77fc30f8e7e4b49d321353f59f22fe1ffd37aead4346cc89c2",
+      "derivation": "All 177 corrected panel rows mapped by exact panel and compound keys from post-mode1 S8B."
     },
     {
       "name": "manuscript_expected_target_level_binding.csv",
-      "sha256": "8f3cbff9ddc177152115ab723b0ded305d4eb9708aa57d17513ba69bf65cebe2",
-      "derivation": "Original validation columns preserved for all 472 surviving compound/structure blocks; independently compared against corrected Table S17D."
+      "sha256": "149620fdcad27bc1760c2966b5c67f428c390506305c506fc5405519ca9753d2",
+      "derivation": "All 472 corrected target-level summaries mapped by exact compound and structure keys from post-mode1 S17D."
     }
   ],
   "canonical_input_manifest_evidence": {
@@ -97,6 +97,9 @@
     "expanded_docking_jobs": 9440,
     "expanded_target_blocks": 472,
     "expanded_panel_scores": 177,
-    "source_archive_sha256": "1904978856fa232f46f2c3fcbf45a9c17ff7db58507f188faab390ab5c3b547a"
+    "source_archive_sha256": "1904978856fa232f46f2c3fcbf45a9c17ff7db58507f188faab390ab5c3b547a",
+    "mode1_raw_log_reconciliation": "9,440 expanded Vina logs independently checked; 770 packaged input energies corrected",
+    "corrected_supplement_archive_sha256": "8c4a61c040ab18ce1d473772417a359148ede3a243af795cfc03d23f212bf532",
+    "status": "candidate only; pending author and publisher approval"
   }
 }
