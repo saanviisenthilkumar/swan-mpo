@@ -1,4 +1,4 @@
-# SWAN-MPO v1.3.3
+# SWAN-MPO v1.3.4
 
 **SWAN-MPO (Target-Calibrated Multi-Parameter Optimization)** is a reproducible framework for **multi-domain natural-product scaffold triage**. It integrates receptor-specific binding evidence with ADME, general safety, and context-dependent liability on a common bounded desirability scale, then combines those domains using an equal-weight geometric mean.
 
@@ -189,7 +189,7 @@ Key documentation and analysis packages include:
 
 ## Citation
 
-**Current software:** Senthilkumar S. *SWAN-MPO v1.3.3* [Computer software]. DOI: https://doi.org/10.5281/zenodo.24260544
+**Most recently archived software:** Senthilkumar S. *SWAN-MPO v1.3.3* [Computer software]. DOI: https://doi.org/10.5281/zenodo.24260544
 
 **Previous archived version:** Senthilkumar S. *SWAN-MPO v1.3.2* [Computer software]. DOI: https://doi.org/10.5281/zenodo.21988306
 
