@@ -108,9 +108,14 @@ python reproducibility/chembl_activity_status/scripts/reproduce_domain_decomposi
 
 The packaged benchmark uses 188 primary and 249 secondary records, excluding 5AR2-target assay records. Activity/status metrics and domain-decomposition outputs correspond to these inputs. The original ChEMBL descriptor source and its analysis lock are retained as provenance. No live ChEMBL API is used during reproduction.
 
+The final OR2 labels the historical descriptor-derived safety proxy as
+*structure-derived liability*; the active benchmark files and score names use
+that label without changing the underlying values. BEDROC is tie-averaged and
+independent of input row order, as in OR2 Tables S13B–S13D.
+
 ## Descriptor-compatible MPO comparator reproduction
 
-The frozen 4,388-profile descriptor-compatible comparator analysis is packaged under `reproducibility/mpo_comparator/`.
+The corrected 3,980-profile descriptor-compatible comparator analysis (995 ChEMBL actives and 2,985 synthetic comparison profiles) matching final OR2 Tables S14A–S14C is packaged under `reproducibility/mpo_comparator/`.
 
 Install its validated reproduction environment:
 

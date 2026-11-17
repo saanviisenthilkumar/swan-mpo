@@ -2,7 +2,7 @@
 """
 Offline reproduction of the frozen SWAN-MPO descriptor-compatible MPO comparator benchmark.
 
-The script reads the publication-facing 4,388-profile compound-level score table,
+The script reads the publication-facing 3,980-profile compound-level score table,
 recomputes tie-averaged ROC-AUC/BEDROC/EF metrics, performs paired DeLong tests,
 and compares both outputs against the archived expected tables.
 
@@ -22,7 +22,7 @@ from scipy.stats import norm
 from sklearn.metrics import roc_auc_score
 
 BEDROC_ALPHA = 20.0
-EXPECTED_INPUT_SHA256 = "5995ca74424861f3dfb5d2aefa6dd1736cb61c8760d9d63fd9e8551d9a0e7dfb"
+EXPECTED_INPUT_SHA256 = "71fd4a0b39e0e7f4ad4aadf7cd1e4328203bd853434ef94f520e9cc79923a974"
 
 FRAMEWORKS = [
     ("Descriptor-compatible SWAN variant", "swan_score"),
@@ -238,8 +238,8 @@ def delong_pair(
         "se": float(se),
         "z": float(z),
         "p_two_sided": float(p),
-        "ci95_low": float(delta - 1.96 * se),
-        "ci95_high": float(delta + 1.96 * se),
+        "ci95_low": float(delta - norm.ppf(0.975) * se),
+        "ci95_high": float(delta + norm.ppf(0.975) * se),
     }
 
 

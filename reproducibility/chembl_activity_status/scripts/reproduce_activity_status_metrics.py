@@ -21,14 +21,7 @@ from typing import Iterable
 import numpy as np
 import pandas as pd
 from sklearn.metrics import average_precision_score, roc_auc_score
-
-try:
-    from rdkit.ML.Scoring.Scoring import CalcBEDROC
-except Exception as exc:  # pragma: no cover
-    raise SystemExit(
-        "RDKit is required for exact BEDROC reproduction. "
-        "Install the benchmark requirements before running this script."
-    ) from exc
+from tie_averaged_bedroc import tie_averaged_bedroc
 
 
 RANDOM_SEED = 2026
@@ -43,15 +36,20 @@ D = "D_inactive_serious_warning"
 SCORE_COLUMNS = [
     "binding_only",
     "adme_only",
-    "safety_only",
+    "structure_derived_liability",
     "binding_adme_gm",
-    "binding_safety_gm",
-    "adme_safety_gm",
+    "binding_liability_gm",
+    "adme_liability_gm",
     "integrated_gm3",
     "integrated_arithmetic3",
     "integrated_min3",
     "qed",
 ]
+SCORE_PUBLIC_NAMES = {"structure_derived_liability": "liability_only"}
+
+
+def public_score_name(name: str) -> str:
+    return SCORE_PUBLIC_NAMES.get(name, name)
 
 
 def tie_aware_ef(y: np.ndarray, scores: np.ndarray, frac: float) -> float:
@@ -81,15 +79,7 @@ def tie_aware_ef(y: np.ndarray, scores: np.ndarray, frac: float) -> float:
 
 
 def bedroc(y: np.ndarray, scores: np.ndarray, alpha: float = BEDROC_ALPHA) -> float:
-    y = np.asarray(y, dtype=int)
-    scores = np.asarray(scores, dtype=float)
-    ok = np.isfinite(scores)
-    y, scores = y[ok], scores[ok]
-    if len(np.unique(y)) < 2:
-        return np.nan
-    order = np.argsort(-scores, kind="mergesort")
-    ranked = [(int(y[i]), float(scores[i])) for i in order]
-    return float(CalcBEDROC(ranked, 0, alpha))
+    return tie_averaged_bedroc(y, scores, alpha)
 
 
 def metrics(df: pd.DataFrame, score: str) -> dict:
@@ -98,7 +88,7 @@ def metrics(df: pd.DataFrame, score: str) -> dict:
     s = d[score].astype(float).to_numpy()
     two_class = len(np.unique(y)) == 2
     return {
-        "score": score,
+        "score": public_score_name(score),
         "n": len(d),
         "n_positive": int(y.sum()),
         "roc_auc": roc_auc_score(y, s) if two_class else np.nan,
@@ -126,6 +116,10 @@ def cluster_bootstrap_delta_auc(
     d = df[[cluster_col, "benchmark_y", reference] + comparators].copy()
     d = d.dropna(subset=[cluster_col, "benchmark_y", reference])
     clusters = np.array(sorted(d[cluster_col].astype(str).unique()))
+    cluster_labels = d[cluster_col].astype(str)
+    # Cache immutable parent groups: repeated DataFrame filtering for every
+    # draw has no statistical effect but makes the full bootstrap very slow.
+    cluster_parts = {cid: d.loc[cluster_labels == cid].copy() for cid in clusters}
     rng = np.random.default_rng(seed)
     vals = {c: [] for c in comparators}
 
@@ -133,7 +127,7 @@ def cluster_bootstrap_delta_auc(
         sampled = rng.choice(clusters, size=len(clusters), replace=True)
         parts = []
         for draw_i, cid in enumerate(sampled):
-            x = d[d[cluster_col].astype(str) == str(cid)].copy()
+            x = cluster_parts[str(cid)].copy()
             x["_draw"] = draw_i
             parts.append(x)
         b = pd.concat(parts, ignore_index=True)
@@ -153,7 +147,7 @@ def cluster_bootstrap_delta_auc(
         rows.append(
             {
                 "reference": reference,
-                "comparator": c,
+                "comparator": public_score_name(c),
                 "n_bootstrap_valid": len(a),
                 "mean_delta_auc": np.mean(a) if len(a) else np.nan,
                 "median_delta_auc": np.median(a) if len(a) else np.nan,

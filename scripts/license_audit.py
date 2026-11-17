@@ -6,7 +6,9 @@ root = Path(__file__).resolve().parents[1]
 blocked_suffixes = {".pdb", ".pdbqt", ".sdf", ".mol", ".mol2", ".cif", ".mmcif"}
 findings = []
 for path in root.rglob("*"):
-    if not path.is_file() or ".git" in path.parts or ".venv" in path.parts:
+    if not path.is_file() or ".git" in path.parts or any(
+        part.startswith(".venv") for part in path.relative_to(root).parts
+    ):
         continue
     if path.suffix.lower() in blocked_suffixes:
         findings.append(f"blocked structural asset: {path.relative_to(root)}")

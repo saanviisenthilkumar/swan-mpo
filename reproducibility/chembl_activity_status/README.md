@@ -9,7 +9,8 @@ The benchmark evaluates whether fixed integration of:
 
 - measured ChEMBL target potency used as binding evidence;
 - a descriptor-derived ADME proxy; and
-- a descriptor-derived safety proxy
+- a descriptor-derived structure-liability proxy (historically named the
+  safety proxy in the upstream ChEMBL analysis)
 
 ranks target-active compounds with favorable external ChEMBL clinical status
 above complementary activity/status negatives.
@@ -41,6 +42,26 @@ The upstream descriptor source still contains 514 historical 5AR2 records.
 Those records are **not** part of the active v1.3.3 analyses. The source and
 the original analysis lock are preserved byte-for-byte for provenance.
 `scripts/exclude_5ar2.py` documents and verifies the row-exclusion step.
+
+### Final OR2 nomenclature and BEDROC alignment
+
+The 188-record active primary file has the same fields and data values as OR2
+Table S13A (with repository-standard LF line endings).
+Its historical fields `d_safety_proxy`, `d_adme_safety_proxy`,
+`safety_only`, `binding_safety_gm`, and `adme_safety_gm` were renamed to
+`d_structure_derived_liability`, `d_adme_liability_gm`,
+`structure_derived_liability`, `binding_liability_gm`, and
+`adme_liability_gm`, respectively. All values and row identities are identical
+to those in the 188-record pre-rename active benchmark. The secondary 249-row
+file uses the same aliases; the untouched upstream descriptor/status sources
+retain their historical names for traceability.
+
+BEDROC (alpha = 20) uses the final OR2 *tie-invariant expected-rank* rule:
+each positive in a tied-score block receives the average exponential weight
+over the ranks occupied by that block. This corrects the older repository's
+row-order-sensitive BEDROC outputs while retaining ROC-AUC, PR-AUC,
+enrichment-factor, and cohort definitions. OR2 Tables S13B, S13C, and S13D
+provide canonical, independently checked values for 80 of these statistics.
 
 ## Frozen ChEMBL provenance
 
@@ -79,7 +100,7 @@ The script recomputes and checks:
 
 - primary and secondary ROC-AUC;
 - PR-AUC;
-- BEDROC (alpha = 20);
+- exact tie-averaged BEDROC (alpha = 20);
 - tie-aware EF@1% and EF@5%;
 - parent-clustered bootstrap delta-AUC (2,000 replicates, seed 2026);
 - activity/status group counts;
@@ -118,7 +139,8 @@ The offline benchmark scripts require:
 - NumPy
 - pandas
 - scikit-learn
-- RDKit
+- RDKit for optional upstream chemistry tasks (the offline metrics scripts
+  themselves use NumPy for tie-averaged BEDROC)
 
 Install the validated reproduction environment with:
 

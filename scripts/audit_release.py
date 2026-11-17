@@ -30,7 +30,9 @@ for p in root.rglob("*"):
     if not p.is_file() or p.resolve() == me:
         continue
     rel = p.relative_to(root)
-    if any(part in ignored_parts for part in rel.parts) or p.name in ignored_names:
+    # Developer environments may use .venv13, .venv-3.13, etc. in addition
+    # to the standard .venv directory; never scan third-party dependencies.
+    if any(part in ignored_parts or part.startswith(".venv") for part in rel.parts) or p.name in ignored_names:
         continue
     if p.suffix.lower() in {".png", ".pdf", ".zip", ".pyc"}:
         continue

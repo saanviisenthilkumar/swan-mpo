@@ -1,7 +1,8 @@
 # Descriptor-compatible MPO comparator reproducibility
 
-This directory provides an offline reproduction package for the frozen
-4,388-profile descriptor-compatible MPO comparison reported with SWAN-MPO.
+This directory provides an offline reproduction package for the corrected
+3,980-profile descriptor-compatible MPO comparison in final Online Resource 2,
+Tables S14A–S14C (995 ChEMBL actives and 2,985 synthetic comparison profiles).
 
 ## Scope
 
@@ -26,20 +27,24 @@ Use the publication-facing compound-level table as:
 
 Expected SHA-256:
 
+`71fd4a0b39e0e7f4ad4aadf7cd1e4328203bd853434ef94f520e9cc79923a974`
+
+The preceding repository version contained a **different historical
+4,388-profile cohort**, now superseded for the final OR2 comparator results.
+Its archived input SHA-256 was:
+
 `5995ca74424861f3dfb5d2aefa6dd1736cb61c8760d9d63fd9e8551d9a0e7dfb`
 
-The upstream 4,388-profile population used before publication-facing relabeling
-had SHA-256:
-
-`44ef4bbca5bffb6e196daf364fb20370ad5d52cd701e47962971d0233593e377`
-
-The two tables are row-for-row and value-for-value identical after two column
-renames:
+That older file was itself the publication-facing relabeling of an earlier
+4,388-profile source (`44ef4bbca5bffb6e196daf364fb20370ad5d52cd701e47962971d0233593e377`),
+with the two historical column-name changes:
 
 - `pfizer_mpo` → `cns_mpo_inspired_oncology_proxy`
 - `az_gse` → `le_qed_composite_proxy`
 
-No compound scores, labels, rows, or ordering changed during that relabeling.
+The old relabeling did not change its own scores, labels, rows, or order;
+**it did not convert the 4,388-profile cohort into the corrected 3,980-profile
+cohort**. The final input is copied byte-for-byte from OR2 Table S14C.
 
 ## Expected outputs
 
@@ -50,8 +55,13 @@ The archived comparator tables are stored as:
 
 Expected source-table SHA-256 values from the finalized supplementary package:
 
-- comparator metrics: `7ac170a4c4b155eac416a8814f66d790e4bb7043064b147ee8488aca68d04e3d`
-- paired DeLong comparisons: `7aef391096b57bc9c659d33da436f302d8e8d012db152cb0b565ad9db1c61521`
+- comparator metrics (OR2 S14A): `cb83f6da8fff793c7a162b013431c363702b37e866b7c1440c1cddaabf750f5a`
+- paired DeLong comparisons (OR2 S14B): `b64e09fb9ffd5c67516dd47c11cc7178009382ab0c6f0aeef962afc8bf0ad97a`
+
+The comparison cohort includes **synthetic profiles**, not experimentally
+confirmed inactives. Neutral safety (0.50) and liability (0.60) placeholders
+are used for both classes, so these statistics are exploratory ranking
+comparisons rather than prospective toxicity or clinical validation.
 
 ## Reproduce
 

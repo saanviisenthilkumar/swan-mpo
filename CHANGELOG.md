@@ -1,5 +1,19 @@
 # Changelog
 
+## Unreleased — final OR2 source alignment (November 2026)
+
+- Synchronized the descriptor-compatible comparator's 3,980-profile input and
+  expected S14A/S14B results with the final 49-table Online Resource 2 package.
+  The previously distributed 4,388-profile cohort is retained by historical
+  checksum rather than presented as the final S14 cohort.
+- Corrected the ChEMBL activity/status reproduction scripts to calculate
+  tie-averaged, input-order-invariant BEDROC and updated the active
+  S13-compatible expected results; adopted final S13 structure-liability names
+  without altering the numerical record-level inputs.
+- Added regression tests and a provenance crosswalk identifying the frozen
+  OR2 archive checksum, benchmark populations, and methodological limits.
+- Did not change the locked SWAN-MPO scoring equations or calibration classes.
+
 ## v1.3.3 eight-structure correction (November 2026)
 
 - Removed the PDB 3V3N structure from the oncology screen because it was incorrectly attributed to human SRD5A2; no substitute receptor was introduced.

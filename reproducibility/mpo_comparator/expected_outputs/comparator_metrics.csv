@@ -1,6 +1,6 @@
 Framework,ROC-AUC,BEDROC alpha=20,EF@1%,EF@5%
-Descriptor-compatible SWAN variant,0.606,0.17,0.0,0.4
-CNS-MPO,0.543,0.335,1.72,1.42
-LE–QED composite proxy,0.563,0.33,0.91,1.2
-QED,0.518,0.161,1.09,0.55
-QEPPI,0.514,0.51,2.55,2.33
+Descriptor-compatible SWAN variant,0.584,0.368,3.9,1.53
+CNS-MPO,0.55,0.333,1.52,1.35
+LE–QED composite proxy,0.565,0.346,1.0,1.29
+QED,0.539,0.184,1.3,0.6
+QEPPI,0.53,0.542,2.75,2.49
