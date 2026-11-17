@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased — final OR2 source alignment (November 2026)
+## v1.3.5 — supplementary reproduction alignment (November 2026)
 
 - Synchronized the descriptor-compatible comparator's 3,980-profile input and
   expected S14A/S14B results with the final 49-table Online Resource 2 package.
@@ -13,6 +13,7 @@
 - Added regression tests and a provenance crosswalk identifying the frozen
   OR2 archive checksum, benchmark populations, and methodological limits.
 - Did not change the locked SWAN-MPO scoring equations or calibration classes.
+- Synchronized the published software citation with the v1.3.5 Zenodo archive.
 
 ## v1.3.3 eight-structure correction (November 2026)
 

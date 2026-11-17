@@ -1,4 +1,4 @@
-# SWAN-MPO v1.3.4
+# SWAN-MPO v1.3.5
 
 **SWAN-MPO (Target-Calibrated Multi-Parameter Optimization)** is a reproducible framework for **multi-domain natural-product scaffold triage**. It integrates receptor-specific binding evidence with ADME, general safety, and context-dependent liability on a common bounded desirability scale, then combines those domains using an equal-weight geometric mean.
 
@@ -131,6 +131,10 @@ python reproducibility/mpo_comparator/scripts/reproduce_mpo_comparator.py
 
 This reproduction starts from the frozen publication-facing compound-level score table and recomputes the reported tie-averaged ROC-AUC, BEDROC, enrichment factors, and paired DeLong statistics. It does not regenerate molecular descriptors or framework scores.
 
+## Domain-ablation analyses
+
+The four-stage and leave-one-domain-out analyses of 177 panel-level scores are documented in Supplementary Tables S24A–S24C. These analyses assess how individual scoring domains affect ranking behavior. They do not change the locked SWAN-MPO scoring equations or target-calibration classes.
+
 ## New-target reference calibration
 
 For a new target, SWAN-MPO can evaluate a prepared reference-ligand redocking setup:
@@ -194,9 +198,9 @@ Key documentation and analysis packages include:
 
 ## Citation
 
-**Most recently archived software:** Senthilkumar S. *SWAN-MPO v1.3.4* [Computer software]. DOI: https://doi.org/10.5281/zenodo.24268048
+**Most recently archived software:** Senthilkumar S. *SWAN-MPO v1.3.5* [Computer software]. DOI: https://doi.org/10.5281/zenodo.24297520
 
-**Previous archived version:** Senthilkumar S. *SWAN-MPO v1.3.3* [Computer software]. DOI: https://doi.org/10.5281/zenodo.24260544
+**Previous archived version:** Senthilkumar S. *SWAN-MPO v1.3.4* [Computer software]. DOI: https://doi.org/10.5281/zenodo.24268048
 
 **Study data and reproducibility materials**
 Open Science Framework: `10.17605/OSF.IO/35QF2`
